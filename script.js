@@ -11,7 +11,7 @@ function criarCards() {
     divPAI.setAttribute("id", `card-${pos}`);
     divPAI.setAttribute("class", "card-plant mb-5 position-relative");
     divPAI.setAttribute("style", "width:18rem; height: 250px;");
-    divPAI.style.backgroundImage = `url(./images/${plantas[pos]}.jpg)`;
+    divPAI.style.backgroundImage = `url(/images/${plantas[pos]}.jpg)`;
     divFILHO.setAttribute("class", "position-absolute card-info");
     pTITULO.setAttribute("class", "h2 text-center");
     pTITULO.innerText = plantas[pos];
