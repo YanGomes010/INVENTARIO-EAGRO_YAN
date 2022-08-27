@@ -13,6 +13,7 @@ body{
 }
 .list-group-item{
     color: rgb(54, 172, 18);
+    cursor: pointer;
 }
 .card-plant {
     font-family: 'Anton', sans-serif;
