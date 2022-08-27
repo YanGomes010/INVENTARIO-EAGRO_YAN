@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/8cd7492fbf.js" crossorigin="anonymous"></script>
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
@@ -14,12 +16,44 @@
     <!--Folha de estilo-->
     <link rel="stylesheet" href="./style.css" />
     <title>BD Plantas</title>
+
+    <style>
+        @media screen and (max-width:400px) {
+            .list-group-horizontal{
+                display: none;
+            }
+            #logo{
+                margin: auto;
+            }
+            .base{
+                border-radius: 20px 20px 0px 0px;
+                width: 100%;
+                background-color: rgb(97, 31, 31);
+            }
+            .ball{
+                width: 70px;
+                height: 50px;
+                background-color: rgb(97, 31, 31);
+                border-radius: 50%;
+                margin-bottom: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .icons{
+                display: block;
+                width: 30px;
+                height: 30px;
+                color: #fff;
+            }
+        }
+    </style>
 </head>
 
 <body onselectstart="return false" class="position-relative" style="min-width:344px ;">
     <!--Cabeçalho-->
     <nav class="navbar container-xl justify-content-between container">
-        <img src="./images/BD PLANTAS.png" alt="" style="width: 83px">
+        <img id="logo" src="./images/BD PLANTAS.png" alt="" style="width: 83px">
         <ul class="list-group list-group-horizontal">
             <li onclick="paginaInicial()" class="list-group-item">Inicio</li>
             <li onclick="exibirAgricolas()" id="agricola" class="list-group-item">Agrícolas</li>
@@ -28,6 +62,13 @@
     </nav>
     <!--Main-->
     <main class="container-xxl mt-3"></main>
+    <footer class="w-100 m-auto">
+        <div style="bottom: 0; left:0; height: 40px;" class="position-fixed base d-flex justify-content-around align-items-center">
+            <div onclick="exibirAgricolas()" id="ball-1" class="ball"><img class="icons" src="./images/AGRICOLA.svg" alt=""></div>
+            <div onclick="paginaInicial()" id="ball-2" class="ball"><img class="icons" src="./images/CASA.svg" alt=""></div>
+            <div onclick="exibirJardim()" id="ball-3" class="ball"><img class="icons" src="./images/JARDIM.svg" alt=""></div>
+        </div>
+    </footer>
     <!--Folha de interatividade-->
     <script src="./script.js"></script>
 </body>
