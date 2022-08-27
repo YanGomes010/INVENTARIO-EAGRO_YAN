@@ -19,18 +19,29 @@
 
     <style>
         @media screen and (max-width:400px) {
-            .list-group-horizontal{
+            .list-group-horizontal {
                 display: none;
             }
-            #logo{
+
+            #logo {
                 margin: auto;
             }
-            .base{
+
+            .base {
                 border-radius: 20px 20px 0px 0px;
                 width: 100%;
+                height: 50px;
                 background-color: rgb(97, 31, 31);
+                position: fixed;
+                bottom: 0;
+                left: 0;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
             }
-            .ball{
+
+            .ball {
                 width: 70px;
                 height: 50px;
                 background-color: rgb(97, 31, 31);
@@ -39,18 +50,42 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                position: relative;
             }
-            .icons{
+
+            .icons {
                 display: block;
                 width: 30px;
                 height: 30px;
                 color: #fff;
             }
+
+            .span-menu {
+                display: block;
+                font-size: 13px;
+                position: absolute;
+                color: #fff;
+            }
+
+            #span-menu-0 {
+                bottom: -9px;
+                left: 9px;
+            }
+
+            #span-menu-1 {
+                bottom: -9px;
+                left: 20px;
+            }
+
+            #span-menu-2 {
+                bottom: -9px;
+                left: 16px;
+            }
         }
     </style>
 </head>
 
-<body onselectstart="return false" class="position-relative" style="min-width:344px ;">
+<body onselectstart="return false" class="position-relative" style="min-width:230px ;">
     <!--Cabeçalho-->
     <nav class="navbar container-xl justify-content-between container">
         <img id="logo" src="./images/BD PLANTAS.png" alt="" style="width: 83px">
@@ -62,11 +97,21 @@
     </nav>
     <!--Main-->
     <main class="container-xxl mt-3"></main>
+    <!--Menu mobile-->
     <footer class="w-100 m-auto">
-        <div style="bottom: 0; left:0; height: 40px;" class="position-fixed base d-flex justify-content-around align-items-center">
-            <div onclick="exibirAgricolas()" id="ball-1" class="ball"><img class="icons" src="./images/AGRICOLA.svg" alt=""></div>
-            <div onclick="paginaInicial()" id="ball-2" class="ball"><img class="icons" src="./images/CASA.svg" alt=""></div>
-            <div onclick="exibirJardim()" id="ball-3" class="ball"><img class="icons" src="./images/JARDIM.svg" alt=""></div>
+        <div class="base">
+            <div onclick="exibirAgricolas()" id="ball-1" class="ball">
+                <img class="icons" src="./images/AGRICOLA.svg" alt="">
+                <span id="span-menu-0" class="span-menu">Agricolas</span>
+            </div>
+            <div onclick="paginaInicial()" id="ball-2" class="ball">
+                <img class="icons" src="./images/CASA.svg" alt="">
+                <span id="span-menu-1" class="span-menu">Inicio</span>
+            </div>
+            <div onclick="exibirJardim()" id="ball-3" class="ball">
+                <img class="icons" src="./images/JARDIM.svg" alt="">
+                <span id="span-menu-2" class="span-menu">Jardim</span>
+            </div>
         </div>
     </footer>
     <!--Folha de interatividade-->
