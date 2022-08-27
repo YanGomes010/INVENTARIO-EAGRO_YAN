@@ -17,16 +17,16 @@
     <title>BD Plantas</title>
 </head>
 
-<body onload="criarCards()" class="position-relative" style="min-width:296px ;">
+<body class="position-relative" style="min-width:344px ;">
     <nav class="navbar container-xl justify-content-between container">
-        <img src="./images/BD PLANTAS 1.png" alt="" style="width: 40px">
+        <img src="./images/BD PLANTAS.png" alt="" style="width: 90px">
         <ul class="list-group list-group-horizontal">
-            <li class="list-group-item">Inicio</li>
-            <li class="list-group-item">Agrícola</li>
-            <li class="list-group-item">Jardins</li>
+            <li onclick="paginaInicial()" class="list-group-item">Inicio</li>
+            <li onclick="exibirAgricolas()" id="agricola" class="list-group-item">Agrícolas</li>
+            <li onclick="exibirJardim()" id="jardim" class="list-group-item">Jardins</li>
         </ul>
     </nav>
-    <main class="container-xxl ">
+    <main class="container-xxl mt-3">
         <section id="section-cards" class="container-fluid row row-cols-3 justify-content-around">
         </section>
     </main>
