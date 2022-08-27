@@ -1,24 +1,27 @@
-
-
 //Inserindo os cards
-window.addEventListener("load",()=>{
+window.addEventListener("load", () => {
+
+  let main = document.querySelector("main");
+  //  Criando a section
+  var sectionCriada = document.createElement("section");
+  sectionCriada.setAttribute("class", "container-fluid row row-cols-3 justify-content-around")
+  sectionCriada.setAttribute("id", "section-cards")
+  main.appendChild(sectionCriada)
   criarCardsAgricolas();
   criarCardsJardim();
 })
 
-//Seção onde ficam os cards
-var section = document.getElementById("section-cards");
-
 //Array de plantas agricolas
-var agricolas = ["MILHO", "SOJA", "TRIGO", "ALFACE","CAFE","CANA-DE-AÇUCAR",];
+var agricolas = ["MILHO", "SOJA", "TRIGO", "ALFACE", "CAFE", "CANA-DE-AÇUCAR",];
 
 //Array de plantas de jardim
-var jardim = ["CLUSIA","COSMOS","FLAMBOYANT","HELICONIA-PAPAGAIO","IRIS-AMARELO","AGAVE"]
+var jardim = ["CLUSIA", "COSMOS", "FLAMBOYANT", "HELICONIA-PAPAGAIO", "IRIS-AMARELO", "AGAVE"]
 
 
 //Criação dos cards de plantas de jardim
 function criarCardsJardim() {
   for (let pos in jardim) {
+    let section = document.getElementById("section-cards");
     let divPAI = document.createElement("div");
     let divFILHO = document.createElement("div");
     let pTITULO = document.createElement("p");
@@ -35,14 +38,16 @@ function criarCardsJardim() {
     divFILHO.appendChild(spanTIPO);
     divPAI.appendChild(divFILHO);
     section.appendChild(divPAI);
-    if(jardim[pos]){
+    if (jardim[pos]) {
       spanTIPO.innerText = "Jardim";
     }
-  }}
+  }
+}
 
 //Criação dos cards de plantas agricolas
-function criarCardsAgricolas(){
+function criarCardsAgricolas() {
   for (let pos in agricolas) {
+    let section = document.getElementById("section-cards");
     let divPAI = document.createElement("div");
     let divFILHO = document.createElement("div");
     let pTITULO = document.createElement("p");
@@ -60,21 +65,26 @@ function criarCardsAgricolas(){
     divFILHO.appendChild(spanTIPO);
     divPAI.appendChild(divFILHO);
     section.appendChild(divPAI);
-    if(agricolas[pos]){
+    if (agricolas[pos]) {
       spanTIPO.innerText = "Agrícola";
     }
-  }}
-
-  function exibirJardim(){
-    section.innerHTML="";
-    criarCardsJardim();
   }
+}
 
-  function exibirAgricolas(){
-    section.innerHTML="";
-    criarCardsAgricolas();
-  }
-
-  function paginaInicial(){
-    document.location.reload(true)
-  }
+//Filtro de jardim
+function exibirJardim() {
+  let section = document.getElementById("section-cards");
+  section.innerHTML = "";
+  criarCardsJardim();
+}
+//Filtro de agricolas
+function exibirAgricolas() {
+  let section = document.getElementById("section-cards");
+  section.innerHTML = "";
+  criarCardsAgricolas();
+}
+//Filtro de inicio
+function paginaInicial() {
+  let section = document.getElementById("section-cards");
+  document.location.reload(true)
+}

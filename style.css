@@ -6,15 +6,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-image: url("./images/FUNDO.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
 }
-.list-group-item{
+
+.list-group-item {
     color: rgb(54, 172, 18);
     cursor: pointer;
 }
+
 .card-plant {
     font-family: 'Anton', sans-serif;
     border-radius: 20px;
@@ -31,18 +35,21 @@ body{
     border-radius: 20px;
     border: 1px solid rgba(148, 148, 148, 0.8);
 }
-.span-type{
+
+.span-type {
     left: 20px;
     bottom: 3px;
     color: #8C4F4F;
     font-family: 'Inter', sans-serif;
 }
+
 /* MENU */
 
-.list-group li{
+.list-group li {
     background-color: transparent;
 }
-.list-group-item{
+
+.list-group-item {
     border: none;
     font-weight: bold;
-    }
+}
