@@ -15,86 +15,13 @@
         crossorigin="anonymous"></script>
     <!--Folha de estilo-->
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" media="(max-width: 510px)" href="./mobile.css" />
     <title>BD Plantas</title>
-
-    <style>
-        @media screen and (max-width:510px) {
-            .list-group-horizontal {
-                display: none;
-            }
-
-            #logo {
-                margin: auto;
-            }
-
-            .base {
-                border-radius: 20px 20px 0px 0px;
-                width: 100%;
-                height: 50px;
-                background-color: rgb(97, 31, 31);
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-
-            }
-
-            .ball {
-                width: 70px;
-                height: 50px;
-                background-color: rgb(97, 31, 31);
-                border-radius: 50%;
-                margin-bottom: 25px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: relative;
-            }
-
-            .icons {
-                display: block;
-                width: 30px;
-                height: 30px;
-                color: #fff;
-            }
-
-            .span-menu {
-                display: block;
-                font-size: 13px;
-                position: absolute;
-                color: #fff;
-            }
-
-            #span-menu-0 {
-                bottom: -9px;
-                left: 9px;
-            }
-
-            #span-menu-1 {
-                bottom: -9px;
-                left: 20px;
-            }
-
-            #span-menu-2 {
-                bottom: -9px;
-                left: 16px;
-            }
-        }
-    </style>
 </head>
 
 <body onselectstart="return false" class="position-relative" style="min-width:230px ;">
     <!--Cabeçalho-->
-    <nav class="navbar container-xl justify-content-between container">
-        <img id="logo" src="./images/BD PLANTAS.png" alt="" style="width: 83px">
-        <ul class="list-group list-group-horizontal">
-            <li onclick="paginaInicial()" class="list-group-item">Inicio</li>
-            <li onclick="exibirAgricolas()" id="agricola" class="list-group-item">Agrícolas</li>
-            <li onclick="exibirJardim()" id="jardim" class="list-group-item">Jardins</li>
-        </ul>
-    </nav>
+    <header id="header" class="navbar container-xl justify-content-between container"></header>
     <!--Main-->
     <main class="container-xxl mt-3"></main>
     <!--Menu mobile-->

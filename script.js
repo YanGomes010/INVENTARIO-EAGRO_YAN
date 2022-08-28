@@ -1,6 +1,6 @@
 //Inserindo os cards
 window.addEventListener("load", () => {
-
+  criarCabecalho();
   let main = document.querySelector("main");
   //  Criando a section
   var sectionCriada = document.createElement("section");
@@ -17,7 +17,42 @@ var agricolas = ["MILHO", "SOJA", "TRIGO", "ALFACE", "CAFE", "CANA-DE-AÇUCAR",]
 //Array de plantas de jardim
 var jardim = ["CLUSIA", "COSMOS", "FLAMBOYANT", "HELICONIA-PAPAGAIO", "IRIS-AMARELO", "AGAVE"]
 
+function criarCabecalho(){
 
+  //CRIANDO AS TAGS E ATRIBUTOS
+  let header = document.getElementById("header");
+  let imgHeader= document.createElement("img");
+  let ulHeader = document.createElement("ul");
+  let liINICIO = document.createElement("li");
+  let liIAgricola = document.createElement("li");
+  let liJardim = document.createElement("li");
+  ulHeader.setAttribute("class","list-group list-group-horizontal")
+  imgHeader.setAttribute("id","logo");
+  imgHeader.src="./images/BD-PLANTAS.png"
+
+  liINICIO.setAttribute("class","list-group-item")
+  liIAgricola.setAttribute("class","list-group-item")
+  liJardim.setAttribute("class","list-group-item")
+
+  liIAgricola.setAttribute("id","agricola")
+  liJardim.setAttribute("id","jardim")
+
+  liINICIO.setAttribute("onclick","paginaInicial()")
+  liIAgricola.setAttribute("onclick","exibirAgricolas()")
+  liJardim.setAttribute("onclick","exibirJardim()")
+
+//CRIANDO OS TEXTOS
+liINICIO.innerText="Inicio"
+liIAgricola.innerText="Agricolas"
+liJardim.innerText="Jardim"
+  //INSERINDO AS TAGS NA PÁGINA
+  ulHeader.appendChild(liINICIO)
+  ulHeader.appendChild(liIAgricola)
+  ulHeader.appendChild(liJardim)
+
+  header.appendChild(imgHeader)
+  header.appendChild(ulHeader)  
+}
 //Criação dos cards de plantas de jardim
 function criarCardsJardim() {
   for (let pos in jardim) {
@@ -69,8 +104,36 @@ function criarCardsAgricolas() {
       spanTIPO.innerText = "Agrícola";
     }
   }
-}
+// }
+// function menuMobile(){
+//   //criando footer
+//   let footer = document.getElementsByClassName("footer")
 
+//   //criando divs base
+//   let baseMenu= document.createElement("div");
+//   let agricolasMenu = document.createElement("div");
+//   let inicioMenu = document.createElement("div");
+//   let jardimMenu = document.createElement("div");
+
+//   //Adicionando atributos nas divs
+
+//   baseMenu.setAttribute("class","base")
+//   agricolasMenu.setAttribute("onclick","exibirAgricolas()")
+//   agricolasMenu.setAttribute("id","ball-1")
+//   agricolasMenu.setAttribute("class","ball")
+//   inicioMenu.setAttribute("onclick","paginaInicial()")
+//   inicioMenu.setAttribute("id","ball-2")
+//   inicioMenu.setAttribute("class","ball")
+//   jardimMenu.setAttribute("onclick","exibirJardim()")
+//   jardimMenu.setAttribute("id","ball-3")
+//   jardimMenu.setAttribute("class","ball")
+//   //filhos das divs
+//   let imagesMenu =["AGRICOLA","CASA","JARDIM"]
+//   for (const menu in imagesMenu) {
+//     imagesMenu[menu]=document.createElement("img")
+//   } 
+
+}
 //Filtro de jardim
 function exibirJardim() {
   let section = document.getElementById("section-cards");
