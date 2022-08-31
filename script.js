@@ -7,8 +7,8 @@ window.addEventListener("load", () => {
   sectionCriada.setAttribute("class", "container-fluid row row-cols-3 justify-content-around")
   sectionCriada.setAttribute("id", "section-cards")
   main.appendChild(sectionCriada)
-  criarCardsAgricolas();
-  criarCardsJardim();
+  //criarCardsAgricolas();
+  //criarCardsJardim();
   menuMobile();
 })
 
@@ -78,6 +78,7 @@ function criarCardsJardim() {
       spanTIPO.innerText = "Jardim";
     }
   }
+ 
 }
 
 //Criação dos cards de plantas agricolas
