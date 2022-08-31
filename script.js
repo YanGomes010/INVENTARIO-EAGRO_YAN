@@ -78,6 +78,7 @@ function criarCardsJardim() {
       spanTIPO.innerText = "Jardim";
     }
   }
+ 
 }
 
 //Criação dos cards de plantas agricolas
