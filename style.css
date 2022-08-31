@@ -15,7 +15,7 @@ body {
 }
 
 .list-group-item {
-    color: rgb(54, 172, 18);
+    color: #36ac12;
     cursor: pointer;
 }
 
@@ -59,13 +59,14 @@ body {
     font-weight: bold;
 }
 
-.icons {
+.base img {
     display: none;
 }
 
-.span-menu {
-    display: none;
-}
+
 #logo{
     width: 83px;
+}
+.base .ball span{
+    display: none;
 }
