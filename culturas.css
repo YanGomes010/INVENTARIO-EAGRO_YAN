@@ -1,0 +1,15 @@
+.title .text-center{
+    font-weight: bold;
+}
+
+.sectionStyle{
+    margin: auto;
+    margin-top: 36px;
+    width: 95%;
+}
+.sectionStyle h2{
+    font-weight: bold;
+}
+#sec-92{
+    display: none;
+}
