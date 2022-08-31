@@ -32,14 +32,14 @@
     position: relative;
 }
 
-.icons {
+.base img {
     display: block;
     width: 30px;
     height: 30px;
     color: #fff;
 }
 
-.span-menu {
+.base .ball span{
     display: block;
     font-size: 13px;
     position: absolute;

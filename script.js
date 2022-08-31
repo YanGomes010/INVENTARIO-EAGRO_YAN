@@ -9,6 +9,7 @@ window.addEventListener("load", () => {
   main.appendChild(sectionCriada)
   criarCardsAgricolas();
   criarCardsJardim();
+  menuMobile();
 })
 
 //Array de plantas agricolas
@@ -104,35 +105,62 @@ function criarCardsAgricolas() {
       spanTIPO.innerText = "Agrícola";
     }
   }
-// }
-// function menuMobile(){
-//   //criando footer
-//   let footer = document.getElementsByClassName("footer")
+}
+function menuMobile(){
+  //criando footer
+  let footer = document.querySelector(".footer");
 
-//   //criando divs base
-//   let baseMenu= document.createElement("div");
-//   let agricolasMenu = document.createElement("div");
-//   let inicioMenu = document.createElement("div");
-//   let jardimMenu = document.createElement("div");
+  //criando divs base
+  let baseMenu= document.createElement("div");
+  let agricolasMenu = document.createElement("div");
+  let inicioMenu = document.createElement("div");
+  let jardimMenu = document.createElement("div");
 
-//   //Adicionando atributos nas divs
+  //Adicionando atributos nas divs
 
-//   baseMenu.setAttribute("class","base")
-//   agricolasMenu.setAttribute("onclick","exibirAgricolas()")
-//   agricolasMenu.setAttribute("id","ball-1")
-//   agricolasMenu.setAttribute("class","ball")
-//   inicioMenu.setAttribute("onclick","paginaInicial()")
-//   inicioMenu.setAttribute("id","ball-2")
-//   inicioMenu.setAttribute("class","ball")
-//   jardimMenu.setAttribute("onclick","exibirJardim()")
-//   jardimMenu.setAttribute("id","ball-3")
-//   jardimMenu.setAttribute("class","ball")
-//   //filhos das divs
-//   let imagesMenu =["AGRICOLA","CASA","JARDIM"]
-//   for (const menu in imagesMenu) {
-//     imagesMenu[menu]=document.createElement("img")
-//   } 
+  baseMenu.setAttribute("class","base")
+  agricolasMenu.setAttribute("onclick","exibirAgricolas()")
+  agricolasMenu.setAttribute("id","ball-1")
+  agricolasMenu.setAttribute("class","ball")
+  inicioMenu.setAttribute("onclick","paginaInicial()")
+  inicioMenu.setAttribute("id","ball-2")
+  inicioMenu.setAttribute("class","ball")
+  jardimMenu.setAttribute("onclick","exibirJardim()")
+  jardimMenu.setAttribute("id","ball-3")
+  jardimMenu.setAttribute("class","ball")
 
+  //filhos das divs
+  
+  let imgAgricola= document.createElement("img");
+  let spanAgricola = document.createElement("span")
+  imgAgricola.src="./images/AGRICOLA.svg"
+  spanAgricola.setAttribute("id","span-menu-0")
+  spanAgricola.innerText="Agricolas"
+
+  let imginicio= document.createElement("img");
+  let spanInicio = document.createElement("span")
+  imginicio.src="./images/CASA.svg"
+  spanInicio.setAttribute("id","span-menu-1")
+  spanInicio.innerText="Inicio"
+
+  let imgJardim= document.createElement("img");
+  let spanJardim = document.createElement("span")
+  imgJardim.src="./images/JARDIM.svg"
+  spanJardim.setAttribute("id","span-menu-2")
+  spanJardim.innerText="Jardim"
+
+  agricolasMenu.appendChild(imgAgricola)
+  agricolasMenu.appendChild(spanAgricola)
+  inicioMenu.appendChild(imginicio)
+  inicioMenu.appendChild(spanInicio)
+  jardimMenu.appendChild(imgJardim)
+  jardimMenu.appendChild(spanJardim)
+
+  baseMenu.appendChild(agricolasMenu)
+  baseMenu.appendChild(inicioMenu)
+  baseMenu.appendChild(jardimMenu)
+
+  footer.appendChild(baseMenu)
 }
 //Filtro de jardim
 function exibirJardim() {
