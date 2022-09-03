@@ -7,14 +7,14 @@ window.addEventListener("load", () => {
   sectionCriada.setAttribute("class", "container-fluid row row-cols-3 justify-content-around")
   sectionCriada.setAttribute("id", "section-cards")
   main.appendChild(sectionCriada)
-  //criarCardsAgricolas();
-  //criarCardsJardim();
+  criarCardsAgricolas();
+  criarCardsJardim();
   menuMobile();
 })
 
 //Array de plantas agricolas
 var agricolas = ["MILHO", "SOJA", "TRIGO", "ALFACE", "CAFE", "CANA-DE-AÇUCAR",];
-
+var idAgricolas = []
 //Array de plantas de jardim
 var jardim = ["CLUSIA", "COSMOS", "FLAMBOYANT", "HELICONIA-PAPAGAIO", "IRIS-AMARELO", "AGAVE"]
 
@@ -62,7 +62,7 @@ function criarCardsJardim() {
     let divFILHO = document.createElement("div");
     let pTITULO = document.createElement("p");
     let spanTIPO = document.createElement("span");
-    divPAI.setAttribute("id", `card-${pos}`);
+    divPAI.setAttribute("id", `card-${jardim[pos]}`);
     divPAI.setAttribute("class", "card-plant mb-5 position-relative");
     divPAI.setAttribute("style", "width:18rem; height: 250px;");
     divPAI.style.backgroundImage = `url(./images/${jardim[pos]}.jpg)`;
@@ -89,9 +89,10 @@ function criarCardsAgricolas() {
     let divFILHO = document.createElement("div");
     let pTITULO = document.createElement("p");
     let spanTIPO = document.createElement("span");
-    divPAI.setAttribute("id", `card-${pos}`);
+    divPAI.setAttribute("id", `card-${agricolas[pos]}`);
     divPAI.setAttribute("class", "card-plant mb-5 position-relative");
     divPAI.setAttribute("style", "width:18rem; height: 250px;");
+    divPAI.setAttribute("onclick",`teste${pos}()`)
     divPAI.style.backgroundImage = `url(./images/${agricolas[pos]}.jpg)`;
     divFILHO.setAttribute("class", "position-absolute card-info");
     pTITULO.setAttribute("class", "h2 text-center");
@@ -105,6 +106,8 @@ function criarCardsAgricolas() {
     if (agricolas[pos]) {
       spanTIPO.innerText = "Agrícola";
     }
+
+    idAgricolas.push(`card-${agricolas[pos]}`)
   }
 }
 function menuMobile(){
@@ -179,4 +182,32 @@ function exibirAgricolas() {
 function paginaInicial() {
   let section = document.getElementById("section-cards");
   document.location.reload(true)
+}
+
+
+var MILHOdb= {
+  titulo:"CULTURA DO MILHO",
+  subtitulo:"Como plantar milho: Condições climaticas, temperatura, umidade do solo,semeadura, densidade de plantio e espaçamento entre fileiras.",
+  introducao:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  clima:"CONDIÇÕES CLIMATICAS",
+  infoClima:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  temperatura:"TEMPERATURA",
+  infoTemperatura:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  umidadeDoSolo:"UMIDADE DO SOLO",
+  infoUmidadeDoSolo:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  semadura:"SEMEADURA",
+  infoSemeadura:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  densidadeDoPlantio:"DENSIDADE DO PLANTIO",
+  infoDensidadeDoPlantio:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+  espacamentoEntreFileiras:"ESPAÇAMENTO ENTRE FILEIRAS",
+  infoEspacamentoEntreFileiras:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+}
+
+
+function teste0(){
+  var h = document.querySelector("#sec-1");
+  let section = document.getElementById("section-cards");
+ 
+  section.innerHTML="";
+  h.style.display="block"
 }

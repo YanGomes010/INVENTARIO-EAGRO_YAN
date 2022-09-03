@@ -13,7 +13,9 @@ body {
     background-size: cover;
     object-fit:cover;
 }
-
+.sec-1{
+    display: none;
+}
 .list-group-item {
     color: #36ac12;
     cursor: pointer;
