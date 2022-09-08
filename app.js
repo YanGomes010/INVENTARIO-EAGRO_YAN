@@ -1,6 +1,7 @@
   function criarSOJA() {
     let section = document.getElementById("section-cards");
     section.innerHTML = "";
+    sectionSOJA.innerHTML="";
   
     //------------------------------------------------------------
     //
@@ -182,6 +183,7 @@
 function criarMILHO() {
     let section = document.getElementById("section-cards");
     section.innerHTML = "";
+    sectionMILHO.innerHTML="";
   
     //------------------------------------------------------------
     //
@@ -362,6 +364,7 @@ function criarMILHO() {
   function criarMELANCIA() {
     let section = document.getElementById("section-cards");
     section.innerHTML = "";
+    sectionMELANCIA.innerHTML="";
   
     //------------------------------------------------------------
     //
@@ -543,6 +546,7 @@ function criarMILHO() {
   function criarALFACE() {
     let section = document.getElementById("section-cards");
     section.innerHTML = "";
+    sectionALFACE.innerHTML="";
   
     //------------------------------------------------------------
     //
