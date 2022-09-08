@@ -183,7 +183,7 @@
 function criarMILHO() {
     let section = document.getElementById("section-cards");
     section.innerHTML = "";
-    sectionMILHO.innerHTML="";
+    sectionMilho.innerHTML="";
   
     //------------------------------------------------------------
     //
