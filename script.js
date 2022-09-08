@@ -15,16 +15,22 @@ window.addEventListener("load", () => {
   menuMobile();
 });
 
+//Main
+let main = document.querySelector("main");
+
+//SEÇÕES DAS INFORMAÇOES DE CARDS
+let sectionMilho = document.createElement("section");
+let sectionSOJA = document.createElement("section");
+let sectionMELANCIA = document.createElement("section");
+let sectionALFACE = document.createElement("section");
 //Array de plantas agricolas
-var agricolas = ["MILHO", "SOJA", "TRIGO", "ALFACE", "CAFE", "CANA-DE-AÇUCAR"];
+var agricolas = ["MILHO", "SOJA", "MELANCIA", "ALFACE",];
 
 //Array de plantas de jardim
 var jardim = [
   "CLUSIA",
-  "COSMOS",
   "FLAMBOYANT",
   "HELICONIA-PAPAGAIO",
-  "IRIS-AMARELO",
   "AGAVE",
 ];
 
@@ -92,8 +98,11 @@ function criarCardsJardim() {
 
 //Criação dos cards de plantas agricolas
 function criarCardsAgricolas() {
-  for (let pos in agricolas) {
     let section = document.getElementById("section-cards");
+    
+  for (let pos in agricolas) {
+
+  
     let divPAI = document.createElement("div");
     let divFILHO = document.createElement("div");
     let pTITULO = document.createElement("p");
@@ -173,226 +182,43 @@ function menuMobile() {
 
   footer.appendChild(baseMenu);
 }
+
 //Filtro de jardim
-function exibirJardim() {
+function exibirJardim() { 
+  let sec1 =document.querySelector("#sec-1")
+  sec1.innerHTML="";
+  sectionMilho.style.display="none"
+  sectionMELANCIA.style.display="none"
+  sectionALFACE.style.display="none"
+  sectionSOJA.style.display="none"
   let section = document.getElementById("section-cards");
   section.innerHTML = "";
   criarCardsJardim();
 }
+
+
+
 //Filtro de agricolas
 function exibirAgricolas() {
+  let sec1 =document.querySelector("#sec-1")
+  sec1.innerHTML="";
+  sectionMilho.style.display="none"
+  sectionMELANCIA.style.display="none"
+  sectionALFACE.style.display="none"
+  sectionSOJA.style.display="none"
   let section = document.getElementById("section-cards");
   section.innerHTML = "";
   criarCardsAgricolas();
 }
+
+
 //Filtro de inicio
 function paginaInicial() {
   let section = document.getElementById("section-cards");
   document.location.reload(true);
 }
 
-var MILHOdb = {
-  titulo: "CULTURA DO MILHO",
-  subtitulo:
-    "Como plantar milho: Condições climaticas, temperatura, umidade do solo,semeadura, densidade de plantio e espaçamento entre fileiras.",
-  introducao:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  condicoesClimaticas: "CONDIÇÕES CLIMATICAS",
-  infocondicoesClimaticas:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  temperatura: "TEMPERATURA",
-  infoTemperatura:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  umidadeDoSolo: "UMIDADE DO SOLO",
-  infoUmidadeDoSolo:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  semeadura: "SEMEADURA",
-  infoSemeadura:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  densidadeDoPlantio: "DENSIDADE DO PLANTIO",
-  infoDensidadeDoPlantio:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  espacamentoEntreFileiras: "ESPAÇAMENTO ENTRE FILEIRAS",
-  infoEspacamentoEntreFileiras:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-};
-
-function criarMILHO() {
+function apagarSection(){
   let section = document.getElementById("section-cards");
-  section.innerHTML = "";
-
-  //------------------------------------------------------------
-  //
-  //CRIANDO SEÇÃO E IMAGEM DE HEADER
-  //
-  //
-  //------------------------------------------------------------
-  let main = document.querySelector("main");
-  let sectionMilho = document.createElement("section");
-  let divIMG = document.createElement("div");
-  let IMG = document.createElement("img");
-  IMG.src = "./images/MILHO-INTERFACE.svg";
-  divIMG.setAttribute("id", "sectionBoxIMG");
-  sectionMilho.setAttribute("id", "sec-1");
-
-  divIMG.appendChild(IMG);
-
-  //------------------------------------------------------------
-  //
-  //CRIANDO TITULO
-  //
-  //
-  //------------------------------------------------------------
-
-  let divTITULO = document.createElement("div");
-  divTITULO.setAttribute("id", "divTitle");
-  let titulo = document.createElement("h1");
-  let subtitulo = document.createElement("p");
-  titulo.innerText = MILHOdb.titulo;
-  subtitulo.innerText = MILHOdb.subtitulo;
-
-  divTITULO.appendChild(titulo);
-  divTITULO.appendChild(subtitulo);
-
-  //------------------------------------------------------------
-  //
-  //
-  //CRIANDO A INTRODUÇÃO
-  //
-  //
-  //------------------------------------------------------------
-
-  let DIVintroducao = document.createElement("div");
-  let introducao = document.createElement("p");
-  DIVintroducao.setAttribute("class", "introducao sectionStyle");
-  introducao.innerText = MILHOdb.introducao;
-
-  DIVintroducao.appendChild(introducao);
-  //------------------------------------------------------------
-  //
-  //
-  //CRIANDO CONDIÇÕES CLIMATICAS
-  //
-  //
-  //------------------------------------------------------------
-  let DIVcondicoes = document.createElement("div");
-  let condicoes = document.createElement("h2");
-  let textCONDICOES = document.createElement("p");
-  DIVcondicoes.setAttribute("class", "condicoesClimaticas sectionStyle");
-  condicoes.innerText = MILHOdb.condicoesClimaticas;
-  textCONDICOES.innerText = MILHOdb.infocondicoesClimaticas;
-
-  DIVcondicoes.appendChild(condicoes);
-  DIVcondicoes.appendChild(textCONDICOES);
-
-  //------------------------------------------------------------
-  //
-  //
-  //CRIANDO TEMPERATURA 
-  //
-  //
-  //------------------------------------------------------------
-  let DIVtemperatura = document.createElement("div");
-  let temperatura = document.createElement("h2");
-  let textTemperatura = document.createElement("p");
-  DIVtemperatura.setAttribute("class", "temperatura sectionStyle");
-  temperatura.innerText=MILHOdb.temperatura;
-  textTemperatura.innerText=MILHOdb.infoTemperatura;
-
-  DIVtemperatura.appendChild(temperatura)
-  DIVtemperatura.appendChild(textTemperatura)
-  //------------------------------------------------------------
-  //
-  //
-  //CRIANDO UMIDADE DO SOLO 
-  //
-  //
-  //------------------------------------------------------------
-  let DIVUmidadeDoSolo = document.createElement("div");
-  let UmidadeDoSolo = document.createElement("h2");
-  let textUmidadeDoSolo = document.createElement("p");
-  DIVUmidadeDoSolo.setAttribute("class", "UmidadeDoSolo sectionStyle");
-  UmidadeDoSolo.innerText=MILHOdb.umidadeDoSolo;
-  textUmidadeDoSolo.innerText=MILHOdb.infoUmidadeDoSolo
-
-  DIVUmidadeDoSolo.appendChild(UmidadeDoSolo)
-  DIVUmidadeDoSolo.appendChild(textUmidadeDoSolo)
-   //------------------------------------------------------------
-  //
-  //
-  //CRIANDO SEMEADURA
-  //
-  //
-  //------------------------------------------------------------
-  let DIVsemeadura = document.createElement("div");
-  let semeadura = document.createElement("h2");
-  let textsemeadura = document.createElement("p");
-  DIVsemeadura.setAttribute("class", "semeadura sectionStyle");
-  semeadura.innerText=MILHOdb.semeadura;
-  textsemeadura.innerText=MILHOdb.infoSemeadura
-
-  DIVsemeadura.appendChild(semeadura)
-  DIVsemeadura.appendChild(textsemeadura)
-  //------------------------------------------------------------
-  //
-  //
-  //CRIANDO DENSIDADE DO PLANTIO
-  //
-  //
-  //------------------------------------------------------------
-  let DIVdensidadePlantio = document.createElement("div");
-  let densidadePlantio = document.createElement("h2");
-  let textdensidadePlantio = document.createElement("p");
-  DIVdensidadePlantio.setAttribute("class", "densidadePlantio sectionStyle");
-  densidadePlantio.innerText=MILHOdb.densidadeDoPlantio;
-  textdensidadePlantio.innerText=MILHOdb.infoDensidadeDoPlantio
-
-  DIVdensidadePlantio.appendChild(densidadePlantio)
-  DIVdensidadePlantio.appendChild(textdensidadePlantio)
-//------------------------------------------------------------
-  //
-  //
-  //CRIANDO ESPAÇAMENTO ENTRE FILEIRAS
-  //
-  //
-  //------------------------------------------------------------
-  let DIVespacamentoEntreFileiras = document.createElement("div");
-  let espacamentoEntreFileiras = document.createElement("h2");
-  let textespacamentoEntreFileiras = document.createElement("p");
-  DIVespacamentoEntreFileiras.setAttribute("class", "espacamentoEntreFileiras sectionStyle");
-  espacamentoEntreFileiras.innerText=MILHOdb.espacamentoEntreFileiras;
-  textespacamentoEntreFileiras.innerText=MILHOdb.infoEspacamentoEntreFileiras
-
-  DIVespacamentoEntreFileiras.appendChild(espacamentoEntreFileiras)
-  DIVespacamentoEntreFileiras.appendChild(textespacamentoEntreFileiras)
-  //------------------------------------------------------------
-  //
-  //
-  //CRIANDO SPAN FONTE
-  //
-  //
-  //------------------------------------------------------------
-
-let spanFonte = document.createElement("span");
-spanFonte.innerText="FONTE: Embrapa"
-//------------------------------------------------------------
-  //
-  //
-  //ADICIONANDO TUDO AO MAIN
-  //
-  //
-  //------------------------------------------------------------
-
-  sectionMilho.style.display = "block";
-  sectionMilho.appendChild(divIMG);
-  sectionMilho.appendChild(divTITULO);
-  sectionMilho.appendChild(DIVintroducao);
-  sectionMilho.appendChild(DIVcondicoes);
-  sectionMilho.appendChild(DIVtemperatura)
-  sectionMilho.appendChild(DIVUmidadeDoSolo)
-  sectionMilho.appendChild(DIVsemeadura)
-  sectionMilho.appendChild(DIVdensidadePlantio)
-  sectionMilho.appendChild(DIVespacamentoEntreFileiras)
-  sectionMilho.appendChild(spanFonte)
-  main.appendChild(sectionMilho);
+  section.parentNode.removeChild(section)
 }
