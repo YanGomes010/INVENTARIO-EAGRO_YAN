@@ -60,7 +60,7 @@
     let DIVcondicoes = document.createElement("div");
     let condicoes = document.createElement("h2");
     let textCONDICOES = document.createElement("p");
-    DIVcondicoes.setAttribute("class", "condicoesClimaticas sectionStyle");
+    DIVcondicoes.setAttribute("class", "Clima sectionStyle");
     condicoes.innerText = SOJAdb.Clima;
     textCONDICOES.innerText = SOJAdb.infoClima;
   
@@ -242,7 +242,7 @@ function criarMILHO() {
     let DIVcondicoes = document.createElement("div");
     let condicoes = document.createElement("h2");
     let textCONDICOES = document.createElement("p");
-    DIVcondicoes.setAttribute("class", "condicoesClimaticas sectionStyle");
+    DIVcondicoes.setAttribute("class", "Clima sectionStyle");
     condicoes.innerText = MILHOdb.Clima;
     textCONDICOES.innerText = MILHOdb.infoClima;
   
@@ -336,9 +336,16 @@ function criarMILHO() {
     //
     //
     //------------------------------------------------------------
-  
+  let divFonte = document.createElement("div")
   let spanFonte = document.createElement("span");
-  spanFonte.innerText="FONTE: Embrapa"
+  let spanFonte1 = document.createElement("span");
+  divFonte.setAttribute("id","divFonte")
+  spanFonte.innerText="EMBRAPA. Sistema de Produção, 1 ISSN 1679-012X. 2012.";
+  spanFonte1.innerText="EMBRAPA. BORGHI, E.; PEREIRA FILHO, I. A.; RESENDE, A. V. de; SILVA, D. D. da; MENDES, S. M.; SILVA, A. F. da. 2017. Embrapa Milho e Sorgo"
+
+
+  divFonte.appendChild(spanFonte)
+  divFonte.appendChild(spanFonte1)
   //------------------------------------------------------------
     //
     //
@@ -357,7 +364,7 @@ function criarMILHO() {
     sectionMilho.appendChild(DIVAdubacao)
     sectionMilho.appendChild(DIVPragas)
     sectionMilho.appendChild(DIVdoencas)
-    sectionMilho.appendChild(spanFonte)
+    sectionMilho.appendChild(divFonte)
     main.appendChild(sectionMilho);
   }
 
@@ -423,7 +430,7 @@ function criarMILHO() {
     let DIVcondicoes = document.createElement("div");
     let condicoes = document.createElement("h2");
     let textCONDICOES = document.createElement("p");
-    DIVcondicoes.setAttribute("class", "condicoesClimaticas sectionStyle");
+    DIVcondicoes.setAttribute("class", "Clima sectionStyle");
     condicoes.innerText = MELANCIAdb.Clima;
     textCONDICOES.innerText = MELANCIAdb.infoClima;
   
@@ -605,7 +612,7 @@ function criarMILHO() {
     let DIVcondicoes = document.createElement("div");
     let condicoes = document.createElement("h2");
     let textCONDICOES = document.createElement("p");
-    DIVcondicoes.setAttribute("class", "condicoesClimaticas sectionStyle");
+    DIVcondicoes.setAttribute("class", "Clima sectionStyle");
     condicoes.innerText = ALFACEdb.Clima;
     textCONDICOES.innerText = ALFACEdb.infoClima;
   

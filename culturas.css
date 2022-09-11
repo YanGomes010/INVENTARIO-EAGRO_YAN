@@ -32,5 +32,17 @@
     margin-top: 36px;
     text-align: center;
     font-weight: bolder;
+}.sectionStyle p{
+    text-align: center;
 }
 
+
+#divFonte{
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+}
+span{
+    display: block;
+    text-align: left;
+}
