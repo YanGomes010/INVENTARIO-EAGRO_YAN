@@ -61,8 +61,8 @@
     let condicoes = document.createElement("h2");
     let textCONDICOES = document.createElement("p");
     DIVcondicoes.setAttribute("class", "condicoesClimaticas sectionStyle");
-    condicoes.innerText = SOJAdb.condicoesClimaticas;
-    textCONDICOES.innerText = SOJAdb.infocondicoesClimaticas;
+    condicoes.innerText = SOJAdb.Clima;
+    textCONDICOES.innerText = SOJAdb.infoClima;
   
     DIVcondicoes.appendChild(condicoes);
     DIVcondicoes.appendChild(textCONDICOES);
@@ -90,31 +90,31 @@
     //
     //
     //------------------------------------------------------------
-    let DIVUmidadeDoSolo = document.createElement("div");
-    let UmidadeDoSolo = document.createElement("h2");
-    let textUmidadeDoSolo = document.createElement("p");
-    DIVUmidadeDoSolo.setAttribute("class", "UmidadeDoSolo sectionStyle");
-    UmidadeDoSolo.innerText=SOJAdb.umidadeDoSolo;
-    textUmidadeDoSolo.innerText=SOJAdb.infoUmidadeDoSolo
+    let DIVSolo = document.createElement("div");
+    let Solo = document.createElement("h2");
+    let textSolo = document.createElement("p");
+    DIVSolo.setAttribute("class", "Solo sectionStyle");
+    Solo.innerText=SOJAdb.Solo;
+    textSolo.innerText=SOJAdb.infoSolo
   
-    DIVUmidadeDoSolo.appendChild(UmidadeDoSolo)
-    DIVUmidadeDoSolo.appendChild(textUmidadeDoSolo)
+    DIVSolo.appendChild(Solo)
+    DIVSolo.appendChild(textSolo)
      //------------------------------------------------------------
     //
     //
-    //CRIANDO SEMEADURA
+    //CRIANDO Adubacao
     //
     //
     //------------------------------------------------------------
-    let DIVsemeadura = document.createElement("div");
-    let semeadura = document.createElement("h2");
-    let textsemeadura = document.createElement("p");
-    DIVsemeadura.setAttribute("class", "semeadura sectionStyle");
-    semeadura.innerText=SOJAdb.semeadura;
-    textsemeadura.innerText=SOJAdb.infoSemeadura
+    let DIVAdubacao = document.createElement("div");
+    let Adubacao = document.createElement("h2");
+    let textAdubacao = document.createElement("p");
+    DIVAdubacao.setAttribute("class", "Adubacao sectionStyle");
+    Adubacao.innerText=SOJAdb.Adubacao;
+    textAdubacao.innerText=SOJAdb.infoAdubacao
   
-    DIVsemeadura.appendChild(semeadura)
-    DIVsemeadura.appendChild(textsemeadura)
+    DIVAdubacao.appendChild(Adubacao)
+    DIVAdubacao.appendChild(textAdubacao)
     //------------------------------------------------------------
     //
     //
@@ -122,15 +122,15 @@
     //
     //
     //------------------------------------------------------------
-    let DIVdensidadePlantio = document.createElement("div");
-    let densidadePlantio = document.createElement("h2");
-    let textdensidadePlantio = document.createElement("p");
-    DIVdensidadePlantio.setAttribute("class", "densidadePlantio sectionStyle");
-    densidadePlantio.innerText=SOJAdb.densidadeDoPlantio;
-    textdensidadePlantio.innerText=SOJAdb.infoDensidadeDoPlantio
+    let DIVPragas = document.createElement("div");
+    let Pragas = document.createElement("h2");
+    let textPragas = document.createElement("p");
+    DIVPragas.setAttribute("class", "Pragas sectionStyle");
+    Pragas.innerText=SOJAdb.Pragas;
+    textPragas.innerText=SOJAdb.infoPragas
   
-    DIVdensidadePlantio.appendChild(densidadePlantio)
-    DIVdensidadePlantio.appendChild(textdensidadePlantio)
+    DIVPragas.appendChild(Pragas)
+    DIVPragas.appendChild(textPragas)
   //------------------------------------------------------------
     //
     //
@@ -138,15 +138,15 @@
     //
     //
     //------------------------------------------------------------
-    let DIVespacamentoEntreFileiras = document.createElement("div");
-    let espacamentoEntreFileiras = document.createElement("h2");
-    let textespacamentoEntreFileiras = document.createElement("p");
-    DIVespacamentoEntreFileiras.setAttribute("class", "espacamentoEntreFileiras sectionStyle");
-    espacamentoEntreFileiras.innerText=SOJAdb.espacamentoEntreFileiras;
-    textespacamentoEntreFileiras.innerText=SOJAdb.infoEspacamentoEntreFileiras
+    let DIVdoencas = document.createElement("div");
+    let doencas = document.createElement("h2");
+    let textdoencas = document.createElement("p");
+    DIVdoencas.setAttribute("class", "doencas sectionStyle");
+    doencas.innerText=SOJAdb.Doencas;
+    textdoencas.innerText=SOJAdb.infoDoencas
   
-    DIVespacamentoEntreFileiras.appendChild(espacamentoEntreFileiras)
-    DIVespacamentoEntreFileiras.appendChild(textespacamentoEntreFileiras)
+    DIVdoencas.appendChild(doencas)
+    DIVdoencas.appendChild(textdoencas)
     //------------------------------------------------------------
     //
     //
@@ -171,10 +171,10 @@
     sectionSOJA.appendChild(DIVintroducao);
     sectionSOJA.appendChild(DIVcondicoes);
     sectionSOJA.appendChild(DIVtemperatura)
-    sectionSOJA.appendChild(DIVUmidadeDoSolo)
-    sectionSOJA.appendChild(DIVsemeadura)
-    sectionSOJA.appendChild(DIVdensidadePlantio)
-    sectionSOJA.appendChild(DIVespacamentoEntreFileiras)
+    sectionSOJA.appendChild(DIVSolo)
+    sectionSOJA.appendChild(DIVAdubacao)
+    sectionSOJA.appendChild(DIVPragas)
+    sectionSOJA.appendChild(DIVdoencas)
     sectionSOJA.appendChild(spanFonte)
     main.appendChild(sectionSOJA);
   }
@@ -243,8 +243,8 @@ function criarMILHO() {
     let condicoes = document.createElement("h2");
     let textCONDICOES = document.createElement("p");
     DIVcondicoes.setAttribute("class", "condicoesClimaticas sectionStyle");
-    condicoes.innerText = MILHOdb.condicoesClimaticas;
-    textCONDICOES.innerText = MILHOdb.infocondicoesClimaticas;
+    condicoes.innerText = MILHOdb.Clima;
+    textCONDICOES.innerText = MILHOdb.infoClima;
   
     DIVcondicoes.appendChild(condicoes);
     DIVcondicoes.appendChild(textCONDICOES);
@@ -272,31 +272,31 @@ function criarMILHO() {
     //
     //
     //------------------------------------------------------------
-    let DIVUmidadeDoSolo = document.createElement("div");
-    let UmidadeDoSolo = document.createElement("h2");
-    let textUmidadeDoSolo = document.createElement("p");
-    DIVUmidadeDoSolo.setAttribute("class", "UmidadeDoSolo sectionStyle");
-    UmidadeDoSolo.innerText=MILHOdb.umidadeDoSolo;
-    textUmidadeDoSolo.innerText=MILHOdb.infoUmidadeDoSolo
+    let DIVSolo = document.createElement("div");
+    let Solo = document.createElement("h2");
+    let textSolo = document.createElement("p");
+    DIVSolo.setAttribute("class", "Solo sectionStyle");
+    Solo.innerText=MILHOdb.Solo;
+    textSolo.innerText=MILHOdb.infoSolo
   
-    DIVUmidadeDoSolo.appendChild(UmidadeDoSolo)
-    DIVUmidadeDoSolo.appendChild(textUmidadeDoSolo)
+    DIVSolo.appendChild(Solo)
+    DIVSolo.appendChild(textSolo)
      //------------------------------------------------------------
     //
     //
-    //CRIANDO SEMEADURA
+    //CRIANDO Adubacao
     //
     //
     //------------------------------------------------------------
-    let DIVsemeadura = document.createElement("div");
-    let semeadura = document.createElement("h2");
-    let textsemeadura = document.createElement("p");
-    DIVsemeadura.setAttribute("class", "semeadura sectionStyle");
-    semeadura.innerText=MILHOdb.semeadura;
-    textsemeadura.innerText=MILHOdb.infoSemeadura
+    let DIVAdubacao = document.createElement("div");
+    let Adubacao = document.createElement("h2");
+    let textAdubacao = document.createElement("p");
+    DIVAdubacao.setAttribute("class", "Adubacao sectionStyle");
+    Adubacao.innerText=MILHOdb.Adubacao;
+    textAdubacao.innerText=MILHOdb.infoAdubacao
   
-    DIVsemeadura.appendChild(semeadura)
-    DIVsemeadura.appendChild(textsemeadura)
+    DIVAdubacao.appendChild(Adubacao)
+    DIVAdubacao.appendChild(textAdubacao)
     //------------------------------------------------------------
     //
     //
@@ -304,15 +304,15 @@ function criarMILHO() {
     //
     //
     //------------------------------------------------------------
-    let DIVdensidadePlantio = document.createElement("div");
-    let densidadePlantio = document.createElement("h2");
-    let textdensidadePlantio = document.createElement("p");
-    DIVdensidadePlantio.setAttribute("class", "densidadePlantio sectionStyle");
-    densidadePlantio.innerText=MILHOdb.densidadeDoPlantio;
-    textdensidadePlantio.innerText=MILHOdb.infoDensidadeDoPlantio
+    let DIVPragas = document.createElement("div");
+    let Pragas = document.createElement("h2");
+    let textPragas = document.createElement("p");
+    DIVPragas.setAttribute("class", "Pragas sectionStyle");
+    Pragas.innerText=MILHOdb.Pragas;
+    textPragas.innerText=MILHOdb.infoPragas
   
-    DIVdensidadePlantio.appendChild(densidadePlantio)
-    DIVdensidadePlantio.appendChild(textdensidadePlantio)
+    DIVPragas.appendChild(Pragas)
+    DIVPragas.appendChild(textPragas)
   //------------------------------------------------------------
     //
     //
@@ -320,15 +320,15 @@ function criarMILHO() {
     //
     //
     //------------------------------------------------------------
-    let DIVespacamentoEntreFileiras = document.createElement("div");
-    let espacamentoEntreFileiras = document.createElement("h2");
-    let textespacamentoEntreFileiras = document.createElement("p");
-    DIVespacamentoEntreFileiras.setAttribute("class", "espacamentoEntreFileiras sectionStyle");
-    espacamentoEntreFileiras.innerText=MILHOdb.espacamentoEntreFileiras;
-    textespacamentoEntreFileiras.innerText=MILHOdb.infoEspacamentoEntreFileiras
+    let DIVdoencas = document.createElement("div");
+    let doencas = document.createElement("h2");
+    let textdoencas = document.createElement("p");
+    DIVdoencas.setAttribute("class", "doencas sectionStyle");
+    doencas.innerText=MILHOdb.Doencas;
+    textdoencas.innerText=MILHOdb.infoDoencas
   
-    DIVespacamentoEntreFileiras.appendChild(espacamentoEntreFileiras)
-    DIVespacamentoEntreFileiras.appendChild(textespacamentoEntreFileiras)
+    DIVdoencas.appendChild(doencas)
+    DIVdoencas.appendChild(textdoencas)
     //------------------------------------------------------------
     //
     //
@@ -353,10 +353,10 @@ function criarMILHO() {
     sectionMilho.appendChild(DIVintroducao);
     sectionMilho.appendChild(DIVcondicoes);
     sectionMilho.appendChild(DIVtemperatura)
-    sectionMilho.appendChild(DIVUmidadeDoSolo)
-    sectionMilho.appendChild(DIVsemeadura)
-    sectionMilho.appendChild(DIVdensidadePlantio)
-    sectionMilho.appendChild(DIVespacamentoEntreFileiras)
+    sectionMilho.appendChild(DIVSolo)
+    sectionMilho.appendChild(DIVAdubacao)
+    sectionMilho.appendChild(DIVPragas)
+    sectionMilho.appendChild(DIVdoencas)
     sectionMilho.appendChild(spanFonte)
     main.appendChild(sectionMilho);
   }
@@ -424,8 +424,8 @@ function criarMILHO() {
     let condicoes = document.createElement("h2");
     let textCONDICOES = document.createElement("p");
     DIVcondicoes.setAttribute("class", "condicoesClimaticas sectionStyle");
-    condicoes.innerText = MELANCIAdb.condicoesClimaticas;
-    textCONDICOES.innerText = MELANCIAdb.infocondicoesClimaticas;
+    condicoes.innerText = MELANCIAdb.Clima;
+    textCONDICOES.innerText = MELANCIAdb.infoClima;
   
     DIVcondicoes.appendChild(condicoes);
     DIVcondicoes.appendChild(textCONDICOES);
@@ -453,31 +453,31 @@ function criarMILHO() {
     //
     //
     //------------------------------------------------------------
-    let DIVUmidadeDoSolo = document.createElement("div");
-    let UmidadeDoSolo = document.createElement("h2");
-    let textUmidadeDoSolo = document.createElement("p");
-    DIVUmidadeDoSolo.setAttribute("class", "UmidadeDoSolo sectionStyle");
-    UmidadeDoSolo.innerText=MELANCIAdb.umidadeDoSolo;
-    textUmidadeDoSolo.innerText=MELANCIAdb.infoUmidadeDoSolo
+    let DIVSolo = document.createElement("div");
+    let Solo = document.createElement("h2");
+    let textSolo = document.createElement("p");
+    DIVSolo.setAttribute("class", "Solo sectionStyle");
+    Solo.innerText=MELANCIAdb.Solo;
+    textSolo.innerText=MELANCIAdb.infoSolo
   
-    DIVUmidadeDoSolo.appendChild(UmidadeDoSolo)
-    DIVUmidadeDoSolo.appendChild(textUmidadeDoSolo)
+    DIVSolo.appendChild(Solo)
+    DIVSolo.appendChild(textSolo)
      //------------------------------------------------------------
     //
     //
-    //CRIANDO SEMEADURA
+    //CRIANDO Adubacao
     //
     //
     //------------------------------------------------------------
-    let DIVsemeadura = document.createElement("div");
-    let semeadura = document.createElement("h2");
-    let textsemeadura = document.createElement("p");
-    DIVsemeadura.setAttribute("class", "semeadura sectionStyle");
-    semeadura.innerText=MELANCIAdb.semeadura;
-    textsemeadura.innerText=MELANCIAdb.infoSemeadura
+    let DIVAdubacao = document.createElement("div");
+    let Adubacao = document.createElement("h2");
+    let textAdubacao = document.createElement("p");
+    DIVAdubacao.setAttribute("class", "Adubacao sectionStyle");
+    Adubacao.innerText=MELANCIAdb.Adubacao;
+    textAdubacao.innerText=MELANCIAdb.infoAdubacao
   
-    DIVsemeadura.appendChild(semeadura)
-    DIVsemeadura.appendChild(textsemeadura)
+    DIVAdubacao.appendChild(Adubacao)
+    DIVAdubacao.appendChild(textAdubacao)
     //------------------------------------------------------------
     //
     //
@@ -485,15 +485,15 @@ function criarMILHO() {
     //
     //
     //------------------------------------------------------------
-    let DIVdensidadePlantio = document.createElement("div");
-    let densidadePlantio = document.createElement("h2");
-    let textdensidadePlantio = document.createElement("p");
-    DIVdensidadePlantio.setAttribute("class", "densidadePlantio sectionStyle");
-    densidadePlantio.innerText=MELANCIAdb.densidadeDoPlantio;
-    textdensidadePlantio.innerText=MELANCIAdb.infoDensidadeDoPlantio
+    let DIVPragas = document.createElement("div");
+    let Pragas = document.createElement("h2");
+    let textPragas = document.createElement("p");
+    DIVPragas.setAttribute("class", "Pragas sectionStyle");
+    Pragas.innerText=MELANCIAdb.Pragas;
+    textPragas.innerText=MELANCIAdb.infoPragas
   
-    DIVdensidadePlantio.appendChild(densidadePlantio)
-    DIVdensidadePlantio.appendChild(textdensidadePlantio)
+    DIVPragas.appendChild(Pragas)
+    DIVPragas.appendChild(textPragas)
   //------------------------------------------------------------
     //
     //
@@ -501,15 +501,15 @@ function criarMILHO() {
     //
     //
     //------------------------------------------------------------
-    let DIVespacamentoEntreFileiras = document.createElement("div");
-    let espacamentoEntreFileiras = document.createElement("h2");
-    let textespacamentoEntreFileiras = document.createElement("p");
-    DIVespacamentoEntreFileiras.setAttribute("class", "espacamentoEntreFileiras sectionStyle");
-    espacamentoEntreFileiras.innerText=MELANCIAdb.espacamentoEntreFileiras;
-    textespacamentoEntreFileiras.innerText=MELANCIAdb.infoEspacamentoEntreFileiras
+    let DIVdoencas = document.createElement("div");
+    let doencas = document.createElement("h2");
+    let textdoencas = document.createElement("p");
+    DIVdoencas.setAttribute("class", "doencas sectionStyle");
+    doencas.innerText=MELANCIAdb.Doencas;
+    textdoencas.innerText=MELANCIAdb.infoDoencas
   
-    DIVespacamentoEntreFileiras.appendChild(espacamentoEntreFileiras)
-    DIVespacamentoEntreFileiras.appendChild(textespacamentoEntreFileiras)
+    DIVdoencas.appendChild(doencas)
+    DIVdoencas.appendChild(textdoencas)
     //------------------------------------------------------------
     //
     //
@@ -534,10 +534,10 @@ function criarMILHO() {
     sectionMELANCIA.appendChild(DIVintroducao);
     sectionMELANCIA.appendChild(DIVcondicoes);
     sectionMELANCIA.appendChild(DIVtemperatura)
-    sectionMELANCIA.appendChild(DIVUmidadeDoSolo)
-    sectionMELANCIA.appendChild(DIVsemeadura)
-    sectionMELANCIA.appendChild(DIVdensidadePlantio)
-    sectionMELANCIA.appendChild(DIVespacamentoEntreFileiras)
+    sectionMELANCIA.appendChild(DIVSolo)
+    sectionMELANCIA.appendChild(DIVAdubacao)
+    sectionMELANCIA.appendChild(DIVPragas)
+    sectionMELANCIA.appendChild(DIVdoencas)
     sectionMELANCIA.appendChild(spanFonte)
     main.appendChild(sectionMELANCIA);
   }
@@ -606,8 +606,8 @@ function criarMILHO() {
     let condicoes = document.createElement("h2");
     let textCONDICOES = document.createElement("p");
     DIVcondicoes.setAttribute("class", "condicoesClimaticas sectionStyle");
-    condicoes.innerText = ALFACEdb.condicoesClimaticas;
-    textCONDICOES.innerText = ALFACEdb.infocondicoesClimaticas;
+    condicoes.innerText = ALFACEdb.Clima;
+    textCONDICOES.innerText = ALFACEdb.infoClima;
   
     DIVcondicoes.appendChild(condicoes);
     DIVcondicoes.appendChild(textCONDICOES);
@@ -635,31 +635,31 @@ function criarMILHO() {
     //
     //
     //------------------------------------------------------------
-    let DIVUmidadeDoSolo = document.createElement("div");
-    let UmidadeDoSolo = document.createElement("h2");
-    let textUmidadeDoSolo = document.createElement("p");
-    DIVUmidadeDoSolo.setAttribute("class", "UmidadeDoSolo sectionStyle");
-    UmidadeDoSolo.innerText=ALFACEdb.umidadeDoSolo;
-    textUmidadeDoSolo.innerText=ALFACEdb.infoUmidadeDoSolo
+    let DIVSolo = document.createElement("div");
+    let Solo = document.createElement("h2");
+    let textSolo = document.createElement("p");
+    DIVSolo.setAttribute("class", "Solo sectionStyle");
+    Solo.innerText=ALFACEdb.Solo;
+    textSolo.innerText=ALFACEdb.infoSolo
   
-    DIVUmidadeDoSolo.appendChild(UmidadeDoSolo)
-    DIVUmidadeDoSolo.appendChild(textUmidadeDoSolo)
+    DIVSolo.appendChild(Solo)
+    DIVSolo.appendChild(textSolo)
      //------------------------------------------------------------
     //
     //
-    //CRIANDO SEMEADURA
+    //CRIANDO Adubacao
     //
     //
     //------------------------------------------------------------
-    let DIVsemeadura = document.createElement("div");
-    let semeadura = document.createElement("h2");
-    let textsemeadura = document.createElement("p");
-    DIVsemeadura.setAttribute("class", "semeadura sectionStyle");
-    semeadura.innerText=ALFACEdb.semeadura;
-    textsemeadura.innerText=ALFACEdb.infoSemeadura
+    let DIVAdubacao = document.createElement("div");
+    let Adubacao = document.createElement("h2");
+    let textAdubacao = document.createElement("p");
+    DIVAdubacao.setAttribute("class", "Adubacao sectionStyle");
+    Adubacao.innerText=ALFACEdb.Adubacao;
+    textAdubacao.innerText=ALFACEdb.infoAdubacao
   
-    DIVsemeadura.appendChild(semeadura)
-    DIVsemeadura.appendChild(textsemeadura)
+    DIVAdubacao.appendChild(Adubacao)
+    DIVAdubacao.appendChild(textAdubacao)
     //------------------------------------------------------------
     //
     //
@@ -667,15 +667,15 @@ function criarMILHO() {
     //
     //
     //------------------------------------------------------------
-    let DIVdensidadePlantio = document.createElement("div");
-    let densidadePlantio = document.createElement("h2");
-    let textdensidadePlantio = document.createElement("p");
-    DIVdensidadePlantio.setAttribute("class", "densidadePlantio sectionStyle");
-    densidadePlantio.innerText=ALFACEdb.densidadeDoPlantio;
-    textdensidadePlantio.innerText=ALFACEdb.infoDensidadeDoPlantio
+    let DIVPragas = document.createElement("div");
+    let Pragas = document.createElement("h2");
+    let textPragas = document.createElement("p");
+    DIVPragas.setAttribute("class", "Pragas sectionStyle");
+    Pragas.innerText=ALFACEdb.Pragas;
+    textPragas.innerText=ALFACEdb.infoPragas
   
-    DIVdensidadePlantio.appendChild(densidadePlantio)
-    DIVdensidadePlantio.appendChild(textdensidadePlantio)
+    DIVPragas.appendChild(Pragas)
+    DIVPragas.appendChild(textPragas)
   //------------------------------------------------------------
     //
     //
@@ -683,15 +683,15 @@ function criarMILHO() {
     //
     //
     //------------------------------------------------------------
-    let DIVespacamentoEntreFileiras = document.createElement("div");
-    let espacamentoEntreFileiras = document.createElement("h2");
-    let textespacamentoEntreFileiras = document.createElement("p");
-    DIVespacamentoEntreFileiras.setAttribute("class", "espacamentoEntreFileiras sectionStyle");
-    espacamentoEntreFileiras.innerText=ALFACEdb.espacamentoEntreFileiras;
-    textespacamentoEntreFileiras.innerText=ALFACEdb.infoEspacamentoEntreFileiras
+    let DIVdoencas = document.createElement("div");
+    let doencas = document.createElement("h2");
+    let textdoencas = document.createElement("p");
+    DIVdoencas.setAttribute("class", "doencas sectionStyle");
+    doencas.innerText=ALFACEdb.Doencas;
+    textdoencas.innerText=ALFACEdb.infoDoencas
   
-    DIVespacamentoEntreFileiras.appendChild(espacamentoEntreFileiras)
-    DIVespacamentoEntreFileiras.appendChild(textespacamentoEntreFileiras)
+    DIVdoencas.appendChild(doencas)
+    DIVdoencas.appendChild(textdoencas)
     //------------------------------------------------------------
     //
     //
@@ -716,10 +716,10 @@ function criarMILHO() {
     sectionALFACE.appendChild(DIVintroducao);
     sectionALFACE.appendChild(DIVcondicoes);
     sectionALFACE.appendChild(DIVtemperatura)
-    sectionALFACE.appendChild(DIVUmidadeDoSolo)
-    sectionALFACE.appendChild(DIVsemeadura)
-    sectionALFACE.appendChild(DIVdensidadePlantio)
-    sectionALFACE.appendChild(DIVespacamentoEntreFileiras)
+    sectionALFACE.appendChild(DIVSolo)
+    sectionALFACE.appendChild(DIVAdubacao)
+    sectionALFACE.appendChild(DIVPragas)
+    sectionALFACE.appendChild(DIVdoencas)
     sectionALFACE.appendChild(spanFonte)
     main.appendChild(sectionALFACE);
   }
