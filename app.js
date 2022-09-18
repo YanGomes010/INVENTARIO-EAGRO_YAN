@@ -339,13 +339,15 @@ function criarMILHO() {
   let divFonte = document.createElement("div")
   let spanFonte = document.createElement("span");
   let spanFonte1 = document.createElement("span");
+  let spanFonte2 = document.createElement("span");
   divFonte.setAttribute("id","divFonte")
   spanFonte.innerText="EMBRAPA. Sistema de Produção, 1 ISSN 1679-012X. 2012.";
   spanFonte1.innerText="EMBRAPA. BORGHI, E.; PEREIRA FILHO, I. A.; RESENDE, A. V. de; SILVA, D. D. da; MENDES, S. M.; SILVA, A. F. da. 2017. Embrapa Milho e Sorgo"
-
+  spanFonte2.innerText="EQUIPE MAIS SOJA. O milho é sensível a fotoperíodo?. 2020."
 
   divFonte.appendChild(spanFonte)
   divFonte.appendChild(spanFonte1)
+  divFonte.appendChild(spanFonte2)
   //------------------------------------------------------------
     //
     //

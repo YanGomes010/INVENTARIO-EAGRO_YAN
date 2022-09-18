@@ -18,6 +18,12 @@
     background-color: #fff;
     border-radius: 20px;
 }
+#sec-1 p{
+    margin: auto;
+    margin-top: 40px;
+    max-width: 90%;
+    text-align: center;
+}
 
 #sec-1 #sectionBoxIMG {
     width: 100%;
