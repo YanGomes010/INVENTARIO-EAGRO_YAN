@@ -268,23 +268,7 @@ function criarMILHO() {
     //------------------------------------------------------------
     //
     //
-    //CRIANDO UMIDADE DO SOLO 
-    //
-    //
-    //------------------------------------------------------------
-    let DIVSolo = document.createElement("div");
-    let Solo = document.createElement("h2");
-    let textSolo = document.createElement("p");
-    DIVSolo.setAttribute("class", "Solo sectionStyle");
-    Solo.innerText=MILHOdb.Solo;
-    textSolo.innerText=MILHOdb.infoSolo
-  
-    DIVSolo.appendChild(Solo)
-    DIVSolo.appendChild(textSolo)
-     //------------------------------------------------------------
-    //
-    //
-    //CRIANDO Adubacao
+    //CRIANDO ADUBAÇÃO
     //
     //
     //------------------------------------------------------------
@@ -297,6 +281,23 @@ function criarMILHO() {
   
     DIVAdubacao.appendChild(Adubacao)
     DIVAdubacao.appendChild(textAdubacao)
+   
+     //------------------------------------------------------------
+    //
+    //
+    //CRIANDO SOLO E PLANTIO
+    //
+    //
+    //------------------------------------------------------------
+    let DIVSolo = document.createElement("div");
+    let Solo = document.createElement("h2");
+    let textSolo = document.createElement("p");
+    DIVSolo.setAttribute("class", "Solo sectionStyle");
+    Solo.innerText=MILHOdb.Solo;
+    textSolo.innerText=MILHOdb.infoSolo
+  
+    DIVSolo.appendChild(Solo)
+    DIVSolo.appendChild(textSolo)
     //------------------------------------------------------------
     //
     //
@@ -362,8 +363,8 @@ function criarMILHO() {
     sectionMilho.appendChild(DIVintroducao);
     sectionMilho.appendChild(DIVcondicoes);
     sectionMilho.appendChild(DIVtemperatura)
-    sectionMilho.appendChild(DIVSolo)
     sectionMilho.appendChild(DIVAdubacao)
+    sectionMilho.appendChild(DIVSolo)
     sectionMilho.appendChild(DIVPragas)
     sectionMilho.appendChild(DIVdoencas)
     sectionMilho.appendChild(divFonte)
