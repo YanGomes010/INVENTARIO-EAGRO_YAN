@@ -19,10 +19,11 @@
     border-radius: 20px;
 }
 #sec-1 p{
+    text-indent: 0;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 10px;
     max-width: 90%;
-    text-align: center;
+    text-align: justify;
 }
 
 #sec-1 #sectionBoxIMG {
@@ -38,7 +39,11 @@
     margin-top: 36px;
     text-align: center;
     font-weight: bolder;
-}.sectionStyle p{
+}
+#divTitle p{
+    text-align: center;
+}
+.sectionStyle p{
     text-align: center;
 }
 

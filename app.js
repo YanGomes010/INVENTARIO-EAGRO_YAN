@@ -274,13 +274,32 @@ function criarMILHO() {
     //------------------------------------------------------------
     let DIVAdubacao = document.createElement("div");
     let Adubacao = document.createElement("h2");
-    let textAdubacao = document.createElement("p");
+    let ParagrafoADUBACAO_um = document.createElement("p");
+    let ParagrafoADUBACAO_dois = document.createElement("p");
+    let ParagrafoADUBACAO_tres = document.createElement("p");
+    let ParagrafoADUBACAO_quatro = document.createElement("p");
+    let ParagrafoADUBACAO_cinco = document.createElement("p");
+    let ParagrafoADUBACAO_seis = document.createElement("p");
     DIVAdubacao.setAttribute("class", "Adubacao sectionStyle");
     Adubacao.innerText=MILHOdb.Adubacao;
-    textAdubacao.innerText=MILHOdb.infoAdubacao
+
+
+     ParagrafoADUBACAO_um.innerText=MILHOdb.ParagrafoADUBACAO_0
+     ParagrafoADUBACAO_dois.innerText=MILHOdb.ParagrafoADUBACAO_1
+     ParagrafoADUBACAO_tres.innerText=MILHOdb.ParagrafoADUBACAO_2
+     ParagrafoADUBACAO_quatro.innerText=MILHOdb.ParagrafoADUBACAO_3
+     ParagrafoADUBACAO_cinco.innerText=MILHOdb.ParagrafoADUBACAO_4
+     ParagrafoADUBACAO_seis.innerText=MILHOdb.ParagrafoADUBACAO_5
+
+
   
     DIVAdubacao.appendChild(Adubacao)
-    DIVAdubacao.appendChild(textAdubacao)
+    DIVAdubacao.appendChild(ParagrafoADUBACAO_um)
+    DIVAdubacao.appendChild(ParagrafoADUBACAO_dois)
+    DIVAdubacao.appendChild(ParagrafoADUBACAO_tres)
+    DIVAdubacao.appendChild(ParagrafoADUBACAO_quatro)
+    DIVAdubacao.appendChild(ParagrafoADUBACAO_cinco)
+    DIVAdubacao.appendChild(ParagrafoADUBACAO_seis)
    
      //------------------------------------------------------------
     //
@@ -291,13 +310,31 @@ function criarMILHO() {
     //------------------------------------------------------------
     let DIVSolo = document.createElement("div");
     let Solo = document.createElement("h2");
-    let textSolo = document.createElement("p");
+    let ParagrafoSolo_um = document.createElement("p");
+    let ParagrafoSolo_dois = document.createElement("p");
+    let ParagrafoSolo_tres = document.createElement("p");
+    let ParagrafoSolo_quatro = document.createElement("p");
+    let ParagrafoSolo_cinco = document.createElement("p");
+    let ParagrafoSolo_seis = document.createElement("p");
     DIVSolo.setAttribute("class", "Solo sectionStyle");
     Solo.innerText=MILHOdb.Solo;
-    textSolo.innerText=MILHOdb.infoSolo
+
+    ParagrafoSolo_um.innerText=MILHOdb.ParagrafoSOLO_0
+    ParagrafoSolo_dois.innerText=MILHOdb.ParagrafoSOLO_1
+    ParagrafoSolo_tresinnerText=MILHOdb.ParagrafoSOLO_2
+    ParagrafoSolo_quatro.innerText=MILHOdb.ParagrafoSOLO_3
+    ParagrafoSolo_cinco.innerText=MILHOdb.ParagrafoSOLO_4
+    ParagrafoSolo_seis.innerText=MILHOdb.ParagrafoSOLO_5
+
+
   
     DIVSolo.appendChild(Solo)
-    DIVSolo.appendChild(textSolo)
+    DIVSolo.appendChild(ParagrafoSolo_um)
+    DIVSolo.appendChild(ParagrafoSolo_dois)
+    DIVSolo.appendChild(ParagrafoSolo_tres)
+    DIVSolo.appendChild(ParagrafoSolo_quatro)
+    DIVSolo.appendChild(ParagrafoSolo_cinco)
+    DIVSolo.appendChild(ParagrafoSolo_seis)
     //------------------------------------------------------------
     //
     //
