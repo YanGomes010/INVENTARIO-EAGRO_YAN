@@ -37,13 +37,22 @@ var MILHOdb = {
       "O potássio, depois do nitrogênio, é o nutriente mais absorvido pelo milho. Nos últimos anos, o potássio vem apresentando melhoras de resultados nas lavouras pelos seguintes motivos: Modernização dos sistemas de produção, rotação soja-milho, crescimento do milho como planta forrageira, ampliação das áreas irrigadas, utilização de híbridos de milho, recuperação da fertilidade do solo através de calcário, entre outros. Segundo a Embrapa,  aumento de produção, chegando a 100%, em função da aplicação do K, vem sendo visto como comum em solos com teores muito baixos e com doses de até 120 kg de K2O/ha.",
       ParagrafoADUBACAO_5:
       "A absorção do potássio ocorre no milho principalmente nos estágios inicias de crescimento. Entre 60 e 70 dias, cerca de 90% da capacidade do K, já foi absorvida, por isso a aplicação no sulco é a mais indicada. Entretanto, caso haja déficit hídrico logo após a semeadura, doses altas do nutriente no sulco, geram maleficios para sementes, logo, a aplicação deverá ser realizada em duas parcelas, uma metade antes do plantio e outra metade em conjunto com cobertura nitrogenada e deverá ser aplicado em até 30 dias após o plantio",
-    Pragas: "PRAGAS",
-    infoPragas:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    Doencas: "DOENÇAS",
-    infoDoencas:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  };
+      ParagrafoADUBACAO_6:
+      "Em pequenas quantidades, temos o enxofre, que para plantio comercial tem variação na aplicação de 5 a 7t/ha. Para suprir a necessidade da cultivar, normalmente são utilizados segundo a embrapa, sulfato de amônio (24% de enxofre), gesso agrícola (15 a 18% de enxofre) e superfosfato simples (24% de enxofre).",
+      Pragas: "PRAGAS",
+    ParagrafoPragas_0:
+      "As pragas destroem o potencial produtivo das plantas, principalmente os insetos, que tem capacidade de afetar negativamente por completo o potencial da cultivar. Em determinadas regiões, é possivel encontrar espécies de insetos que são capazes de reduzir a população de plantas, danificar a semente e até mesmo matar a plântula pós emergência. O cuidado com as pragas, é essencial, pois uma contaminação da lavoura, pode causar perda total da produção e um grande prejuizo para o produtor.",
+      ParagrafoPragas_1:
+      "As pragas iniciais prejudicam as sementes, raízes, plântulas  logo após a semeadura. Estes tipos de ataques, reduzem o número de plantas e o potencial de produção da lavoura. Os insetos que atacam no inicio da germinação, tem hábitos subterrâneos ou superficiais e possuem dificil visualização pelo produtor, assim, dificultando medidas de prevenção. Outros tipos de pragas que interferem na fase vegetativa e reprodutiva dependendo do estágio fenelógico da planta, fatores bióticos, sistemas de cultivo, edafoclimáticas.",
+ 
+      Doencas: "DOENÇAS",
+    ParagrafoDoencas_0:
+      "As doenças vem tomando atenção de todos no cenário de cultivo de milho, as perdas de produtividade devido ao ataque desses agentes patógenos tem sido cada vez maiores e frequentes nas regiões produtoras no Brasil. As modificações nos sistemas de produção e o aumento da produtividade nas lavouras,  são responsáveis pela grande incidência e da gravidade das doenças. Novos problemas com esses patógenos vem sendo mais comuns a cada cultivo, pela falta de rotação de culturas, uso de materiais corretos, adoção do plantio direto, ampliação das épocas de plantio.",
+      ParagrafoDoencas_1:
+      "O milho é atacada por diversas doenças, alguma merecem destaque, tais como: mancha branca, ferrugem tropical, pálido, cercosporiose, ferrugem polissora, enfezamentos vermelho, grãos ardidos e podridão do colmo. A aparição destas doenças varia de acordo com o ano de plantio, condições climáticas, nivel de suscetibilidade, sistema de plantio  e da região de cultivo.",
+      ParagrafoDoencas_2:
+      "Segundo a Embrapa, as medidas para combate dessas doenças são: Utilizar sementes de boa quaidade e tratadas com fungicidas, rotação de culturas, rotação de cultivares, correto manejo da lavoura e plantio em época correta. Essas ações, contribuem para maior durabilidade e estabilidade de resistência genética presentes na cultivares comerciais e redução de inóculo de patógenos.",
+    };
 
   var SOJAdb = {
     titulo: "CULTURA DA SOJA",

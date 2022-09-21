@@ -280,26 +280,51 @@ function criarMILHO() {
     let ParagrafoADUBACAO_quatro = document.createElement("p");
     let ParagrafoADUBACAO_cinco = document.createElement("p");
     let ParagrafoADUBACAO_seis = document.createElement("p");
+    let ParagrafoADUBACAO_sete = document.createElement("p");
+
+
+//ADICIONANDO IMAGENS -------------------------------------------------------
+
+    let div_img_adubacao = document.createElement("div")
+    let div_img_potassio = document.createElement("div");
+    let imagem_adubacao_0 = document.createElement("img");
+    let imagem_adubacao_1 = document.createElement("img");
+    div_img_adubacao.setAttribute("class","divImgILUSTRA")
+    div_img_potassio.setAttribute("class","divImgILUSTRA")
+
+    imagem_adubacao_0.setAttribute("class","ImgILUSTRA")
+    imagem_adubacao_1.setAttribute("class","ImgILUSTRA") 
+    imagem_adubacao_0.src="./images/Adubacao_MILHO.png"
+    imagem_adubacao_1.src="./images/IMG_potassio_adubo.png"
     DIVAdubacao.setAttribute("class", "Adubacao sectionStyle");
     Adubacao.innerText=MILHOdb.Adubacao;
+    div_img_adubacao.appendChild(imagem_adubacao_0)
+    div_img_potassio.appendChild(imagem_adubacao_1)
 
-
+//    -------------------------------------------------------
      ParagrafoADUBACAO_um.innerText=MILHOdb.ParagrafoADUBACAO_0
      ParagrafoADUBACAO_dois.innerText=MILHOdb.ParagrafoADUBACAO_1
      ParagrafoADUBACAO_tres.innerText=MILHOdb.ParagrafoADUBACAO_2
      ParagrafoADUBACAO_quatro.innerText=MILHOdb.ParagrafoADUBACAO_3
      ParagrafoADUBACAO_cinco.innerText=MILHOdb.ParagrafoADUBACAO_4
      ParagrafoADUBACAO_seis.innerText=MILHOdb.ParagrafoADUBACAO_5
+     ParagrafoADUBACAO_sete.innerText=MILHOdb.ParagrafoADUBACAO_6
+     
+     
 
 
   
     DIVAdubacao.appendChild(Adubacao)
     DIVAdubacao.appendChild(ParagrafoADUBACAO_um)
     DIVAdubacao.appendChild(ParagrafoADUBACAO_dois)
+    DIVAdubacao.appendChild(div_img_adubacao)
     DIVAdubacao.appendChild(ParagrafoADUBACAO_tres)
     DIVAdubacao.appendChild(ParagrafoADUBACAO_quatro)
     DIVAdubacao.appendChild(ParagrafoADUBACAO_cinco)
+    DIVAdubacao.appendChild(div_img_potassio)
     DIVAdubacao.appendChild(ParagrafoADUBACAO_seis)
+    DIVAdubacao.appendChild(ParagrafoADUBACAO_sete)
+    
    
      //------------------------------------------------------------
     //
@@ -319,6 +344,26 @@ function criarMILHO() {
     DIVSolo.setAttribute("class", "Solo sectionStyle");
     Solo.innerText=MILHOdb.Solo;
 
+
+  //ADICIONANDO IMAGENS -----------------------------------
+  let div_img_solo_0= document.createElement("div")
+  div_img_solo_0.setAttribute("class","divImgILUSTRA")
+  let img_solo_0 = document.createElement("img");
+  img_solo_0.src="./images/milho_solo_0.png"
+  img_solo_0.setAttribute("class","ImgILUSTRA")
+  div_img_solo_0.appendChild(img_solo_0)
+
+  let div_img_solo_1= document.createElement("div")
+  div_img_solo_1.setAttribute("class","divImgILUSTRA")
+  let img_solo_1 = document.createElement("img");
+  img_solo_1.src="./images/milho_solo_1.png"
+  img_solo_1.setAttribute("class","ImgILUSTRA")
+  div_img_solo_1.appendChild(img_solo_1)
+
+
+
+
+  //----------------------------------------------------------------------
     ParagrafoSolo_um.innerText=MILHOdb.ParagrafoSOLO_0
     ParagrafoSolo_dois.innerText=MILHOdb.ParagrafoSOLO_1
     ParagrafoSolo_tresinnerText=MILHOdb.ParagrafoSOLO_2
@@ -331,42 +376,54 @@ function criarMILHO() {
     DIVSolo.appendChild(Solo)
     DIVSolo.appendChild(ParagrafoSolo_um)
     DIVSolo.appendChild(ParagrafoSolo_dois)
+    DIVSolo.appendChild(div_img_solo_0)
     DIVSolo.appendChild(ParagrafoSolo_tres)
     DIVSolo.appendChild(ParagrafoSolo_quatro)
     DIVSolo.appendChild(ParagrafoSolo_cinco)
+    DIVSolo.appendChild(div_img_solo_1)
     DIVSolo.appendChild(ParagrafoSolo_seis)
     //------------------------------------------------------------
     //
     //
-    //CRIANDO DENSIDADE DO PLANTIO
+    //CRIANDO PRAGAS
     //
     //
     //------------------------------------------------------------
     let DIVPragas = document.createElement("div");
     let Pragas = document.createElement("h2");
-    let textPragas = document.createElement("p");
+    let paragrafoPragas_um = document.createElement("p");
+    let paragrafoPragas_dois = document.createElement("p")
     DIVPragas.setAttribute("class", "Pragas sectionStyle");
     Pragas.innerText=MILHOdb.Pragas;
-    textPragas.innerText=MILHOdb.infoPragas
-  
+    paragrafoPragas_um.innerText=MILHOdb.ParagrafoPragas_0
+    paragrafoPragas_dois.innerText=MILHOdb.ParagrafoPragas_1
+
+
     DIVPragas.appendChild(Pragas)
-    DIVPragas.appendChild(textPragas)
+    DIVPragas.appendChild(paragrafoPragas_um)
+    DIVPragas.appendChild(paragrafoPragas_dois)
   //------------------------------------------------------------
     //
     //
-    //CRIANDO ESPAÇAMENTO ENTRE FILEIRAS
+    //CRIANDO DOENÇAS
     //
     //
     //------------------------------------------------------------
     let DIVdoencas = document.createElement("div");
     let doencas = document.createElement("h2");
-    let textdoencas = document.createElement("p");
+    let ParagrafoDoencas_um = document.createElement("p");
+    let ParagrafoDoencas_dois = document.createElement("p");
+    let ParagrafoDoencas_tres = document.createElement("p");
     DIVdoencas.setAttribute("class", "doencas sectionStyle");
     doencas.innerText=MILHOdb.Doencas;
-    textdoencas.innerText=MILHOdb.infoDoencas
+    ParagrafoDoencas_um.innerText=MILHOdb.ParagrafoDoencas_0
+    ParagrafoDoencas_dois.innerText=MILHOdb.ParagrafoDoencas_1
+    ParagrafoDoencas_tres.innerText=MILHOdb.ParagrafoDoencas_2
   
     DIVdoencas.appendChild(doencas)
-    DIVdoencas.appendChild(textdoencas)
+    DIVdoencas.appendChild(ParagrafoDoencas_um)
+    DIVdoencas.appendChild(ParagrafoDoencas_dois)
+    DIVdoencas.appendChild(ParagrafoDoencas_tres)
     //------------------------------------------------------------
     //
     //
@@ -710,7 +767,7 @@ function criarMILHO() {
     //------------------------------------------------------------
     //
     //
-    //CRIANDO DENSIDADE DO PLANTIO
+    //CRIANDO PRAGAS
     //
     //
     //------------------------------------------------------------
