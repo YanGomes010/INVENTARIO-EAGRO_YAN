@@ -400,7 +400,7 @@ function criarMILHO() {
   ParagrafoPragas_0.innerText = MILHOdb.ParagrafoPragas_2;
   ParagrafoPragas_0_1.innerText = MILHOdb.ParagrafoPragas_3;
   divImgPraga_0.setAttribute("class", "divImgILUSTRA");
-  ImgPraga_0.src = "./images/Larva-alfinete.png";
+  ImgPraga_0.src = "./images/larva-Alfinete.png";
   ImgPraga_0.setAttribute("class", "ImgILUSTRA");
   divImgPraga_0.appendChild(ImgPraga_0);
 
