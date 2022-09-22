@@ -44,7 +44,22 @@ var MILHOdb = {
       "As pragas destroem o potencial produtivo das plantas, principalmente os insetos, que tem capacidade de afetar negativamente por completo o potencial da cultivar. Em determinadas regiões, é possivel encontrar espécies de insetos que são capazes de reduzir a população de plantas, danificar a semente e até mesmo matar a plântula pós emergência. O cuidado com as pragas, é essencial, pois uma contaminação da lavoura, pode causar perda total da produção e um grande prejuizo para o produtor.",
       ParagrafoPragas_1:
       "As pragas iniciais prejudicam as sementes, raízes, plântulas  logo após a semeadura. Estes tipos de ataques, reduzem o número de plantas e o potencial de produção da lavoura. Os insetos que atacam no inicio da germinação, tem hábitos subterrâneos ou superficiais e possuem dificil visualização pelo produtor, assim, dificultando medidas de prevenção. Outros tipos de pragas que interferem na fase vegetativa e reprodutiva dependendo do estágio fenelógico da planta, fatores bióticos, sistemas de cultivo, edafoclimáticas.",
- 
+      PragasTitulo_0:"Larva alfinete (Diabrotica spp.)",
+      ParagrafoPragas_2:
+      "No país, a D. speciosa é predominante. Esta espécie alimenta-se de fejoeiro, soja, banana, milho, hortaliças, girassol, soja e suas larvas podem atacar quanto as raízes do milho, quanto tubérculos de batata. A larva alfinete agride fortemente o sistema radicular da planta, assim reduzindo a sustentação da cultivar e interfere diretamente na absorção de nutrientes e água. Logo, é bastante prejudicial e requer controle.",
+      ParagrafoPragas_3:
+      "O controle desta larva não é muito popular nas lavouras e  possui maior incidência em sistemas de plantio direto. O manejo é realizado com pulverização no sulco do plantio, inseticidas químicos aplicados diretamente nas sementes e fungos, como: Beauveria bassiana, Metarhizium anisopliae, Centistes gasseni e Celatoria bosqi.",
+      PragasTitulo_1:"Larva-arame (Conoderus spp., Melanotus spp)",
+      ParagrafoPragas_4:
+      "Essa espécie causa danos em diversas culturas. Lavouras de milho em áreas de pastagens, solo não preparado corretamente, a larva-arame tem grande facilidade para seu desenvolvimento. Os principais danos desta praga, começam no inicio do plantio após a semeadura, destruindo o colmo das cultivares, sementes e raízes. Assim causando prejuizos as produtor e reduzindo o vigor das plantas..",
+      ParagrafoPragas_5:
+      "O controle desta larva pode ser realizado quanto biológicamente com o besouro Coleópteros ou “besouros-do-casaco”, quanto com inseticidas sistêmicos no tratamento das sementes.",
+      PragasTitulo_2:"Lagarta-do-cartucho (Spodoptera frugiperda)",
+      ParagrafoPragas_6:
+      " A Lagarta-do-cartucho, pode causar a morte das plantas mais jovens do milho, principalmente no sistema de plantio direto, neste estilo de plantio, a praga já está presente no solo antes da cultivar emergir-se sobre a terra. A largarta, ataca diretamente o cartucho da planta e vai perfurando até a base da planta, assim, provocando sintoma de “coração morto” e causando perdas de rendimento na planta, que podem chegar a 60%.",
+      ParagrafoPragas_7:
+      "Para o controle da praga, deve ser realizado o tratamento das sementes com inseticidas e que durante 20 dias pós plantio, as cultivares não sofram estresse hídrido. Além do controle químico, as Vespas Trichogramma, que podem ser compradas em grandes quantidades no Brasil, fazem um ótimo controle biológico parasitando os ovos lagarta-do-cartucho.",
+
       Doencas: "DOENÇAS",
     ParagrafoDoencas_0:
       "As doenças vem tomando atenção de todos no cenário de cultivo de milho, as perdas de produtividade devido ao ataque desses agentes patógenos tem sido cada vez maiores e frequentes nas regiões produtoras no Brasil. As modificações nos sistemas de produção e o aumento da produtividade nas lavouras,  são responsáveis pela grande incidência e da gravidade das doenças. Novos problemas com esses patógenos vem sendo mais comuns a cada cultivo, pela falta de rotação de culturas, uso de materiais corretos, adoção do plantio direto, ampliação das épocas de plantio.",

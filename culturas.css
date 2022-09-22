@@ -41,7 +41,10 @@
     width: 450px;
     border-radius: 25px;
 }
-
+.sectionStyle h4{
+    width: 90%;
+    margin: 35px auto 35px auto;
+}
 #sectionBoxIMG img {
     height: auto;
     width: 100%;
