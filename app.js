@@ -434,6 +434,37 @@ function criarMILHO() {
   divImgPraga_2.appendChild(ImgPraga_2);
 
 
+  let NomePraga_3 = document.createElement("h4");
+  let ParagrafoPragas_3 = document.createElement("p");
+  let ParagrafoPragas_3_1 = document.createElement("p");
+  let divImgPraga_3 = document.createElement("div");
+  let ImgPraga_3 = document.createElement("img");
+  NomePraga_3.innerText = MILHOdb.PragasTitulo_3;
+  ParagrafoPragas_3.innerText = MILHOdb.ParagrafoPragas_8;
+  ParagrafoPragas_3_1.innerText = MILHOdb.ParagrafoPragas_9;
+  divImgPraga_3.setAttribute("class", "divImgILUSTRA");
+  ImgPraga_3.src = "./images/lagarta-da-espiga.png";
+  ImgPraga_3.setAttribute("class", "ImgILUSTRA");
+  divImgPraga_3.appendChild(ImgPraga_3);
+
+  
+
+  let NomePraga_4 = document.createElement("h4");
+  let ParagrafoPragas_4 = document.createElement("p");
+  let ParagrafoPragas_4_1 = document.createElement("p");
+  let divImgPraga_4 = document.createElement("div");
+  let ImgPraga_4 = document.createElement("img");
+  NomePraga_4.innerText = MILHOdb.PragasTitulo_4;
+  ParagrafoPragas_4.innerText = MILHOdb.ParagrafoPragas_10;
+  ParagrafoPragas_4_1.innerText = MILHOdb.ParagrafoPragas_11;
+  divImgPraga_4.setAttribute("class", "divImgILUSTRA");
+  ImgPraga_4.src = "./images/cigarrinha-do-milho.png";
+  ImgPraga_4.setAttribute("class", "ImgILUSTRA");
+  divImgPraga_4.appendChild(ImgPraga_4);
+
+
+
+
 
   //ADICIONANDO NA TELA-----------------------------------------
   DIVPragas.appendChild(Pragas);
@@ -451,6 +482,14 @@ function criarMILHO() {
   DIVPragas.appendChild(ParagrafoPragas_2);
   DIVPragas.appendChild(divImgPraga_2);
   DIVPragas.appendChild(ParagrafoPragas_2_1);
+  DIVPragas.appendChild(NomePraga_3);
+  DIVPragas.appendChild(ParagrafoPragas_3);
+  DIVPragas.appendChild(divImgPraga_3);
+  DIVPragas.appendChild(ParagrafoPragas_3_1);
+  DIVPragas.appendChild(NomePraga_4);
+  DIVPragas.appendChild(ParagrafoPragas_4);
+  DIVPragas.appendChild(divImgPraga_4);
+  DIVPragas.appendChild(ParagrafoPragas_4_1);
 
   //------------------------------------------------------------
   //

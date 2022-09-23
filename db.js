@@ -59,7 +59,17 @@ var MILHOdb = {
       " A Lagarta-do-cartucho, pode causar a morte das plantas mais jovens do milho, principalmente no sistema de plantio direto, neste estilo de plantio, a praga já está presente no solo antes da cultivar emergir-se sobre a terra. A largarta, ataca diretamente o cartucho da planta e vai perfurando até a base da planta, assim, provocando sintoma de “coração morto” e causando perdas de rendimento na planta, que podem chegar a 60%.",
       ParagrafoPragas_7:
       "Para o controle da praga, deve ser realizado o tratamento das sementes com inseticidas e que durante 20 dias pós plantio, as cultivares não sofram estresse hídrido. Além do controle químico, as Vespas Trichogramma, que podem ser compradas em grandes quantidades no Brasil, fazem um ótimo controle biológico parasitando os ovos lagarta-do-cartucho.",
-
+      PragasTitulo_3:"Lagarta-da-espiga (Helicoverpa zea)",
+      ParagrafoPragas_8:
+      "Este inseto coloca seus ovos nos estilos-estigmas, logo, quando as lagartas nascem, os danos são evidentes, ocasionando falhas na produção de grãos, deixam orifícios na plantas, assim facilitando a entrada de microrganismos que causam podridão. A média de perda de rendimento, é em torno de 8%. Para identificação desta praga, visualiza-se as pontas das espigas, caso estejam danificadas, é a indicação da presença do inseto.",
+      ParagrafoPragas_9:
+      "O controle desta praga é por meio biológico, através da compra de vespas trichogramma, estas que conseguem manter o equilíbrio biológico e natural. O  inseto que faz o controle, reduz a população de pragas a um nível baixo e incapaz de causar danos econômicos.",
+      PragasTitulo_4:"Cigarrinha-do-milho (Dalbulus maidis)",
+      ParagrafoPragas_10:
+      "A cigrarrinha é uma das principais pragas, pois é a transmissora do virus raiado fino e das doenças de enfezamentos vermelho e pálido. O inseto é capaz de gerar perda de quase 100% da lavoura quando não é controlado, um prejuízo grandioso para o produtor. Após 4 semanes de infecção da planta, as folhas começam a perder coloração, murcham e causam a morte da planta por não ter como realizar a fotossíntese. Em períodos de plantio do milho safrinha, a cigarrinha tem maior incidência.",
+      ParagrafoPragas_11:
+"O controle é normalmente pelo plantio de cultivares mais resistentes, plantio em menor quantidade e por inseticidas.", 
+      
       Doencas: "DOENÇAS",
     ParagrafoDoencas_0:
       "As doenças vem tomando atenção de todos no cenário de cultivo de milho, as perdas de produtividade devido ao ataque desses agentes patógenos tem sido cada vez maiores e frequentes nas regiões produtoras no Brasil. As modificações nos sistemas de produção e o aumento da produtividade nas lavouras,  são responsáveis pela grande incidência e da gravidade das doenças. Novos problemas com esses patógenos vem sendo mais comuns a cada cultivo, pela falta de rotação de culturas, uso de materiais corretos, adoção do plantio direto, ampliação das épocas de plantio.",
