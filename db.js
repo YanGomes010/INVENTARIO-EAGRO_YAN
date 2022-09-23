@@ -80,6 +80,13 @@ var MILHOdb = {
       DoencasTitulo_0:"Ferrugem Polissora (Puccinia polysora Underw.)",
       ParagrafoDoencas_3:"Causando cerca de 40% de prejuizos na lavoura, essa doença é muito comum nas regiões sul, sudeste e centro-oeste do Brasil. Pústulas circulares a ovais de coloração marron, na parte superior da folha, caracteriza o sintoma desta doenças. Em áreas com temperaturas entre 25° a 30° C, à grande incidência desta doença.",
       ParagrafoDoencas_4:"O manejo desta enfermidade, é baseado em fungincidas, escolha correta da época de plantio, local de cultivo e aquisição de cultivares híbridas resistentes.",
+      DoencasTitulo_1:"Ferrugem Comum (Puccinia sorghi)",
+      ParagrafoDoencas_5:"Mais comum na região sul do Brasil, a ferrugem comum, que tem preferência por temperaturas entre 16° a 23° C,  é conhecida por formar pústulas na parte aérea da planta, quanto na superficie voltada para cima, quanto para baixo. As pústulas tem coloração castanho claro ou escuro e formato circular. Após dias de infecção, uredósporos saõ liberados e causam danos à planta por completo.",
+      ParagrafoDoencas_6:"O controle inicia-se com a eliminação de trevos, que é hospedeiro da doença, presentes na lavoura por meio de herbicidas e logo depois, aplicação de fungicidas para diminuir a presença da ferrugem. Para evitar esta enfermidade, o uso de cultivares resistentes, locais de plantio desfavoráveis para o desenvolvimento da doença e retirada de hospedeiros, são atitudes recomendadas.",
+      DoencasTitulo_2:"Helmintosporiose (Exserohilum turcicum)",
+      ParagrafoDoencas_7:"Com frequente aparição em plantios de milho safrinha,  antes do período de floração, as perdas de produção alcançam 50%. A doença é identificada quando, lesões na folhas podendo chegar a 15 cm de comprimento, coloração de tecido variando de cinza a morrom e com produção de esporos, percebe-se a presença da doença. A Helmintosporiose, consegue se manter em restos de plantio, presença de orvalho e até mesmo em olhas molhadas, com maior incidência em regiôes que apresentam temperaturas de 18° a 27°C.",
+      ParagrafoDoencas_8:"O controle pode ser realizado com escolha correta de local do plantio, rotação de culturas, cultivares com maior resistência, adubação equilibrada e aplicação de fungicidas.",
+ 
     };
 
   var SOJAdb = {

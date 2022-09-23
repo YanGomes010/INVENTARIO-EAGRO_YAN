@@ -530,6 +530,34 @@ function criarMILHO() {
   ImgDoenca_0.setAttribute("class", "ImgILUSTRA");
   divImgDoenca_0.appendChild(ImgDoenca_0);
 
+  
+  let NomeDoenca_1 = document.createElement("h4");
+  let ParagrafoDoencas_1 = document.createElement("p");
+  let ParagrafoDoencas_1_1 = document.createElement("p");
+  let divImgDoenca_1 = document.createElement("div");
+  let ImgDoenca_1 = document.createElement("img");
+  NomeDoenca_1.innerText = MILHOdb.DoencasTitulo_1;
+  ParagrafoDoencas_1.innerText = MILHOdb.ParagrafoDoencas_5;
+  ParagrafoDoencas_1_1.innerText = MILHOdb.ParagrafoDoencas_6;
+  divImgDoenca_1.setAttribute("class", "divImgILUSTRA");
+  ImgDoenca_1.src = "./images/ferrugem-comum.png";
+  ImgDoenca_1.setAttribute("class", "ImgILUSTRA");
+  divImgDoenca_1.appendChild(ImgDoenca_1);
+
+
+  let NomeDoenca_2 = document.createElement("h4");
+  let ParagrafoDoencas_2 = document.createElement("p");
+  let ParagrafoDoencas_2_1 = document.createElement("p");
+  let divImgDoenca_2 = document.createElement("div");
+  let ImgDoenca_2 = document.createElement("img");
+  NomeDoenca_2.innerText = MILHOdb.DoencasTitulo_2;
+  ParagrafoDoencas_2.innerText = MILHOdb.ParagrafoDoencas_7;
+  ParagrafoDoencas_2_1.innerText = MILHOdb.ParagrafoDoencas_8;
+  divImgDoenca_2.setAttribute("class", "divImgILUSTRA");
+  ImgDoenca_2.src = "./images/helmintosprose.png";
+  ImgDoenca_2.setAttribute("class", "ImgILUSTRA");
+  divImgDoenca_2.appendChild(ImgDoenca_2);
+
 
   DIVdoencas.appendChild(doencas);
   DIVdoencas.appendChild(ParagrafoDoencas_um);
@@ -538,7 +566,15 @@ function criarMILHO() {
   DIVdoencas.appendChild(NomeDoenca_0)
   DIVdoencas.appendChild(ParagrafoDoencas_0)
   DIVdoencas.appendChild(divImgDoenca_0)
-  DIVdoencas.append(ParagrafoDoencas_0_1)
+  DIVdoencas.appendChild(ParagrafoDoencas_0_1)
+  DIVdoencas.appendChild(NomeDoenca_1)
+  DIVdoencas.appendChild(ParagrafoDoencas_1)
+  DIVdoencas.appendChild(divImgDoenca_1)
+  DIVdoencas.appendChild(ParagrafoDoencas_1_1)
+  DIVdoencas.appendChild(NomeDoenca_2)
+  DIVdoencas.appendChild(ParagrafoDoencas_2)
+  DIVdoencas.appendChild(divImgDoenca_2)
+  DIVdoencas.appendChild(ParagrafoDoencas_2_1)
   //------------------------------------------------------------
   //
   //
@@ -551,6 +587,7 @@ function criarMILHO() {
   let spanFonte1 = document.createElement("span");
   let spanFonte2 = document.createElement("span");
   let spanFonte3 = document.createElement("span");
+  let spanFonte4 = document.createElement("span");
   divFonte.setAttribute("id", "divFonte");
   spanFonte.innerText = "EMBRAPA. Sistema de Produção, 1 ISSN 1679-012X. 2012.";
   spanFonte1.innerText =
@@ -558,13 +595,15 @@ function criarMILHO() {
   spanFonte2.innerText =
     "EQUIPE MAIS SOJA.; O milho é sensível a fotoperíodo?. 2020.";
   spanFonte3.innerText = "BLOG AEGRO.; blog.aegro.com.br/larva-arame/" 
+  spanFonte4.innerText = "AGROLINK.; https://www.agrolink.com.br/culturas/problema/helmintosporiose_1690.html" 
 
    
 
   divFonte.appendChild(spanFonte);
   divFonte.appendChild(spanFonte1);
   divFonte.appendChild(spanFonte2);
-  divFonte.appendChild(spanFonte3)
+  divFonte.appendChild(spanFonte3);
+  divFonte.appendChild(spanFonte4);
   //------------------------------------------------------------
   //
   //
