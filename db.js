@@ -7,7 +7,7 @@ var MILHOdb = {
       "O milho é uma das “commodities” agricolas mais importantes do mercado atualmente. No Brasil, este tipo de gramínea é cultivada em pequenas propriedades familiares e também em latifúndios com produção em grande escala. Com ótima adaptabilidade, o milho se tornou uma potência no mercado mundial e tem grande influência em plantios com rotação de culturas, como em conjunto com a soja.",
     Clima: "CLIMA",
     infoClima:
-      "Para atingir a máxima produtividade, a cultivar deve ser plantada numa época com boa distribuição de chuva. Após a semeadura, para que haja boa germinação das sementes e que o milho tenha vigor durante o crescimento, deverá ser cultivado em uma temperatura de 25°C a 30°C.",
+      " Para atingir a máxima produtividade, a cultivar deve ser plantada numa época com boa distribuição de chuva e consumir durante todo o ciclo, 500 a 800mm de água. Após a semeadura, para que haja boa germinação das sementes e que o milho tenha vigor durante o crescimento, deverá ser cultivado em uma temperatura de 25°C a 30°C.Em caso de umidade muito alta, a incidência de doenças aumenta e, maior probabilidade de grãos ardidos. Caso a umidade seja baixa, a qualidade do grão no momento da colheita, é favorecida.",
     temperatura: "TEMPERATURA",
     infoTemperatura:
       "Como fator extrínseco, para o desenvolvimento da cultivar, a temperatura é muito importante pois é fundamental para o crescimento saúdavel. Dias e noites com ambiente frio, aumentam o ciclo e a perda de rendimento, enquanto periodos diurnos  que não ultrapassem 30°C e que não tenham o ar abaixo de 16°C, diminuem o ciclo da planta, assim, tornando a colheita mais próxima.",
@@ -69,7 +69,6 @@ var MILHOdb = {
       "A cigrarrinha é uma das principais pragas, pois é a transmissora do virus raiado fino e das doenças de enfezamentos vermelho e pálido. O inseto é capaz de gerar perda de quase 100% da lavoura quando não é controlado, um prejuízo grandioso para o produtor. Após 4 semanes de infecção da planta, as folhas começam a perder coloração, murcham e causam a morte da planta por não ter como realizar a fotossíntese. Em períodos de plantio do milho safrinha, a cigarrinha tem maior incidência.",
       ParagrafoPragas_11:
 "O controle é normalmente pelo plantio de cultivares mais resistentes, plantio em menor quantidade e por inseticidas.", 
-      
       Doencas: "DOENÇAS",
     ParagrafoDoencas_0:
       "As doenças vem tomando atenção de todos no cenário de cultivo de milho, as perdas de produtividade devido ao ataque desses agentes patógenos tem sido cada vez maiores e frequentes nas regiões produtoras no Brasil. As modificações nos sistemas de produção e o aumento da produtividade nas lavouras,  são responsáveis pela grande incidência e da gravidade das doenças. Novos problemas com esses patógenos vem sendo mais comuns a cada cultivo, pela falta de rotação de culturas, uso de materiais corretos, adoção do plantio direto, ampliação das épocas de plantio.",
@@ -86,6 +85,14 @@ var MILHOdb = {
       DoencasTitulo_2:"Helmintosporiose (Exserohilum turcicum)",
       ParagrafoDoencas_7:"Com frequente aparição em plantios de milho safrinha,  antes do período de floração, as perdas de produção alcançam 50%. A doença é identificada quando, lesões na folhas podendo chegar a 15 cm de comprimento, coloração de tecido variando de cinza a morrom e com produção de esporos, percebe-se a presença da doença. A Helmintosporiose, consegue se manter em restos de plantio, presença de orvalho e até mesmo em olhas molhadas, com maior incidência em regiôes que apresentam temperaturas de 18° a 27°C.",
       ParagrafoDoencas_8:"O controle pode ser realizado com escolha correta de local do plantio, rotação de culturas, cultivares com maior resistência, adubação equilibrada e aplicação de fungicidas.",
+      DoencasTitulo_3:"Enfezamentos",
+      ParagrafoDoencas_9:"Com grande ocorrência nas principais regiões produtoras de milho, o enfezamento, causa perdas elevadas na produtividade. Cultivos tardios, como em janeiro, colaboram no crescimento da incidência de perdas causadas pela doença, justamente pelo aumento da população da cigarrinha durante o inicio do ano. A doença é dividida em vermelho e pálido. O enfezamento vermelho é causado pelo fitoplasma, já o pálido, é causado por patógenos que são transmitidos pela cigarrinha-do-milho.",
+      ParagrafoDoencas_10:"Enfezamento vermelho: Folhas avermelhadas, espigas de tamanho inferior, axilas foliares e base da planta perfilhadas, seca por completo da cultivar, encurtamento dos entrenós, são seus sintomas. (Embrapa. 2015.)",
+      ParagrafoDoencas_11:"Enfezamento pálido: Estrias brancas nas folhas, amarelecimento da planta e áreas vermelhadas nas folhas apicais, são  sintomas da doença. Os sintomas são mais evidentes na fase enchimento de grãos, porém, para diagnosticar corretamente, exames em laboratório fazem-se necessários. (Embrapa. 2015.)",
+      ParagrafoDoencas_12:"O manejo de controle dos enfezamentos, baseia-se na utilização de cultivares resistentes. Para evitar que a doença apareça, medidas preventivas podem ser tomadas, como: Descanso do solo de dois a três meses sem cultivo do milho, alteração da época de semeadura, adotar rotação de culturas e plantio em momento correto.",
+      DoencasTitulo_4:"Ferrugem Tropical ou Ferrugem Branca (Physopella zeae)",
+      ParagrafoDoencas_13:"Em áreas com plantios continuos e irrigadas, a ferrugem possui grande incidência. Caracterizada por pústulas brancas ovais, cor branca a amarelada e coberta por epiderme. Os esporos são levados pelo vento para plantas nã infectadas, assim, gerando contaminação em massa da lavoura. Em plantios de milho safrinha e que possui clima com temperaturas entre 22° e 34° C,  possuem maiores chances do aparecimento da doença.",
+      ParagrafoDoencas_14:"O manejo pode ser realizado com fungicidas, rotação de culturas e plantio de híbridos resistentes. Caso haja infecção na lavoura, para o próximo plantio, deve ser realizada rotação de culturas e no plantio subsequente, seja utilizado um novo híbrido de milho.",
  
     };
 

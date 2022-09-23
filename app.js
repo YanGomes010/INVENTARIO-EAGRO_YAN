@@ -239,12 +239,20 @@ function criarMILHO() {
   let DIVcondicoes = document.createElement("div");
   let condicoes = document.createElement("h2");
   let textCONDICOES = document.createElement("p");
+  let divImgClima = document.createElement("div");
+  let ImgClima = document.createElement("img");
+  divImgClima.setAttribute("class", "divImgILUSTRA");
+  ImgClima.src = "./images/clima-milho.png";
+  ImgClima.setAttribute("class","ImgILUSTRA")
   DIVcondicoes.setAttribute("class", "Clima sectionStyle");
   condicoes.innerText = MILHOdb.Clima;
   textCONDICOES.innerText = MILHOdb.infoClima;
 
+  divImgClima.appendChild(ImgClima)
+
   DIVcondicoes.appendChild(condicoes);
   DIVcondicoes.appendChild(textCONDICOES);
+  DIVcondicoes.appendChild(divImgClima)
 
   //------------------------------------------------------------
   //
@@ -256,12 +264,20 @@ function criarMILHO() {
   let DIVtemperatura = document.createElement("div");
   let temperatura = document.createElement("h2");
   let textTemperatura = document.createElement("p");
+  let divImgTemperatura = document.createElement("div");
+  let ImgTemperatura = document.createElement("img");
+  divImgTemperatura.setAttribute("class", "divImgILUSTRA");
+  ImgTemperatura.src = "./images/Temperatura-milho.png";
+  ImgTemperatura.setAttribute("class","ImgILUSTRA")
   DIVtemperatura.setAttribute("class", "temperatura sectionStyle");
   temperatura.innerText = MILHOdb.temperatura;
   textTemperatura.innerText = MILHOdb.infoTemperatura;
 
+  divImgTemperatura.appendChild(ImgTemperatura)
+
   DIVtemperatura.appendChild(temperatura);
   DIVtemperatura.appendChild(textTemperatura);
+  DIVtemperatura.appendChild(divImgTemperatura)
   //------------------------------------------------------------
   //
   //
@@ -559,6 +575,56 @@ function criarMILHO() {
   divImgDoenca_2.appendChild(ImgDoenca_2);
 
 
+
+  //ENFEZAMENTOS-------------------------------------------------------------------------------
+
+
+  let NomeDoenca_3 = document.createElement("h4");
+  let ParagrafoDoencas_3 = document.createElement("p");
+  let ParagrafoDoencas_3_1 = document.createElement("p");
+  let ParagrafoDoencas_3_2 = document.createElement("p");
+  let ParagrafoDoencas_3_3 = document.createElement("p");
+  let divImgDoenca_3 = document.createElement("div");
+  let ImgDoenca_3 = document.createElement("img");
+  let divImgDoenca_3_1 = document.createElement("div");
+  let ImgDoenca_3_1 = document.createElement("img");
+  let divImgDoenca_3_2 = document.createElement("div");
+  let ImgDoenca_3_2 = document.createElement("img");
+  NomeDoenca_3.innerText = MILHOdb.DoencasTitulo_3;
+  ParagrafoDoencas_3.innerText = MILHOdb.ParagrafoDoencas_9;
+  ParagrafoDoencas_3_1.innerText = MILHOdb.ParagrafoDoencas_10;
+  ParagrafoDoencas_3_2.innerText = MILHOdb.ParagrafoDoencas_11;
+  ParagrafoDoencas_3_3.innerText = MILHOdb.ParagrafoDoencas_12;
+  divImgDoenca_3.setAttribute("class", "divImgILUSTRA");
+  ImgDoenca_3.src = "./images/enfezamentos.png";
+  ImgDoenca_3.setAttribute("class", "ImgILUSTRA");
+  divImgDoenca_3_1.setAttribute("class", "divImgILUSTRA");
+  ImgDoenca_3_1.src = "./images/enfezamento-vermelho.png";
+  ImgDoenca_3_1.setAttribute("class", "ImgILUSTRA");
+  divImgDoenca_3_2.setAttribute("class", "divImgILUSTRA");
+  ImgDoenca_3_2.src = "./images/enfezamento-palido.png";
+  ImgDoenca_3_2.setAttribute("class", "ImgILUSTRA");
+  divImgDoenca_3.appendChild(ImgDoenca_3);
+  divImgDoenca_3_1.appendChild(ImgDoenca_3_1);
+  divImgDoenca_3_2.appendChild(ImgDoenca_3_2);
+
+  //------------------------------------------------------------------------------------------
+
+
+  let NomeDoenca_4 = document.createElement("h4");
+  let ParagrafoDoencas_4 = document.createElement("p");
+  let ParagrafoDoencas_4_1 = document.createElement("p");
+  let divImgDoenca_4 = document.createElement("div");
+  let ImgDoenca_4 = document.createElement("img");
+  NomeDoenca_4.innerText = MILHOdb.DoencasTitulo_4;
+  ParagrafoDoencas_4.innerText = MILHOdb.ParagrafoDoencas_13;
+  ParagrafoDoencas_4_1.innerText = MILHOdb.ParagrafoDoencas_14;
+  divImgDoenca_4.setAttribute("class", "divImgILUSTRA");
+  ImgDoenca_4.src = "./images/ferrugem-tropical.png";
+  ImgDoenca_4.setAttribute("class", "ImgILUSTRA");
+  divImgDoenca_4.appendChild(ImgDoenca_4);
+
+
   DIVdoencas.appendChild(doencas);
   DIVdoencas.appendChild(ParagrafoDoencas_um);
   DIVdoencas.appendChild(ParagrafoDoencas_dois);
@@ -575,6 +641,17 @@ function criarMILHO() {
   DIVdoencas.appendChild(ParagrafoDoencas_2)
   DIVdoencas.appendChild(divImgDoenca_2)
   DIVdoencas.appendChild(ParagrafoDoencas_2_1)
+  DIVdoencas.appendChild(NomeDoenca_3)
+  DIVdoencas.appendChild(ParagrafoDoencas_3)
+  DIVdoencas.appendChild(divImgDoenca_3)
+  DIVdoencas.appendChild(ParagrafoDoencas_3_1)
+  DIVdoencas.appendChild(divImgDoenca_3_1)
+  DIVdoencas.appendChild(ParagrafoDoencas_3_2)
+  DIVdoencas.appendChild(divImgDoenca_3_2)
+  DIVdoencas.appendChild(NomeDoenca_4)
+  DIVdoencas.appendChild(ParagrafoDoencas_4)
+  DIVdoencas.appendChild(divImgDoenca_4)
+  DIVdoencas.appendChild(ParagrafoDoencas_4_1)
   //------------------------------------------------------------
   //
   //
