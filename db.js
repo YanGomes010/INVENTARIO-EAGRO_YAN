@@ -77,6 +77,9 @@ var MILHOdb = {
       "O milho é atacada por diversas doenças, alguma merecem destaque, tais como: mancha branca, ferrugem tropical, pálido, cercosporiose, ferrugem polissora, enfezamentos vermelho, grãos ardidos e podridão do colmo. A aparição destas doenças varia de acordo com o ano de plantio, condições climáticas, nivel de suscetibilidade, sistema de plantio  e da região de cultivo.",
       ParagrafoDoencas_2:
       "Segundo a Embrapa, as medidas para combate dessas doenças são: Utilizar sementes de boa quaidade e tratadas com fungicidas, rotação de culturas, rotação de cultivares, correto manejo da lavoura e plantio em época correta. Essas ações, contribuem para maior durabilidade e estabilidade de resistência genética presentes na cultivares comerciais e redução de inóculo de patógenos.",
+      DoencasTitulo_0:"Ferrugem Polissora (Puccinia polysora Underw.)",
+      ParagrafoDoencas_3:"Causando cerca de 40% de prejuizos na lavoura, essa doença é muito comum nas regiões sul, sudeste e centro-oeste do Brasil. Pústulas circulares a ovais de coloração marron, na parte superior da folha, caracteriza o sintoma desta doenças. Em áreas com temperaturas entre 25° a 30° C, à grande incidência desta doença.",
+      ParagrafoDoencas_4:"O manejo desta enfermidade, é baseado em fungincidas, escolha correta da época de plantio, local de cultivo e aquisição de cultivares híbridas resistentes.",
     };
 
   var SOJAdb = {
