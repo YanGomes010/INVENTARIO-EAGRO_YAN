@@ -470,10 +470,36 @@ function criarMILHO() {
   ParagrafoDoencas_dois.innerText = MILHOdb.ParagrafoDoencas_1;
   ParagrafoDoencas_tres.innerText = MILHOdb.ParagrafoDoencas_2;
 
+  //------------------------------------------------------------
+  //
+  //
+  //CRIANDO TODAS DOENÇAS
+  //
+  //
+  //------------------------------------------------------------
+
+  let NomeDoenca_0 = document.createElement("h4");
+  let ParagrafoDoencas_0 = document.createElement("p");
+  let ParagrafoDoencas_0_1 = document.createElement("p");
+  let divImgDoenca_0 = document.createElement("div");
+  let ImgDoenca_0 = document.createElement("img");
+  NomeDoenca_0.innerText = MILHOdb.DoencasTitulo_0;
+  ParagrafoDoencas_0.innerText = MILHOdb.ParagrafoDoencas_3;
+  ParagrafoDoencas_0_1.innerText = MILHOdb.ParagrafoDoencas_4;
+  divImgDoenca_0.setAttribute("class", "divImgILUSTRA");
+  ImgDoenca_0.src = "./images/ferrugem-no-milho.png";
+  ImgDoenca_0.setAttribute("class", "ImgILUSTRA");
+  divImgDoenca_0.appendChild(ImgDoenca_0);
+
+
   DIVdoencas.appendChild(doencas);
   DIVdoencas.appendChild(ParagrafoDoencas_um);
   DIVdoencas.appendChild(ParagrafoDoencas_dois);
   DIVdoencas.appendChild(ParagrafoDoencas_tres);
+  DIVdoencas.appendChild(NomeDoenca_0)
+  DIVdoencas.appendChild(ParagrafoDoencas_0)
+  DIVdoencas.appendChild(divImgDoenca_0)
+  DIVdoencas.append(ParagrafoDoencas_0_1)
   //------------------------------------------------------------
   //
   //
