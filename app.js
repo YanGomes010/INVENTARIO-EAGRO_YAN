@@ -671,8 +671,10 @@ function criarMILHO() {
     "EMBRAPA.; BORGHI, E.; PEREIRA FILHO, I. A.; RESENDE, A. V. de; SILVA, D. D. da; MENDES, S. M.; SILVA, A. F. da. 2017. Embrapa Milho e Sorgo";
   spanFonte2.innerText =
     "EQUIPE MAIS SOJA.; O milho é sensível a fotoperíodo?. 2020.";
-  spanFonte3.innerText = "BLOG AEGRO.; blog.aegro.com.br/larva-arame/" 
-  spanFonte4.innerText = "AGROLINK.; https://www.agrolink.com.br/culturas/problema/helmintosporiose_1690.html" 
+  spanFonte3.innerText =
+  "BLOG AEGRO.; blog.aegro.com.br/larva-arame/" 
+  spanFonte4.innerText = 
+  "AGROLINK.;agrolink.com.br/culturas/"
 
    
 
@@ -681,6 +683,7 @@ function criarMILHO() {
   divFonte.appendChild(spanFonte2);
   divFonte.appendChild(spanFonte3);
   divFonte.appendChild(spanFonte4);
+ 
   //------------------------------------------------------------
   //
   //
