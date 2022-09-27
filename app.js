@@ -764,32 +764,42 @@ function criarMELANCIA() {
   //
   //
   //------------------------------------------------------------
-  let DIVcondicoes = document.createElement("div");
-  let condicoes = document.createElement("h2");
-  let textCONDICOES = document.createElement("p");
-  DIVcondicoes.setAttribute("class", "Clima sectionStyle");
-  condicoes.innerText = MELANCIAdb.Clima;
-  textCONDICOES.innerText = MELANCIAdb.infoClima;
+  let DIVClima = document.createElement("div");
+  let clima = document.createElement("h2");
+  let divImgClima_melancia_0 = document.createElement("div")
+  let divImgClima_melancia_1 = document.createElement("div")
+  let img_clima_0 = document.createElement("img")
+  let img_clima_1 = document.createElement("img")
+  let Paragrafo_melancia_um = document.createElement("p");
+  let Paragrafo_melancia_dois = document.createElement("p");
+  let Paragrafo_melancia_tres = document.createElement("p");
+  let Paragrafo_melancia_quatro = document.createElement("p");
+  DIVClima.setAttribute("class", "Clima sectionStyle");
+  divImgClima_melancia_0.setAttribute("class", "divImgILUSTRA");
+  divImgClima_melancia_1.setAttribute("class", "divImgILUSTRA");
+  img_clima_0.src = "./images/melancia_clima.png";
+  img_clima_1.src = "./images/melancia_fileiras.png";
+  img_clima_0.setAttribute("class","ImgILUSTRA")
+  img_clima_1.setAttribute("class","ImgILUSTRA")
+  
+  clima.innerText = MELANCIAdb.Clima;
+  Paragrafo_melancia_um.innerText = MELANCIAdb.Paragrafo_melancia_0;
+  Paragrafo_melancia_dois.innerText = MELANCIAdb.Paragrafo_melancia_1;
+  Paragrafo_melancia_tres.innerText = MELANCIAdb.Paragrafo_melancia_2;
+  Paragrafo_melancia_quatro.innerText = MELANCIAdb.Paragrafo_melancia_3;
 
-  DIVcondicoes.appendChild(condicoes);
-  DIVcondicoes.appendChild(textCONDICOES);
+  divImgClima_melancia_0.appendChild(img_clima_0)
+  divImgClima_melancia_1.appendChild(img_clima_1)
 
-  //------------------------------------------------------------
-  //
-  //
-  //CRIANDO TEMPERATURA
-  //
-  //
-  //------------------------------------------------------------
-  let DIVtemperatura = document.createElement("div");
-  let temperatura = document.createElement("h2");
-  let textTemperatura = document.createElement("p");
-  DIVtemperatura.setAttribute("class", "temperatura sectionStyle");
-  temperatura.innerText = MELANCIAdb.temperatura;
-  textTemperatura.innerText = MELANCIAdb.infoTemperatura;
+  DIVClima.appendChild(clima);
+  DIVClima.appendChild(Paragrafo_melancia_um);
+  DIVClima.appendChild(divImgClima_melancia_0)
+  DIVClima.appendChild(Paragrafo_melancia_dois);
+  DIVClima.appendChild(Paragrafo_melancia_tres);
+  DIVClima.appendChild(divImgClima_melancia_1)
+  DIVClima.appendChild(Paragrafo_melancia_quatro);
 
-  DIVtemperatura.appendChild(temperatura);
-  DIVtemperatura.appendChild(textTemperatura);
+ 
   //------------------------------------------------------------
   //
   //
@@ -799,13 +809,23 @@ function criarMELANCIA() {
   //------------------------------------------------------------
   let DIVSolo = document.createElement("div");
   let Solo = document.createElement("h2");
-  let textSolo = document.createElement("p");
+  let divImgSolo_melancia = document.createElement("div")
+  let Img_melancia = document.createElement("img")
+  let Paragrafo_melancia_4 = document.createElement("p");
+  let Paragrafo_melancia_5 = document.createElement("p");
   DIVSolo.setAttribute("class", "Solo sectionStyle");
+  divImgSolo_melancia.setAttribute("class", "divImgILUSTRA")
+  Img_melancia.setAttribute("class","ImgILUSTRA")
+  Img_melancia.src="./images/Hectare_melancia.png"
   Solo.innerText = MELANCIAdb.Solo;
-  textSolo.innerText = MELANCIAdb.infoSolo;
+  Paragrafo_melancia_4.innerText = MELANCIAdb.Paragrafo_melancia_4;
+  Paragrafo_melancia_5.innerText = MELANCIAdb.Paragrafo_melancia_5;
 
+  divImgSolo_melancia.appendChild(Img_melancia)
   DIVSolo.appendChild(Solo);
-  DIVSolo.appendChild(textSolo);
+  DIVSolo.appendChild(Paragrafo_melancia_4);
+  DIVSolo.appendChild(divImgSolo_melancia)
+  DIVSolo.appendChild(Paragrafo_melancia_5);
   //------------------------------------------------------------
   //
   //
@@ -876,8 +896,7 @@ function criarMELANCIA() {
   sectionMELANCIA.appendChild(divIMG);
   sectionMELANCIA.appendChild(divTITULO);
   sectionMELANCIA.appendChild(DIVintroducao);
-  sectionMELANCIA.appendChild(DIVcondicoes);
-  sectionMELANCIA.appendChild(DIVtemperatura);
+  sectionMELANCIA.appendChild(DIVClima);
   sectionMELANCIA.appendChild(DIVSolo);
   sectionMELANCIA.appendChild(DIVAdubacao);
   sectionMELANCIA.appendChild(DIVPragas);
@@ -1056,7 +1075,7 @@ function criarALFACE() {
   sectionALFACE.appendChild(divIMG);
   sectionALFACE.appendChild(divTITULO);
   sectionALFACE.appendChild(DIVintroducao);
-  sectionALFACE.appendChild(DIVcondicoes);
+  sectionALFACE.appendChild(DIVClima);
   sectionALFACE.appendChild(DIVtemperatura);
   sectionALFACE.appendChild(DIVSolo);
   sectionALFACE.appendChild(DIVAdubacao);
