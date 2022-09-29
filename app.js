@@ -832,16 +832,42 @@ function criarMELANCIA() {
   //CRIANDO Adubacao
   //
   //
-  //------------------------------------------------------------
+  //-----------------------------------------------------------
   let DIVAdubacao = document.createElement("div");
   let Adubacao = document.createElement("h2");
-  let textAdubacao = document.createElement("p");
+  let paragrafo_adubacao_melancia_um = document.createElement("p");
+  let paragrafo_adubacao_melancia_dois = document.createElement("p");
+  let paragrafo_adubacao_melancia_tres = document.createElement("p");
+  let paragrafo_adubacao_melancia_quatro = document.createElement("p");
+  let paragrafo_adubacao_melancia_cinco = document.createElement("p");
+  let DivImgAduboMelancia_um = document.createElement("div")
+  let DivImgAduboMelancia_dois = document.createElement("div")
+  let IMGAduboMelancia_um = document.createElement("img")
+  let IMGAduboMelancia_dois = document.createElement("img")
+  DivImgAduboMelancia_um.setAttribute("class", "divImgILUSTRA")
+  DivImgAduboMelancia_dois.setAttribute("class", "divImgILUSTRA")
+  IMGAduboMelancia_um.src="./images/ureia-melancia.png"
+  IMGAduboMelancia_dois.src="./images/melancia-imagem.png"
+  IMGAduboMelancia_um.setAttribute("class","ImgILUSTRA")
+  IMGAduboMelancia_dois.setAttribute("class","ImgILUSTRA")
   DIVAdubacao.setAttribute("class", "Adubacao sectionStyle");
   Adubacao.innerText = MELANCIAdb.Adubacao;
-  textAdubacao.innerText = MELANCIAdb.infoAdubacao;
+  paragrafo_adubacao_melancia_um.innerText = MELANCIAdb.Paragrafo_melancia_6;
+  paragrafo_adubacao_melancia_dois.innerText = MELANCIAdb.Paragrafo_melancia_7;
+  paragrafo_adubacao_melancia_tres.innerText = MELANCIAdb.Paragrafo_melancia_8;
+  paragrafo_adubacao_melancia_quatro.innerText = MELANCIAdb.Paragrafo_melancia_9;
+  paragrafo_adubacao_melancia_cinco.innerText = MELANCIAdb.Paragrafo_melancia_10;
 
+DivImgAduboMelancia_um.appendChild(IMGAduboMelancia_um)
+DivImgAduboMelancia_dois.appendChild(IMGAduboMelancia_dois)
   DIVAdubacao.appendChild(Adubacao);
-  DIVAdubacao.appendChild(textAdubacao);
+  DIVAdubacao.appendChild(paragrafo_adubacao_melancia_um);
+  DIVAdubacao.appendChild(DivImgAduboMelancia_um)
+  DIVAdubacao.appendChild(paragrafo_adubacao_melancia_dois);
+  DIVAdubacao.appendChild(paragrafo_adubacao_melancia_tres);
+  DIVAdubacao.appendChild(DivImgAduboMelancia_dois)
+  DIVAdubacao.appendChild(paragrafo_adubacao_melancia_quatro);
+  DIVAdubacao.appendChild(paragrafo_adubacao_melancia_cinco);
   //------------------------------------------------------------
   //
   //
@@ -897,8 +923,8 @@ function criarMELANCIA() {
   sectionMELANCIA.appendChild(divTITULO);
   sectionMELANCIA.appendChild(DIVintroducao);
   sectionMELANCIA.appendChild(DIVClima);
-  sectionMELANCIA.appendChild(DIVSolo);
   sectionMELANCIA.appendChild(DIVAdubacao);
+  sectionMELANCIA.appendChild(DIVSolo);
   sectionMELANCIA.appendChild(DIVPragas);
   sectionMELANCIA.appendChild(DIVdoencas);
   sectionMELANCIA.appendChild(spanFonte);
