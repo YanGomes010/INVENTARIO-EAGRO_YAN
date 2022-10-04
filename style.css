@@ -71,3 +71,7 @@ body {
     display: none;
 }
 
+#btnScroll{
+    width: 100px;
+    height: 100px;
+}

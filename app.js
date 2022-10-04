@@ -871,19 +871,113 @@ DivImgAduboMelancia_dois.appendChild(IMGAduboMelancia_dois)
   //------------------------------------------------------------
   //
   //
-  //CRIANDO DENSIDADE DO PLANTIO
+  //CRIANDO PRAGAS
   //
   //
   //------------------------------------------------------------
   let DIVPragas = document.createElement("div");
   let Pragas = document.createElement("h2");
-  let textPragas = document.createElement("p");
+  let NomeDoenca_melancia_0 = document.createElement("h4");
+  let NomeDoenca_melancia_1 = document.createElement("h4");
+  let NomeDoenca_melancia_2 = document.createElement("h4");
+  let NomeDoenca_melancia_3 = document.createElement("h4");
+  let NomeDoenca_melancia_4 = document.createElement("h4");
+  let DivImgPragas_melancia_0 = document.createElement("div")
+  let DivImgPragas_melancia_1 = document.createElement("div")
+  let DivImgPragas_melancia_2 = document.createElement("div")
+  let DivImgPragas_melancia_3 = document.createElement("div")
+  let DivImgPragas_melancia_4 = document.createElement("div")
+DivImgPragas_melancia_0.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_melancia_1.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_melancia_2.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_melancia_3.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_melancia_4.setAttribute("class", "divImgILUSTRA")
+  let ImgPragas_melancia_0 = document.createElement("img")
+  let ImgPragas_melancia_1 = document.createElement("img")
+  let ImgPragas_melancia_2 = document.createElement("img")
+  let ImgPragas_melancia_3 = document.createElement("img")
+  let ImgPragas_melancia_4 = document.createElement("img")
+  ImgPragas_melancia_0.setAttribute("class","ImgILUSTRA")
+  ImgPragas_melancia_1.setAttribute("class","ImgILUSTRA")
+  ImgPragas_melancia_2.setAttribute("class","ImgILUSTRA")
+  ImgPragas_melancia_3.setAttribute("class","ImgILUSTRA")
+  ImgPragas_melancia_4.setAttribute("class","ImgILUSTRA")
+  let Paragrafo_praga_um = document.createElement("p");
+  let Paragrafo_praga_dois = document.createElement("p");
+  let Paragrafo_praga_tres = document.createElement("p");
+  let Paragrafo_praga_quatro = document.createElement("p");
+  let Paragrafo_praga_cinco = document.createElement("p");
+  let Paragrafo_praga_seis = document.createElement("p");
+  let Paragrafo_praga_sete = document.createElement("p");
+  let Paragrafo_praga_oito = document.createElement("p");
+  let Paragrafo_praga_nove = document.createElement("p");
+  let Paragrafo_praga_dez = document.createElement("p");
+  let Paragrafo_praga_onze = document.createElement("p");
   DIVPragas.setAttribute("class", "Pragas sectionStyle");
   Pragas.innerText = MELANCIAdb.Pragas;
-  textPragas.innerText = MELANCIAdb.infoPragas;
+  Paragrafo_praga_um.innerText = MELANCIAdb.ParagrafoPragas_melancia_0;
+  Paragrafo_praga_dois.innerText = MELANCIAdb.ParagrafoPragas_melancia_1;
+  Paragrafo_praga_tres.innerText = MELANCIAdb.ParagrafoPragas_melancia_2;
+  Paragrafo_praga_quatro.innerText = MELANCIAdb.ParagrafoPragas_melancia_3;
+  Paragrafo_praga_cinco.innerText = MELANCIAdb.ParagrafoPragas_melancia_4;
+  Paragrafo_praga_seis.innerText = MELANCIAdb.ParagrafoPragas_melancia_5;
+  Paragrafo_praga_sete.innerText = MELANCIAdb.ParagrafoPragas_melancia_6;
+  Paragrafo_praga_oito.innerText = MELANCIAdb.ParagrafoPragas_melancia_7;
+  Paragrafo_praga_nove.innerText = MELANCIAdb.ParagrafoPragas_melancia_8;
+  Paragrafo_praga_dez.innerText = MELANCIAdb.ParagrafoPragas_melancia_9;
+  Paragrafo_praga_onze.innerText = MELANCIAdb.ParagrafoPragas_melancia_10;
+
+
+
+
+
+NomeDoenca_melancia_0.innerText=MELANCIAdb.MelanciaPragas_0
+NomeDoenca_melancia_1.innerText=MELANCIAdb.MelanciaPragas_1
+NomeDoenca_melancia_2.innerText=MELANCIAdb.MelanciaPragas_2
+NomeDoenca_melancia_3.innerText=MELANCIAdb.MelanciaPragas_3
+NomeDoenca_melancia_4.innerText=MELANCIAdb.MelanciaPragas_4
+
+  //Adicionando imagens
+
+  ImgPragas_melancia_0.src="./images/lagarta-rosca.svg"
+  ImgPragas_melancia_1.src="./images/vaquinha.svg"
+  ImgPragas_melancia_2.src="./images/pulgao.svg"
+  ImgPragas_melancia_3.src="./images/broca-melancia.svg"
+  ImgPragas_melancia_4.src="./images/mosca-branca.svg"
+
+  DivImgPragas_melancia_0.appendChild(ImgPragas_melancia_0)
+  DivImgPragas_melancia_1.appendChild(ImgPragas_melancia_1)
+  DivImgPragas_melancia_2.appendChild(ImgPragas_melancia_2)
+  DivImgPragas_melancia_3.appendChild(ImgPragas_melancia_3)
+  DivImgPragas_melancia_4.appendChild(ImgPragas_melancia_4)
+
+
+
+
+
 
   DIVPragas.appendChild(Pragas);
-  DIVPragas.appendChild(textPragas);
+  DIVPragas.appendChild(Paragrafo_praga_um);
+  DIVPragas.appendChild(NomeDoenca_melancia_0)
+  DIVPragas.appendChild(Paragrafo_praga_dois);
+  DIVPragas.appendChild(DivImgPragas_melancia_0)
+  DIVPragas.appendChild(Paragrafo_praga_tres);
+  DIVPragas.appendChild(NomeDoenca_melancia_1)
+  DIVPragas.appendChild(Paragrafo_praga_quatro);
+  DIVPragas.appendChild(DivImgPragas_melancia_1)
+  DIVPragas.appendChild(Paragrafo_praga_cinco);
+  DIVPragas.appendChild(NomeDoenca_melancia_2)
+  DIVPragas.appendChild(Paragrafo_praga_seis);
+  DIVPragas.appendChild(DivImgPragas_melancia_2)
+  DIVPragas.appendChild(Paragrafo_praga_sete);
+  DIVPragas.appendChild(NomeDoenca_melancia_3)
+  DIVPragas.appendChild(Paragrafo_praga_oito);
+  DIVPragas.appendChild(DivImgPragas_melancia_3)
+  DIVPragas.appendChild(Paragrafo_praga_nove);
+  DIVPragas.appendChild(NomeDoenca_melancia_4)
+  DIVPragas.appendChild(Paragrafo_praga_dez);
+  DIVPragas.appendChild(DivImgPragas_melancia_4)
+  DIVPragas.appendChild(Paragrafo_praga_onze);
   //------------------------------------------------------------
   //
   //

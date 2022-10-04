@@ -2,7 +2,7 @@
 var MILHOdb = {
     titulo: "CULTURA DO MILHO",
     subtitulo:
-      "Como plantar milho: Clima, temperatura, solo, adubação, pragas e doenças.",
+      "Como plantar milho: Clima, temperatura, solo, adubação, principais principais pragas e doenças.",
     introducao:
       "O milho é uma das “commodities” agricolas mais importantes do mercado atualmente. No Brasil, este tipo de gramínea é cultivada em pequenas propriedades familiares e também em latifúndios com produção em grande escala. Com ótima adaptabilidade, o milho se tornou uma potência no mercado mundial e tem grande influência em plantios com rotação de culturas, como em conjunto com a soja.",
     Clima: "CLIMA",
@@ -99,7 +99,7 @@ var MILHOdb = {
   var SOJAdb = {
     titulo: "CULTURA DA SOJA",
     subtitulo:
-      "Como plantar milho: Clima, temperatura, solo, adubação, pragas e doenças.",
+      "Como plantar milho: Clima, temperatura, solo, adubação, principais pragas e doenças.",
     introducao:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     Clima: "CLIMA",
@@ -126,7 +126,7 @@ var MILHOdb = {
   var ALFACEdb = {
     titulo: "CULTURA DA ALFACE",
     subtitulo:
-      "Como plantar milho: Clima, temperatura, solo, adubação, pragas e doenças.",
+      "Como plantar milho: Clima, temperatura, solo, adubação, principais pragas e doenças.",
     introducao:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     Clima: "CLIMA",
@@ -175,10 +175,36 @@ var MILHOdb = {
       "Micronutrientes essenciais para a cultura, são:  Boro, ferro, manganês, zinco, molibdênio e cobre. Para que a planta tenha acesso a eles, a aplicação de 15 a 20 kg/ha ou 10g por cova de FTE BR-12(substância composta de vários nutrientes) e 10 a 15kg/ha ou 12g por cova de sulfato de zinco, precisam estar incluidos no ato de incorporação dos fertilizantes para que a planta atinja 100% de sua produtividade..",
       Paragrafo_melancia_10:
       "Adubações orgânicas também são recomendadas em solos pobres, a aplicação deve estar na faixa de 5kg a 10kg/cova de esterco bovino ou 1kg a 2kg/cova de esterco de galinha e devem ser incorporados juntos com a terra retirada da cova, que será recolocada na hora do plantio.",
-    
     Pragas: "PRAGAS",
-    infoPragas:
+    ParagrafoPragas_melancia_0:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      MelanciaPragas_0:"Lagarta-Rosca (Agrotis ipsilon)",
+      ParagrafoPragas_melancia_1:
+      "A Lagarta-rosca permanece durante o dia enterrada no solo e próxima de onde a planta alvo está localizada, quando a noite chega, a praga ataca as plântulas, assim murchando e tombando a planta. Cultivares que estão bem desenvolvidas conseguem se recuperar, porém tem sua produção afetada. ",
+      ParagrafoPragas_melancia_2:
+      "O controle pode ser realizado através de inseticida sistêmico aplicado na semente ou no solo e retirada de plantas invasoras hospedeiras, já que a proliferação é rápida.  O controle também pode ser realizado através inseticida sem odor, iscas preparadas a base de farelo e melaço (AGROLINK). ",
+      MelanciaPragas_1:"Vaquinha verde-amarela (Diabrotica speciosa)",
+      ParagrafoPragas_melancia_3:
+      "A vaquinha verde-amarela reduz o número de raízes nas plantas, diminui a absorção de nutrientes , estimula o tombamento da cultivar, destrói as folhas e flores novas, assim prejudicando a produção de frutos. A praga pode gerar grandes danos econômicos porque ataca em qualquer momento do ciclo da cultura.",
+      ParagrafoPragas_melancia_4:
+      "O controle pode ser realizado através de um bom preparo de solo, inseticidas aplicados diretamente nas folhas por meio de pulverização e tratamento das sementes.",
+      MelanciaPragas_2:"Pulgões (Aphis gossypii)",
+      ParagrafoPragas_melancia_5:
+      "Os pulgões picam a planta para se alimentar da seiva e por causa dessa ação, podem ocorrer o enrugamento foliar (encarquilhamento), deformação de brotos, transmissão de vírus e introdução de toxinas nas plantas. Além disso, a praga expeli um líquido açucarado, assim atraindo formigas, logo a fotossíntese e a respiração são comprometidas, levando ao enfraquecimento e morte da cultivar.",
+      ParagrafoPragas_melancia_6:
+      "O controle pode ser realizado através de inseticidas específicos para os pulgões e com efeito residual longo.",
+      MelanciaPragas_3:"Broca-das-cucurbitáceas (Diaphania nitidalis)",
+      ParagrafoPragas_melancia_7:
+      "A broca bloqueia o crescimento de novos frutos, ramos, folhas e brotos. Dentro dos frutos, as larvas desta praga abrem galerias e se alimentam da polpa, assim provocando o apodrecimento. A praga adulta possui asas brancas e uma faixa escura e ataca com frequência as folhas.",
+      ParagrafoPragas_melancia_8:
+      "O controle pode ser realizado por meio de inseticidas especificos e não deve ser aplicado em folhas que ainda não estão abertas. Iscas de abobrinhas intercaladas com melancias, podem ser pulverizadas para diminuição e controle da praga.",
+      MelanciaPragas_4:"Mosca-branca (Bemisia tabaci)",
+      ParagrafoPragas_melancia_9:
+      "A mosca-branca se alimentar da seiva da planta e injeta toxinas e vírus, causando o enfraquecimento da planta e queda da produção. As fezes da praga estimulam o aparecimento de fungos, que prejudicam a respiração e fotossíntese (EMBRAPA, 2007).",
+      ParagrafoPragas_melancia_10:
+      "O controle pode ser realizado por meio da aplicação de inseticidas carbamatos sistêmicos nas sementes ou inseticida granudo aplicado no sulco da planta (AGROLINK). Porém, o uso deve ser cuidadoso, pois a mosca adquiri resistência muito rápido aos inseticidas.",
+
+
     Doencas: "DOENÇAS",
     infoDoencas:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",

@@ -13,6 +13,7 @@ window.addEventListener("load", () => {
   criarCardsAgricolas();
   criarCardsJardim();
   menuMobile();
+  ScrollTop();
 });
 
 //Main
@@ -181,6 +182,12 @@ function menuMobile() {
   baseMenu.appendChild(jardimMenu);
 
   footer.appendChild(baseMenu);
+}
+
+
+function ScrollTop(){
+  let btnScroll = document.createElement("div")
+  btnScroll.setAttribute("id","btnScroll")
 }
 
 //Filtro de jardim
