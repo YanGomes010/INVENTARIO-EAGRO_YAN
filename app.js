@@ -877,11 +877,11 @@ DivImgAduboMelancia_dois.appendChild(IMGAduboMelancia_dois)
   //------------------------------------------------------------
   let DIVPragas = document.createElement("div");
   let Pragas = document.createElement("h2");
-  let NomeDoenca_melancia_0 = document.createElement("h4");
-  let NomeDoenca_melancia_1 = document.createElement("h4");
-  let NomeDoenca_melancia_2 = document.createElement("h4");
-  let NomeDoenca_melancia_3 = document.createElement("h4");
-  let NomeDoenca_melancia_4 = document.createElement("h4");
+  let NomePraga_melancia_0 = document.createElement("h4");
+  let NomePraga_melancia_1 = document.createElement("h4");
+  let NomePraga_melancia_2 = document.createElement("h4");
+  let NomePraga_melancia_3 = document.createElement("h4");
+  let NomePraga_melancia_4 = document.createElement("h4");
   let DivImgPragas_melancia_0 = document.createElement("div")
   let DivImgPragas_melancia_1 = document.createElement("div")
   let DivImgPragas_melancia_2 = document.createElement("div")
@@ -931,11 +931,11 @@ DivImgPragas_melancia_4.setAttribute("class", "divImgILUSTRA")
 
 
 
-NomeDoenca_melancia_0.innerText=MELANCIAdb.MelanciaPragas_0
-NomeDoenca_melancia_1.innerText=MELANCIAdb.MelanciaPragas_1
-NomeDoenca_melancia_2.innerText=MELANCIAdb.MelanciaPragas_2
-NomeDoenca_melancia_3.innerText=MELANCIAdb.MelanciaPragas_3
-NomeDoenca_melancia_4.innerText=MELANCIAdb.MelanciaPragas_4
+NomePraga_melancia_0.innerText=MELANCIAdb.MelanciaPragas_0
+NomePraga_melancia_1.innerText=MELANCIAdb.MelanciaPragas_1
+NomePraga_melancia_2.innerText=MELANCIAdb.MelanciaPragas_2
+NomePraga_melancia_3.innerText=MELANCIAdb.MelanciaPragas_3
+NomePraga_melancia_4.innerText=MELANCIAdb.MelanciaPragas_4
 
   //Adicionando imagens
 
@@ -958,23 +958,23 @@ NomeDoenca_melancia_4.innerText=MELANCIAdb.MelanciaPragas_4
 
   DIVPragas.appendChild(Pragas);
   DIVPragas.appendChild(Paragrafo_praga_um);
-  DIVPragas.appendChild(NomeDoenca_melancia_0)
+  DIVPragas.appendChild(NomePraga_melancia_0)
   DIVPragas.appendChild(Paragrafo_praga_dois);
   DIVPragas.appendChild(DivImgPragas_melancia_0)
   DIVPragas.appendChild(Paragrafo_praga_tres);
-  DIVPragas.appendChild(NomeDoenca_melancia_1)
+  DIVPragas.appendChild(NomePraga_melancia_1)
   DIVPragas.appendChild(Paragrafo_praga_quatro);
   DIVPragas.appendChild(DivImgPragas_melancia_1)
   DIVPragas.appendChild(Paragrafo_praga_cinco);
-  DIVPragas.appendChild(NomeDoenca_melancia_2)
+  DIVPragas.appendChild(NomePraga_melancia_2)
   DIVPragas.appendChild(Paragrafo_praga_seis);
   DIVPragas.appendChild(DivImgPragas_melancia_2)
   DIVPragas.appendChild(Paragrafo_praga_sete);
-  DIVPragas.appendChild(NomeDoenca_melancia_3)
+  DIVPragas.appendChild(NomePraga_melancia_3)
   DIVPragas.appendChild(Paragrafo_praga_oito);
   DIVPragas.appendChild(DivImgPragas_melancia_3)
   DIVPragas.appendChild(Paragrafo_praga_nove);
-  DIVPragas.appendChild(NomeDoenca_melancia_4)
+  DIVPragas.appendChild(NomePraga_melancia_4)
   DIVPragas.appendChild(Paragrafo_praga_dez);
   DIVPragas.appendChild(DivImgPragas_melancia_4)
   DIVPragas.appendChild(Paragrafo_praga_onze);
@@ -985,15 +985,110 @@ NomeDoenca_melancia_4.innerText=MELANCIAdb.MelanciaPragas_4
   //
   //
   //------------------------------------------------------------
-  let DIVdoencas = document.createElement("div");
-  let doencas = document.createElement("h2");
-  let textdoencas = document.createElement("p");
-  DIVdoencas.setAttribute("class", "doencas sectionStyle");
-  doencas.innerText = MELANCIAdb.Doencas;
-  textdoencas.innerText = MELANCIAdb.infoDoencas;
+  let DIVDoencas = document.createElement("div");
+  let Doencas = document.createElement("h2");
+  let NomeDoenca_melancia_0 = document.createElement("h4");
+  let NomeDoenca_melancia_1 = document.createElement("h4");
+  let NomeDoenca_melancia_2 = document.createElement("h4");
+  let NomeDoenca_melancia_3 = document.createElement("h4");
+  let NomeDoenca_melancia_4 = document.createElement("h4");
+  let DivImgDoencas_melancia_0 = document.createElement("div")
+  let DivImgDoencas_melancia_1 = document.createElement("div")
+  let DivImgDoencas_melancia_2 = document.createElement("div")
+  let DivImgDoencas_melancia_3 = document.createElement("div")
+  let DivImgDoencas_melancia_4 = document.createElement("div")
+DivImgDoencas_melancia_0.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_melancia_1.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_melancia_2.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_melancia_3.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_melancia_4.setAttribute("class", "divImgILUSTRA")
+  let ImgDoencas_melancia_0 = document.createElement("img")
+  let ImgDoencas_melancia_1 = document.createElement("img")
+  let ImgDoencas_melancia_2 = document.createElement("img")
+  let ImgDoencas_melancia_3 = document.createElement("img")
+  let ImgDoencas_melancia_4 = document.createElement("img")
+  ImgDoencas_melancia_0.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_melancia_1.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_melancia_2.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_melancia_3.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_melancia_4.setAttribute("class","ImgILUSTRA")
+  let Paragrafo_Doenca_um = document.createElement("p");
+  let Paragrafo_Doenca_dois = document.createElement("p");
+  let Paragrafo_Doenca_tres = document.createElement("p");
+  let Paragrafo_Doenca_quatro = document.createElement("p");
+  let Paragrafo_Doenca_cinco = document.createElement("p");
+  let Paragrafo_Doenca_seis = document.createElement("p");
+  let Paragrafo_Doenca_sete = document.createElement("p");
+  let Paragrafo_Doenca_oito = document.createElement("p");
+  let Paragrafo_Doenca_nove = document.createElement("p");
+  let Paragrafo_Doenca_dez = document.createElement("p");
+  let Paragrafo_Doenca_onze = document.createElement("p");
+  DIVDoencas.setAttribute("class", "Doencas sectionStyle");
+  Doencas.innerText = MELANCIAdb.Doencas;
+  Paragrafo_Doenca_um.innerText = MELANCIAdb.ParagrafoDoencas_melancia_0;
+  Paragrafo_Doenca_dois.innerText = MELANCIAdb.ParagrafoDoencas_melancia_1;
+  Paragrafo_Doenca_tres.innerText = MELANCIAdb.ParagrafoDoencas_melancia_2;
+  Paragrafo_Doenca_quatro.innerText = MELANCIAdb.ParagrafoDoencas_melancia_3;
+  Paragrafo_Doenca_cinco.innerText = MELANCIAdb.ParagrafoDoencas_melancia_4;
+  Paragrafo_Doenca_seis.innerText = MELANCIAdb.ParagrafoDoencas_melancia_5;
+  Paragrafo_Doenca_sete.innerText = MELANCIAdb.ParagrafoDoencas_melancia_6;
+  Paragrafo_Doenca_oito.innerText = MELANCIAdb.ParagrafoDoencas_melancia_7;
+  Paragrafo_Doenca_nove.innerText = MELANCIAdb.ParagrafoDoencas_melancia_8;
+  Paragrafo_Doenca_dez.innerText = MELANCIAdb.ParagrafoDoencas_melancia_9;
+  Paragrafo_Doenca_onze.innerText = MELANCIAdb.ParagrafoDoencas_melancia_10;
 
-  DIVdoencas.appendChild(doencas);
-  DIVdoencas.appendChild(textdoencas);
+
+
+
+
+NomeDoenca_melancia_0.innerText=MELANCIAdb.TituloDoencas_melancia_0
+NomeDoenca_melancia_1.innerText=MELANCIAdb.TituloDoencas_melancia_1
+NomeDoenca_melancia_2.innerText=MELANCIAdb.TituloDoencas_melancia_2
+NomeDoenca_melancia_3.innerText=MELANCIAdb.TituloDoencas_melancia_3
+NomeDoenca_melancia_4.innerText=MELANCIAdb.TituloDoencas_melancia_4
+
+  //Adicionando imagens
+
+  ImgDoencas_melancia_0.src="./images/tombamento.svg"
+  ImgDoencas_melancia_1.src="./images/antracnose.svg"
+  ImgDoencas_melancia_2.src="./images/oidio.svg"
+  ImgDoencas_melancia_3.src="./images/gomoso-do-caule.svg"
+  ImgDoencas_melancia_4.src="./images/mildio.svg"
+
+  DivImgDoencas_melancia_0.appendChild(ImgDoencas_melancia_0)
+  DivImgDoencas_melancia_1.appendChild(ImgDoencas_melancia_1)
+  DivImgDoencas_melancia_2.appendChild(ImgDoencas_melancia_2)
+  DivImgDoencas_melancia_3.appendChild(ImgDoencas_melancia_3)
+  DivImgDoencas_melancia_4.appendChild(ImgDoencas_melancia_4)
+
+
+
+
+
+
+  DIVDoencas.appendChild(Doencas);
+  DIVDoencas.appendChild(NomeDoenca_melancia_0)
+  DIVDoencas.appendChild(Paragrafo_Doenca_um);
+  DIVDoencas.appendChild(DivImgDoencas_melancia_0)
+  DIVDoencas.appendChild(Paragrafo_Doenca_dois);
+  DIVDoencas.appendChild(NomeDoenca_melancia_1)
+  DIVDoencas.appendChild(Paragrafo_Doenca_tres);
+  DIVDoencas.appendChild(DivImgDoencas_melancia_1)
+  DIVDoencas.appendChild(Paragrafo_Doenca_quatro);
+  DIVDoencas.appendChild(NomeDoenca_melancia_2)
+  DIVDoencas.appendChild(Paragrafo_Doenca_cinco);
+  DIVDoencas.appendChild(DivImgDoencas_melancia_2)
+  DIVDoencas.appendChild(Paragrafo_Doenca_seis);
+  DIVDoencas.appendChild(NomeDoenca_melancia_3)
+  DIVDoencas.appendChild(Paragrafo_Doenca_sete);
+  DIVDoencas.appendChild(DivImgDoencas_melancia_3)
+  DIVDoencas.appendChild(Paragrafo_Doenca_oito);
+  DIVDoencas.appendChild(NomeDoenca_melancia_4)
+  DIVDoencas.appendChild(Paragrafo_Doenca_nove);
+  DIVDoencas.appendChild(DivImgDoencas_melancia_4)
+  DIVDoencas.appendChild(Paragrafo_Doenca_dez);
+ 
+  
   //------------------------------------------------------------
   //
   //
@@ -1020,7 +1115,7 @@ NomeDoenca_melancia_4.innerText=MELANCIAdb.MelanciaPragas_4
   sectionMELANCIA.appendChild(DIVAdubacao);
   sectionMELANCIA.appendChild(DIVSolo);
   sectionMELANCIA.appendChild(DIVPragas);
-  sectionMELANCIA.appendChild(DIVdoencas);
+  sectionMELANCIA.appendChild(DIVDoencas);
   sectionMELANCIA.appendChild(spanFonte);
   main.appendChild(sectionMELANCIA);
 }
@@ -1079,7 +1174,7 @@ function criarALFACE() {
   //------------------------------------------------------------
   //
   //
-  //CRIANDO CONDIÇÕES CLIMATICAS
+  //CRIANDO CLIMA 
   //
   //
   //------------------------------------------------------------

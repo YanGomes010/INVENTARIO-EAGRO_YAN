@@ -203,10 +203,32 @@ var MILHOdb = {
       "A mosca-branca se alimentar da seiva da planta e injeta toxinas e vírus, causando o enfraquecimento da planta e queda da produção. As fezes da praga estimulam o aparecimento de fungos, que prejudicam a respiração e fotossíntese (EMBRAPA, 2007).",
       ParagrafoPragas_melancia_10:
       "O controle pode ser realizado por meio da aplicação de inseticidas carbamatos sistêmicos nas sementes ou inseticida granudo aplicado no sulco da planta (AGROLINK). Porém, o uso deve ser cuidadoso, pois a mosca adquiri resistência muito rápido aos inseticidas.",
-
-
     Doencas: "DOENÇAS",
-    infoDoencas:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  };
+    TituloDoencas_melancia_0:"Tombamento (Pythium aphanidermatum)",
+    ParagrafoDoencas_melancia_0:
+      "O tombamento é uma doença causada por fungos. Essa enfermidade caracteriza-se por ocasionar podridão nas sementes e entre a raíz e o caule da planta, assim causando o tombamento da cultivar e por seguinte a morte das plântulas. Temperatura e umidade elevadas atraem e estimulam o rápido desenvolvimento da doença, a qual contamina o solo e precisar ser controlada antes do inicio do próximo plantio.",
+      ParagrafoDoencas_melancia_1:
+      "O controle pode ser realizado por meio de cultivares resistentes, manejo correto do solo evitando o excesso de umidade e fungincidas.",
+      TituloDoencas_melancia_1:"Antracnose (Colletotrichum dematium)",
+      ParagrafoDoencas_melancia_2:
+      "Causada por fungo, a antracnose ataca principalmente na fase inicial do desenvolvimento da cultivar.  Os sintomas desta doença são: Manchas e queima das folhas, hastes e frutos, além de morte das plântulas, má formação e queda dos frutos e manchas nas sementes. O fungo causador da antracnose tem preferência por lugares quentes e com bastante chuva, logo a escolha do momento do plantio é crucial para o bom desenvolvimento da lavoura",
+      ParagrafoDoencas_melancia_3:
+      "O controle pode ser realizado por meio de rotação de culturas,  uso de sementes livres do patógeno, fungicidas, maior espaçamento entre linhas e manejo adequado do solo com ênfase na adubação potássica",
+      TituloDoencas_melancia_2:"Oídio (Sphaerotheca fuliginea)",
+      ParagrafoDoencas_melancia_4:
+      "Causada por fungo, o Oídio causa danos a toda parte aérea da planta e ao longo da infecção um mofo, que é semelhante a pó de giz, cobre a folha infectada e assim a doença é facilmente detectada.  Clima seco e baixa temperatura estimulam o desenvolvimento da enfermidade, a qual pode prejudicar diretamente a produção e o vigor da cultivar, mas não leva seu hospedeiro (melancia) a morte.",
+      ParagrafoDoencas_melancia_5:
+      "O controle pode ser realizado por meio de fungicidas e irrigação, já que a doença prefere lugares secos.",
+      TituloDoencas_melancia_3:"Crestamento-gomoso-do-caule (Didymella bryoniae)",
+      ParagrafoDoencas_melancia_6:
+      "Este fungo é um dos principais agentes de destruição de lavouras de melancia, atacando toda parte aérea da planta e conhecido pela presença de gomas sobre as lesões que ocorrem no colo, caule e hastes, as quais tombam e morrem. Nos frutos, gomas também se formam e Inviabilizam sua comercialização.",
+      ParagrafoDoencas_melancia_7:
+      "O controle pode ser realizado por meio de descarte dos restos da cultura infectada, tratamento de sementes, rotação de culturas e fungicidas específicos.",
+      TituloDoencas_melancia_4:"Míldio (Peronospora manshurica)",
+      ParagrafoDoencas_melancia_8:
+      "Essa doença é própria das folhas, com aparecimento de mofo branco e  pequenas manchas amarelas na parte inferior das folhas, que ao evoluirem causam a queima dos tecidos e queda prematura da folha, além de poder afetar as sementes da cultura.",
+      ParagrafoDoencas_melancia_9:
+      "O manejo da doença pode ser realizado evitando o plantio em áreas úmidas, fungicidas, cultivares resistentes e tratamento das sementes. ",
+
+    };
   
