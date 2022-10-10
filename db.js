@@ -229,6 +229,7 @@ var MILHOdb = {
       "Essa doença é própria das folhas, com aparecimento de mofo branco e  pequenas manchas amarelas na parte inferior das folhas, que ao evoluirem causam a queima dos tecidos e queda prematura da folha, além de poder afetar as sementes da cultura.",
       ParagrafoDoencas_melancia_9:
       "O manejo da doença pode ser realizado evitando o plantio em áreas úmidas, fungicidas, cultivares resistentes e tratamento das sementes. ",
+    TratosCulturais:"TRATOS CULTURAIS",
 
     };
   

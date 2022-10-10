@@ -1088,7 +1088,23 @@ NomeDoenca_melancia_4.innerText=MELANCIAdb.TituloDoencas_melancia_4
   DIVDoencas.appendChild(DivImgDoencas_melancia_4)
   DIVDoencas.appendChild(Paragrafo_Doenca_dez);
  
-  
+
+  //------------------------------------------------------------
+  //
+  //CRIANDO COLHEITA
+  //
+  //------------------------------------------------------------
+
+let DivTratos = document.createElement("div")
+let Tratos = document.createElement("h2")
+DivTratos.setAttribute("class", "Tratos sectionStyle");
+Tratos.innerText = MELANCIAdb.TratosCulturais
+
+
+
+DivTratos.appendChild(Tratos)
+
+
   //------------------------------------------------------------
   //
   //
@@ -1116,6 +1132,7 @@ NomeDoenca_melancia_4.innerText=MELANCIAdb.TituloDoencas_melancia_4
   sectionMELANCIA.appendChild(DIVSolo);
   sectionMELANCIA.appendChild(DIVPragas);
   sectionMELANCIA.appendChild(DIVDoencas);
+  sectionMELANCIA.appendChild(DivTratos);
   sectionMELANCIA.appendChild(spanFonte);
   main.appendChild(sectionMELANCIA);
 }
