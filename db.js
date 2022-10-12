@@ -178,7 +178,7 @@ var MILHOdb = {
       "Adubações orgânicas também são recomendadas em solos pobres, a aplicação deve estar na faixa de 5kg a 10kg/cova de esterco bovino ou 1kg a 2kg/cova de esterco de galinha e devem ser incorporados juntos com a terra retirada da cova, que será recolocada na hora do plantio.",
     Pragas: "PRAGAS",
     ParagrafoPragas_melancia_0:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Durante o ciclo da cultura, a qual pode ser atacada por insetos que podem acabar com a lavoura, diminuir a produtividade ou diminuir a qualidade dos frutos, estes insetos são chamados de “pragas”. Estas, pode atacar de dois modos, por baixo da terra (subterrânea) ou pelas folhas (parte aérea), assim atacando os frutos, folhas, flores e ramos.",
       MelanciaPragas_0:"Lagarta-Rosca (Agrotis ipsilon)",
       ParagrafoPragas_melancia_1:
       "A Lagarta-rosca permanece durante o dia enterrada no solo e próxima de onde a planta alvo está localizada, quando a noite chega, a praga ataca as plântulas, assim murchando e tombando a planta. Cultivares que estão bem desenvolvidas conseguem se recuperar, porém tem sua produção afetada. ",

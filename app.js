@@ -267,7 +267,7 @@ function criarMILHO() {
   let divImgTemperatura = document.createElement("div");
   let ImgTemperatura = document.createElement("img");
   divImgTemperatura.setAttribute("class", "divImgILUSTRA");
-  ImgTemperatura.src = "./images/Temperatura-milho.png";
+  ImgTemperatura.src = "./images/Temperatura-milho.svg";
   ImgTemperatura.setAttribute("class","ImgILUSTRA")
   DIVtemperatura.setAttribute("class", "temperatura sectionStyle");
   temperatura.innerText = MILHOdb.temperatura;
@@ -685,12 +685,14 @@ DivimgColheitaMilho.appendChild(imgColheitaMilho)
   //
   //------------------------------------------------------------
   let divFonte = document.createElement("div");
+  let referencias = document.createElement("h2")
+
   let spanFonte = document.createElement("span");
   let spanFonte1 = document.createElement("span");
   let spanFonte2 = document.createElement("span");
   let spanFonte3 = document.createElement("span");
   let spanFonte4 = document.createElement("span");
-  divFonte.setAttribute("id", "divFonte");
+  divFonte.setAttribute("class", "sectionStyle");
   spanFonte.innerText = "EMBRAPA. Sistema de Produção, 1 ISSN 1679-012X. 2012.";
   spanFonte1.innerText =
     "EMBRAPA.; BORGHI, E.; PEREIRA FILHO, I. A.; RESENDE, A. V. de; SILVA, D. D. da; MENDES, S. M.; SILVA, A. F. da. 2017. Embrapa Milho e Sorgo";
@@ -701,8 +703,9 @@ DivimgColheitaMilho.appendChild(imgColheitaMilho)
   spanFonte4.innerText = 
   "AGROLINK.;agrolink.com.br/culturas/"
 
-   
 
+  referencias.innerText="Referências"
+  divFonte.appendChild(referencias)
   divFonte.appendChild(spanFonte);
   divFonte.appendChild(spanFonte1);
   divFonte.appendChild(spanFonte2);
@@ -804,7 +807,7 @@ function criarMELANCIA() {
   divImgClima_melancia_0.setAttribute("class", "divImgILUSTRA");
   divImgClima_melancia_1.setAttribute("class", "divImgILUSTRA");
   img_clima_0.src = "./images/melancia_clima.png";
-  img_clima_1.src = "./images/melancia_fileiras.png";
+  img_clima_1.src = "./images/melancia_fileiras.svg";
   img_clima_0.setAttribute("class","ImgILUSTRA")
   img_clima_1.setAttribute("class","ImgILUSTRA")
   
@@ -842,7 +845,7 @@ function criarMELANCIA() {
   DIVSolo.setAttribute("class", "Solo sectionStyle");
   divImgSolo_melancia.setAttribute("class", "divImgILUSTRA")
   Img_melancia.setAttribute("class","ImgILUSTRA")
-  Img_melancia.src="./images/Hectare_melancia.png"
+  Img_melancia.src="./images/Hectare_melancia.svg"
   Solo.innerText = MELANCIAdb.Solo;
   Paragrafo_melancia_4.innerText = MELANCIAdb.Paragrafo_melancia_4;
   Paragrafo_melancia_5.innerText = MELANCIAdb.Paragrafo_melancia_5;
@@ -873,7 +876,7 @@ function criarMELANCIA() {
   DivImgAduboMelancia_um.setAttribute("class", "divImgILUSTRA")
   DivImgAduboMelancia_dois.setAttribute("class", "divImgILUSTRA")
   IMGAduboMelancia_um.src="./images/ureia-melancia.png"
-  IMGAduboMelancia_dois.src="./images/melancia-imagem.png"
+  IMGAduboMelancia_dois.src="./images/melancia-imagem.svg"
   IMGAduboMelancia_um.setAttribute("class","ImgILUSTRA")
   IMGAduboMelancia_dois.setAttribute("class","ImgILUSTRA")
   DIVAdubacao.setAttribute("class", "Adubacao sectionStyle");
@@ -968,7 +971,7 @@ NomePraga_melancia_4.innerText=MELANCIAdb.MelanciaPragas_4
   ImgPragas_melancia_0.src="./images/lagarta-rosca.svg"
   ImgPragas_melancia_1.src="./images/vaquinha.svg"
   ImgPragas_melancia_2.src="./images/pulgao.png"
-  ImgPragas_melancia_3.src="./images/broca-melancia.png"
+  ImgPragas_melancia_3.src="./images/broca_frutos1.png"
   ImgPragas_melancia_4.src="./images/mosca-branca.svg"
 
   DivImgPragas_melancia_0.appendChild(ImgPragas_melancia_0)
@@ -1147,8 +1150,8 @@ DivimgTratos_melancia_1.setAttribute("class","divImgILUSTRA")
 imgTratos_melancia_0.setAttribute("class","ImgILUSTRA")
 imgTratos_melancia_1.setAttribute("class","ImgILUSTRA")
 
-imgTratos_melancia_0.src="./images/Tratos-melancia_0.png"
-imgTratos_melancia_1.src="./images/Tratos-melancia_1.png"
+imgTratos_melancia_0.src="./images/Tratos-melancia_0.svg"
+imgTratos_melancia_1.src="./images/Tratos-melancia_1.svg"
 
 DivimgTratos_melancia_0.appendChild(imgTratos_melancia_0)
 DivimgTratos_melancia_1.appendChild(imgTratos_melancia_1)
@@ -1199,9 +1202,27 @@ DivColheita.appendChild(DivImgColheita)
   //
   //
   //------------------------------------------------------------
-
+let divReferencias = document.createElement("div")
+let referencias = document.createElement("h2")
   let spanFonte = document.createElement("span");
-  spanFonte.innerText = "FONTE: Embrapa";
+  let spanFonte1 = document.createElement("span");
+  let spanFonte2 = document.createElement("span");
+  let spanFonte3 = document.createElement("span");
+  let spanFonte4 = document.createElement("span");
+  spanFonte1.innerText = "https://ainfo.cnptia.embrapa.br /digital /bitstream/item/11921/2 /00082390.pdf"
+  spanFonte2.innerText = "EMPRESA DE PESQUISA AGROPECUÁRIA E EXTENSÃO RURAL DE SANTA CATARINA S/A– EPAGRI. Normas técnicas para a cultura da melancia em Santa Catarina: 1ª revisão.Florianópolis, 1996. 35 p. (EPAGRI. Sistema deProdução, 24)."
+  spanFonte3.innerText = "IBGE. Produção agrícola municipal. Sidra – Banco de Dados Agregados. Disponível em: www.ibge.gov.br/bda/ acervo/acervo2.asp>"
+  spanFonte4.innerText="https://www.hcor.com.br/imprensa/noticias/ nutricionista-do-hcor-lista -as-cinco-frutas- campeas-da-hidratacao"
+  
+  divReferencias.setAttribute("class", "sectionStyle")
+  referencias.innerText="Referências"
+  
+  divReferencias.appendChild(referencias)
+  divReferencias.appendChild(spanFonte)
+  divReferencias.appendChild(spanFonte1)
+  divReferencias.appendChild(spanFonte2)
+  divReferencias.appendChild(spanFonte3)
+  
   //------------------------------------------------------------
   //
   //
@@ -1221,7 +1242,7 @@ DivColheita.appendChild(DivImgColheita)
   sectionMELANCIA.appendChild(DIVDoencas);
   sectionMELANCIA.appendChild(DivTratos);
   sectionMELANCIA.appendChild(DivColheita);
-  sectionMELANCIA.appendChild(spanFonte);
+  sectionMELANCIA.appendChild(divReferencias);
   main.appendChild(sectionMELANCIA);
 }
 
@@ -1395,7 +1416,7 @@ function criarALFACE() {
   sectionALFACE.appendChild(divIMG);
   sectionALFACE.appendChild(divTITULO);
   sectionALFACE.appendChild(DIVintroducao);
-  sectionALFACE.appendChild(DIVClima);
+  sectionALFACE.appendChild(DIVcondicoes);
   sectionALFACE.appendChild(DIVtemperatura);
   sectionALFACE.appendChild(DIVSolo);
   sectionALFACE.appendChild(DIVAdubacao);
