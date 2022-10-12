@@ -652,7 +652,32 @@ function criarMILHO() {
   DIVdoencas.appendChild(ParagrafoDoencas_4)
   DIVdoencas.appendChild(divImgDoenca_4)
   DIVdoencas.appendChild(ParagrafoDoencas_4_1)
+
   //------------------------------------------------------------
+  //
+  //
+  //CRIANDO COLHEITA
+  //
+  //
+  //------------------------------------------------------------
+
+  let DivColheita = document.createElement("div")
+let Colheita = document.createElement("h2")
+let paragrafo_colheita = document.createElement("p")
+let DivimgColheitaMilho = document.createElement("div")
+let imgColheitaMilho = document.createElement("img")
+DivColheita.setAttribute("class", "Colheita sectionStyle");
+Colheita.innerText=MILHOdb.Colheita
+paragrafo_colheita.innerText=MILHOdb.paragrafoColheita_milho
+
+DivimgColheitaMilho.setAttribute("class", "divImgILUSTRA");
+imgColheitaMilho.setAttribute("class", "ImgILUSTRA");
+imgColheitaMilho.src="./images/colheita-Milho.png"
+DivimgColheitaMilho.appendChild(imgColheitaMilho)
+
+  DivColheita.appendChild(Colheita)
+  DivColheita.appendChild(paragrafo_colheita)
+  DivColheita.appendChild(DivimgColheitaMilho)
   //
   //
   //CRIANDO SPAN FONTE
@@ -702,6 +727,7 @@ function criarMILHO() {
   sectionMilho.appendChild(DIVSolo);
   sectionMilho.appendChild(DIVPragas);
   sectionMilho.appendChild(DIVdoencas);
+  sectionMilho.appendChild(DivColheita);
   sectionMilho.appendChild(divFonte);
   main.appendChild(sectionMilho);
 }
@@ -941,8 +967,8 @@ NomePraga_melancia_4.innerText=MELANCIAdb.MelanciaPragas_4
 
   ImgPragas_melancia_0.src="./images/lagarta-rosca.svg"
   ImgPragas_melancia_1.src="./images/vaquinha.svg"
-  ImgPragas_melancia_2.src="./images/pulgao.svg"
-  ImgPragas_melancia_3.src="./images/broca-melancia.svg"
+  ImgPragas_melancia_2.src="./images/pulgao.png"
+  ImgPragas_melancia_3.src="./images/broca-melancia.png"
   ImgPragas_melancia_4.src="./images/mosca-branca.svg"
 
   DivImgPragas_melancia_0.appendChild(ImgPragas_melancia_0)
@@ -981,7 +1007,7 @@ NomePraga_melancia_4.innerText=MELANCIAdb.MelanciaPragas_4
   //------------------------------------------------------------
   //
   //
-  //CRIANDO ESPAÇAMENTO ENTRE FILEIRAS
+  //DOENÇAS
   //
   //
   //------------------------------------------------------------
@@ -1091,20 +1117,81 @@ NomeDoenca_melancia_4.innerText=MELANCIAdb.TituloDoencas_melancia_4
 
   //------------------------------------------------------------
   //
-  //CRIANDO COLHEITA
+  //CRIANDO TRATOS CULTURAIS
   //
   //------------------------------------------------------------
 
 let DivTratos = document.createElement("div")
 let Tratos = document.createElement("h2")
+let paragrafo_tratos_um = document.createElement("p")
+let paragrafo_tratos_dois = document.createElement("p")
+let paragrafo_tratos_tres = document.createElement("p")
+let paragrafo_tratos_quatro = document.createElement("p")
+let paragrafo_tratos_cinco = document.createElement("p")
+let paragrafo_tratos_seis = document.createElement("p")
+let DivimgTratos_melancia_0 = document.createElement("div")
+let DivimgTratos_melancia_1 = document.createElement("div")
+let imgTratos_melancia_0 = document.createElement("img")
+let imgTratos_melancia_1 = document.createElement("img")
 DivTratos.setAttribute("class", "Tratos sectionStyle");
 Tratos.innerText = MELANCIAdb.TratosCulturais
 
+paragrafo_tratos_um.innerText=MELANCIAdb.ParagrafoTratos_0
+paragrafo_tratos_dois.innerText=MELANCIAdb.ParagrafoTratos_1
+paragrafo_tratos_tres.innerText=MELANCIAdb.ParagrafoTratos_2
+paragrafo_tratos_quatro.innerText=MELANCIAdb.ParagrafoTratos_3
+paragrafo_tratos_cinco.innerText=MELANCIAdb.ParagrafoTratos_4
+paragrafo_tratos_seis.innerText=MELANCIAdb.ParagrafoTratos_5
+DivimgTratos_melancia_0.setAttribute("class","divImgILUSTRA")
+DivimgTratos_melancia_1.setAttribute("class","divImgILUSTRA")
+imgTratos_melancia_0.setAttribute("class","ImgILUSTRA")
+imgTratos_melancia_1.setAttribute("class","ImgILUSTRA")
+
+imgTratos_melancia_0.src="./images/Tratos-melancia_0.png"
+imgTratos_melancia_1.src="./images/Tratos-melancia_1.png"
+
+DivimgTratos_melancia_0.appendChild(imgTratos_melancia_0)
+DivimgTratos_melancia_1.appendChild(imgTratos_melancia_1)
 
 
 DivTratos.appendChild(Tratos)
+DivTratos.appendChild(paragrafo_tratos_um)
+DivTratos.appendChild(DivimgTratos_melancia_0)
+DivTratos.appendChild(paragrafo_tratos_dois)
+DivTratos.appendChild(paragrafo_tratos_tres)
+DivTratos.appendChild(paragrafo_tratos_quatro)
+DivTratos.appendChild(DivimgTratos_melancia_1)
+DivTratos.appendChild(paragrafo_tratos_cinco)
+DivTratos.appendChild(paragrafo_tratos_seis)
+
+//------------------------------------------------------------
+  //
+  //
+  //CRIANDO COLEHITA
+  //
+  //
+  //------------------------------------------------------------
+
+let DivColheita = document.createElement("div")
+let Colheita = document.createElement("h2")
+let paragrafo_melancia_colheita = document.createElement("p")
+let DivImgColheita = document.createElement("div")
+let ImgColheita = document.createElement("img")
+DivColheita.setAttribute("class", "Colheita sectionStyle");
+Colheita.innerText=MELANCIAdb.Colheita
+paragrafo_melancia_colheita.innerText= MELANCIAdb.Paragrafo_colheita
+
+DivImgColheita.setAttribute("class","divImgILUSTRA")
+ImgColheita.setAttribute("class","ImgILUSTRA")
+ImgColheita.src="./images/Colheita_melancia.png"
 
 
+DivImgColheita.appendChild(ImgColheita)
+
+
+DivColheita.appendChild(Colheita)
+DivColheita.appendChild(paragrafo_melancia_colheita)
+DivColheita.appendChild(DivImgColheita)
   //------------------------------------------------------------
   //
   //
@@ -1133,6 +1220,7 @@ DivTratos.appendChild(Tratos)
   sectionMELANCIA.appendChild(DIVPragas);
   sectionMELANCIA.appendChild(DIVDoencas);
   sectionMELANCIA.appendChild(DivTratos);
+  sectionMELANCIA.appendChild(DivColheita);
   sectionMELANCIA.appendChild(spanFonte);
   main.appendChild(sectionMELANCIA);
 }

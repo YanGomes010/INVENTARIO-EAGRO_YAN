@@ -93,13 +93,14 @@ var MILHOdb = {
       DoencasTitulo_4:"Ferrugem Tropical ou Ferrugem Branca (Physopella zeae)",
       ParagrafoDoencas_13:"Em áreas com plantios continuos e irrigadas, a ferrugem possui grande incidência. Caracterizada por pústulas brancas ovais, cor branca a amarelada e coberta por epiderme. Os esporos são levados pelo vento para plantas nã infectadas, assim, gerando contaminação em massa da lavoura. Em plantios de milho safrinha e que possui clima com temperaturas entre 22° e 34° C,  possuem maiores chances do aparecimento da doença.",
       ParagrafoDoencas_14:"O manejo pode ser realizado com fungicidas, rotação de culturas e plantio de híbridos resistentes. Caso haja infecção na lavoura, para o próximo plantio, deve ser realizada rotação de culturas e no plantio subsequente, seja utilizado um novo híbrido de milho.",
- 
+  Colheita:"Colheita",
+  paragrafoColheita_milho:"A colheita do milho será realizada em média de 70 a 90 dias pós plantio em regiões quentes, já em áreas com temperaturas um pouco baixas, o ciclo dura em média de 120 dias. Atualmente, como o milho-verde é uma cultura que gera renda para produtores familiares, a colheita é manual, logo retirando a espiga com a mão diretamente da planta. A colheita mecanizada pode ser realizada para milho-verde, porém exige investimento muito alto, já para o milho grão, a colheita é exclusivamente mecanizada."
     };
 
   var SOJAdb = {
     titulo: "CULTURA DA SOJA",
     subtitulo:
-      "Como plantar milho: Clima, temperatura, solo, adubação, principais pragas e doenças.",
+      "Como plantar Soja: Clima, temperatura, solo, adubação, principais pragas e doenças.",
     introducao:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     Clima: "CLIMA",
@@ -126,7 +127,7 @@ var MILHOdb = {
   var ALFACEdb = {
     titulo: "CULTURA DA ALFACE",
     subtitulo:
-      "Como plantar milho: Clima, temperatura, solo, adubação, principais pragas e doenças.",
+      "Como plantar Alface: Clima, temperatura, solo, adubação, principais pragas e doenças.",
     introducao:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     Clima: "CLIMA",
@@ -153,7 +154,7 @@ var MILHOdb = {
   var MELANCIAdb = {
     titulo: "CULTURA DA MELANCIA",
     subtitulo:
-      "Como plantar milho: Clima, temperatura, solo, tratos culturais, pragas, doenças e colheita",
+      "Como plantar Melancia: Clima, temperatura, solo, tratos culturais, pragas, doenças e colheita",
     introducao:
       "A melancia origina-se do continente africano. No Brasil, a cultivar é uma das principais plantas olerícolas produzidas, chegando a 75.795 ha, de área cultivada (IBGE, 2006). Composta de 92,6% de água (EPAGRI, 1996), a melancia pode ser cultivada em regiôes secas e também em locais com irrigação. Embora seja uma das olerícolas mais produzidas, a grande maioria dos produtores não possuem alta produtividade nas lavouras, por causa do desprovimento de tecnologia no sistema de plantio.",
     Clima: "CLIMA",
@@ -230,6 +231,19 @@ var MILHOdb = {
       ParagrafoDoencas_melancia_9:
       "O manejo da doença pode ser realizado evitando o plantio em áreas úmidas, fungicidas, cultivares resistentes e tratamento das sementes. ",
     TratosCulturais:"TRATOS CULTURAIS",
-
+    ParagrafoTratos_0:
+      "Os tratos culturais são importantes para manter a qualidade da cultivar e seu bom desenvolvimento. Baseado em artigos da embrapa, o tratos são divididos em irrigaçã, controle de ervasdaninhas, condução das ramas, desbaste de plantas e rotação de culturas.",
+      ParagrafoTratos_1:
+      "Desbaste – É realizado com intuito de diminuir a quantidade de plantas em uma cova, assim fazendo o controle populacional da lavoura. O número ideal de plantas em uma cova, está na faixa de 1 a 2 plantas. Para realização deste manejo, deve-se observar a quantidade de folhas da planta (3 a 4 folhas definitivas), a qual o produtor tem preferência de manter na cova e eliminar ou fazer o replantio das mudas restantes  em áreas as quais sementes não germinaram.   ",
+      ParagrafoTratos_2:
+      "Controle de ervas daninhas – As plantas invasoras competem diretamente com as cultivares agrícolas no inicio do ciclo germinativo, absorvendo nutrientes, luz e água. Logo, diminuindo a produtividade dos frutos e reduzindo a velocidade do desenvolvimento da cultura. Como as ramas da melancia são muito frágeis, o manejo de retirada de daninhas deve ser implementado antes do plantio com a capina ou aplicação de herbicidas específicos.",
+      ParagrafoTratos_3:
+      " Condução das ramas – Com intuito de afastar as ramas e abrir corredores para máquinas, equipamentos e pessoas, este manejo é realizado até três vezes antes da floração e frutificação para facilitar capinas, adubação, colheita e pulverização.",
+      ParagrafoTratos_4:
+      "Desbaste de frutos - Com objetivo de melhorar a qualidade, distribuição de nutrientes para os frutos e aumentar a comercialização, o desbaste consiste em deixar até 3 frutos por planta ou até 6 frutos por cova. Elimina-se os frutos defeituosos, deformados, tardios ou com quaisquer anomalias.",
+      ParagrafoTratos_5:
+      "Irrigação - É uma prática indispensável, pois melhora quanto a qualidade do fruto, quanto a produtividade da planta. Em geral, a melancia precisa de 15 a 20 litros/ha por dia, por se tratar de uma planta com volume médio de 95% de água. O estresse hídirico diminui a produtividade e qualidade dos frutos, tornando-os menores, para que não haja falta de água, a imprementação da irrigação por gotejamento é recomendada, pois diminui a aparição de plantas invasoras, tem baixo custo de investimento e melhora qualidade dos frutos.",
+      Colheita:"Colheita",
+      Paragrafo_colheita:"A colheita é muito importante, pois o plantio pode ser perdido pelo manejo ruim na hora de colher os frutos. Ela só será realizada quando um dos requisitos a seguir forem cumpridos, tais como: Secamento do pedúnculo, coloração do fruto amarelada e branca, secamento da gavinha e medição de açucar superior a 10° Brix e para retirar o fruto, basta removê-lo manualmente. O tempo médio para realizar a colheita é de 40 dias após a fecundação da flor.",
     };
   
