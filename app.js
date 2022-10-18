@@ -58,30 +58,39 @@ function criarSOJA() {
   //------------------------------------------------------------
   let DIVcondicoes = document.createElement("div");
   let condicoes = document.createElement("h2");
-  let textCONDICOES = document.createElement("p");
+  let ParagrafoClima_soja_um = document.createElement("p");
+  let ParagrafoClima_soja_dois = document.createElement("p");
+  let DivimgClima_soja = document.createElement("div")
+  let ImgClima_soja = document.createElement("img")
   DIVcondicoes.setAttribute("class", "Clima sectionStyle");
   condicoes.innerText = SOJAdb.Clima;
-  textCONDICOES.innerText = SOJAdb.infoClima;
-
+  ParagrafoClima_soja_um.innerText = SOJAdb.ParagrafoClima_soja_0;
+  ParagrafoClima_soja_dois.innerText = SOJAdb.ParagrafoClima_soja_1;
+  DivimgClima_soja.setAttribute("class", "divImgILUSTRA");
+  ImgClima_soja.setAttribute("class", "ImgILUSTRA");
+  ImgClima_soja.src="./images/irrigacao-soja.png"
+DivimgClima_soja.appendChild(ImgClima_soja)
   DIVcondicoes.appendChild(condicoes);
-  DIVcondicoes.appendChild(textCONDICOES);
+  DIVcondicoes.appendChild(ParagrafoClima_soja_um);
+  DIVcondicoes.appendChild(DivimgClima_soja)
+  DIVcondicoes.appendChild(ParagrafoClima_soja_dois);
 
   //------------------------------------------------------------
   //
   //
-  //CRIANDO TEMPERATURA
+  //CRIANDO ROTAÇÃO DE CULTURAS
   //
   //
   //------------------------------------------------------------
-  let DIVtemperatura = document.createElement("div");
-  let temperatura = document.createElement("h2");
-  let textTemperatura = document.createElement("p");
-  DIVtemperatura.setAttribute("class", "temperatura sectionStyle");
-  temperatura.innerText = SOJAdb.temperatura;
-  textTemperatura.innerText = SOJAdb.infoTemperatura;
+  let DIVrotacao = document.createElement("div");
+  let rotacao = document.createElement("h2");
+  let paragrafo_rotacao_um = document.createElement("p");
+  DIVrotacao.setAttribute("class", "rotacao sectionStyle");
+  rotacao.innerText = SOJAdb.Rotacao;
+  paragrafo_rotacao_um.innerText = SOJAdb.rotacao_paragrafo_0;
 
-  DIVtemperatura.appendChild(temperatura);
-  DIVtemperatura.appendChild(textTemperatura);
+  DIVrotacao.appendChild(rotacao);
+  DIVrotacao.appendChild(paragrafo_rotacao_um);
   //------------------------------------------------------------
   //
   //
@@ -169,7 +178,7 @@ function criarSOJA() {
   sectionSOJA.appendChild(divTITULO);
   sectionSOJA.appendChild(DIVintroducao);
   sectionSOJA.appendChild(DIVcondicoes);
-  sectionSOJA.appendChild(DIVtemperatura);
+  sectionSOJA.appendChild(DIVrotacao);
   sectionSOJA.appendChild(DIVSolo);
   sectionSOJA.appendChild(DIVAdubacao);
   sectionSOJA.appendChild(DIVPragas);

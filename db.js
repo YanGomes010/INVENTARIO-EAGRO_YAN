@@ -100,15 +100,18 @@ var MILHOdb = {
   var SOJAdb = {
     titulo: "CULTURA DA SOJA",
     subtitulo:
-      "Como plantar Soja: Clima, temperatura, solo, adubação, principais pragas e doenças.",
+      "Como plantar milho: Clima e irrigação, rotação de culturas, temperatura, solo, adubação, pragas, doenças e colheita.",
     introducao:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    Clima: "CLIMA",
-    infoClima:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    temperatura: "TEMPERATURA",
-    infoTemperatura:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "A soja é uma leguminosa originada da Ásia, bastante utilizada na alimentação de humanos, animais e fabricação de óleos. O Brasil é o maior produtor do grão, tendo uma área plantada de aproximadamente 39 milhões de hectares e produção anual próxima a 140 milhões de toneladas (EMBRAPA. 2021).",
+    Clima: "CLIMA E IRRIGAÇÃO",
+    ParagrafoClima_soja_0:
+      "A soja é uma planta de clima temperado, suportando apenas temperaturas que estão em torno de 20° C a 35° C, porém, a temperatura ideal para o bom desenvolvimento da cultura, está na faixa de 27°C. Para que a cultivar mantenha-se  saúdavel, a disponibilidade de água é indispensavel, pois ela representa quase 90% do peso da planta e tem participação na distribuição de calor e manutenção da cultura. ",
+      ParagrafoClima_soja_1:
+      " A soja tem exigência hídrica de 400 a 850mm/ciclo, sendo que durante o periodo de floração, a planta exige de 5 a 9 mm/dia. Caso a quantidade de água disponivel não seja alta, recomenda-se a utilização de cultivares adaptadas a região e o adequado manejo do solo ou adesão de irrigação. O cultivo irrigado, aumenta a produtivdade da soja em até três vezes comparado com o plantio sem irrigação, a qual pode ser realizada por meio de microaspersão, gotejamento, inundação e pivô central, o qual é mais comum em grandes lavouras.",
+
+    Rotacao: "ROTAÇÃO DE CULTURAS",
+    rotacao_paragrafo_0:
+      "Atualmente, como a soja demanda de um alto investimento para  que haja lucro na colheita, todas as ações devem ser direcionadas para que a cultura tenha o melhor desenvolvimento e a maior produtividade. A rotação de culturas, ajuda na preservação ambiental, diminui os impactos ao solo, melhora os recursos naturais, evita o aparecimento de plantas invasoras, pragas e doenças, além de posibilitar o uso de variados produtos fitossanitários. Um exemplo de rotação, é o cultivo milho-soja, que o milho entra para descompactar a área de plantio, assim abrindo poros para melhor drenagem e na hora da colheita faz a cobertura do solo, aumentando a matéria orgânica, logo quando a soja for implementada, as raízes conseguirão ter crescimento maior e menor chance de estresse hídrico.  ",
     Solo: "SOLO",
     infoSolo:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
