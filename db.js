@@ -112,10 +112,14 @@ var MILHOdb = {
     Rotacao: "ROTAÇÃO DE CULTURAS",
     rotacao_paragrafo_0:
       "Atualmente, como a soja demanda de um alto investimento para  que haja lucro na colheita, todas as ações devem ser direcionadas para que a cultura tenha o melhor desenvolvimento e a maior produtividade. A rotação de culturas, ajuda na preservação ambiental, diminui os impactos ao solo, melhora os recursos naturais, evita o aparecimento de plantas invasoras, pragas e doenças, além de posibilitar o uso de variados produtos fitossanitários. Um exemplo de rotação, é o cultivo milho-soja, que o milho entra para descompactar a área de plantio, assim abrindo poros para melhor drenagem e na hora da colheita faz a cobertura do solo, aumentando a matéria orgânica, logo quando a soja for implementada, as raízes conseguirão ter crescimento maior e menor chance de estresse hídrico.  ",
-    Solo: "SOLO",
-    infoSolo:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    Adubacao: "ADUBAÇÃO",
+    PlantioESolo: "PLANTIO E SOLO",
+    paragrafo_PS_0:
+      "O plantio deve ser muito bem planejado, pois determina como será a produtividade e lucro de toda lavoura. Antes do inicio da semeadura, detalhes como densidade populacional e espaçamento entre linhas, devem ser elaborados, recomenda-se espaçamento de 15 a 30 cm e a densidade pode variar entre 280.000 e 320.000 plantas. Para se alcançar o número correto de plantas por hectare, deve-se levar em conta sementes que não germinarão, logo a adição de 20% a mais de sementes no momento da semeadura é recomendado, mas é crucial levar em conta fatores como adubação, irrigação, profundidade do plantio e topografia do terreno.",
+      paragrafo_PS_1:
+      "A soja tem preferência por solos com teores de argila em torno de 35%, com boa drenagem, boa porosidade, boa capacidade de retenção de água e profundidade acima de 1m. Solos com niveis elevados de argila, prejudicam o desenvolvimento da cultura, pois impossibilitam o crescimento das raízes. Com boa retenção, a água que ficará retida no solo aumenta a umidade e gera condições favoráveis para a germinação das sementes. Outro fator importante, é a temperatura do solo, que deve estar em torno de 25°C para que ocorra a germinação da semente, temperaturas acima de 40° e abaixo de 20°, prejudicam o desenvolvimento e geram prejuizos para o produtor.",
+      paragrafo_PS_2:
+      "Em direção ao crescimento saudável, o solo necessita de boa descompactação para que haja o correto desenvolvimento do sistema radicular, o qual precisa de profundidade minima de 100 cm. Solo rasos, dificultam o pleno crescimento da cultivar, a qual não consegue absorver nutrientes suficientes para se manter saudável.",
+      Adubacao: "ADUBAÇÃO",
     infoAdubacao:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     Pragas: "PRAGAS",

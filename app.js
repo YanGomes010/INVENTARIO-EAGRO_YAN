@@ -94,19 +94,42 @@ DivimgClima_soja.appendChild(ImgClima_soja)
   //------------------------------------------------------------
   //
   //
-  //CRIANDO UMIDADE DO SOLO
+  //CRIANDO PLANTIO E SOLO
   //
   //
   //------------------------------------------------------------
-  let DIVSolo = document.createElement("div");
-  let Solo = document.createElement("h2");
-  let textSolo = document.createElement("p");
-  DIVSolo.setAttribute("class", "Solo sectionStyle");
-  Solo.innerText = SOJAdb.Solo;
-  textSolo.innerText = SOJAdb.infoSolo;
+  let DIVPS = document.createElement("div");
+  let PS = document.createElement("h2");
+  let paragrafo_ps_um = document.createElement("p");
+  let paragrafo_ps_dois = document.createElement("p");
+  let paragrafo_ps_tres = document.createElement("p");
+  let DivImgPs_0 = document.createElement("div")
+  let DivImgPs_1 = document.createElement("div")
+  let ImgPs_0 = document.createElement("img")
+  let ImgPs_1 = document.createElement("img")
+  DIVPS.setAttribute("class", "PS sectionStyle");
+  PS.innerText = SOJAdb.PlantioESolo;
+  paragrafo_ps_um.innerText = SOJAdb.paragrafo_PS_0;
+  paragrafo_ps_dois.innerText = SOJAdb.paragrafo_PS_1;
+  paragrafo_ps_tres.innerText = SOJAdb.paragrafo_PS_2;
+  ImgPs_0.src="./images/img_solo_soja_0.svg"
+  ImgPs_1.src="./images/img_solo_soja_1.svg"
+  DivImgPs_0.setAttribute("class", "divImgILUSTRA");
+  DivImgPs_1.setAttribute("class", "divImgILUSTRA");
+  ImgPs_0.setAttribute("class", "ImgILUSTRA");
+  ImgPs_1.setAttribute("class", "ImgILUSTRA");
 
-  DIVSolo.appendChild(Solo);
-  DIVSolo.appendChild(textSolo);
+
+DivImgPs_0.appendChild(ImgPs_0)
+DivImgPs_1.appendChild(ImgPs_1)
+
+
+  DIVPS.appendChild(PS);
+  DIVPS.appendChild(paragrafo_ps_um);
+  DIVPS.appendChild(DivImgPs_0)
+  DIVPS.appendChild(paragrafo_ps_dois);
+  DIVPS.appendChild(DivImgPs_1)
+  DIVPS.appendChild(paragrafo_ps_tres);
   //------------------------------------------------------------
   //
   //
@@ -179,7 +202,7 @@ DivimgClima_soja.appendChild(ImgClima_soja)
   sectionSOJA.appendChild(DIVintroducao);
   sectionSOJA.appendChild(DIVcondicoes);
   sectionSOJA.appendChild(DIVrotacao);
-  sectionSOJA.appendChild(DIVSolo);
+  sectionSOJA.appendChild(DIVPS);
   sectionSOJA.appendChild(DIVAdubacao);
   sectionSOJA.appendChild(DIVPragas);
   sectionSOJA.appendChild(DIVdoencas);
