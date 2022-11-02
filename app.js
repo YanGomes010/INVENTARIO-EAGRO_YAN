@@ -85,12 +85,19 @@ DivimgClima_soja.appendChild(ImgClima_soja)
   let DIVrotacao = document.createElement("div");
   let rotacao = document.createElement("h2");
   let paragrafo_rotacao_um = document.createElement("p");
+  let DivImgRotacao = document.createElement("div")
+  let ImgRotacao = document.createElement("img")
+  DivImgRotacao.setAttribute("class", "divImgILUSTRA");
+  ImgRotacao.setAttribute("class", "ImgILUSTRA");
   DIVrotacao.setAttribute("class", "rotacao sectionStyle");
   rotacao.innerText = SOJAdb.Rotacao;
   paragrafo_rotacao_um.innerText = SOJAdb.rotacao_paragrafo_0;
+  ImgRotacao.src="./images/rotacao-soja.svg"
 
+  DivImgRotacao.appendChild(ImgRotacao)
   DIVrotacao.appendChild(rotacao);
   DIVrotacao.appendChild(paragrafo_rotacao_um);
+  DIVrotacao.appendChild(DivImgRotacao)
   //------------------------------------------------------------
   //
   //
@@ -139,29 +146,162 @@ DivImgPs_1.appendChild(ImgPs_1)
   //------------------------------------------------------------
   let DIVAdubacao = document.createElement("div");
   let Adubacao = document.createElement("h2");
-  let textAdubacao = document.createElement("p");
+  let paragrafo_adub_um = document.createElement("p");
+  let paragrafo_adub_dois = document.createElement("p");
+  let paragrafo_adub_tres = document.createElement("p");
+  let paragrafo_adub_quatro = document.createElement("p");
+  let paragrafo_adub_cinco = document.createElement("p");
+  let paragrafo_adub_seis = document.createElement("p");
+  let paragrafo_adub_sete = document.createElement("p");
+  let paragrafo_adub_oito = document.createElement("p");
+  let DivImgSoja_um = document.createElement("div")
+  let ImgSoja_um = document.createElement("img")
+  let DivImgSoja_dois = document.createElement("div")
+  let ImgSoja_dois = document.createElement("img")
+  let DivImgSoja_tres = document.createElement("div")
+  let ImgSoja_tres = document.createElement("img")
   DIVAdubacao.setAttribute("class", "Adubacao sectionStyle");
   Adubacao.innerText = SOJAdb.Adubacao;
-  textAdubacao.innerText = SOJAdb.infoAdubacao;
+  paragrafo_adub_um.innerText = SOJAdb.paragrafo_adubacao_0;
+  paragrafo_adub_dois.innerText = SOJAdb.paragrafo_adubacao_1;
+  paragrafo_adub_tres.innerText = SOJAdb.paragrafo_adubacao_2;
+  paragrafo_adub_quatro.innerText = SOJAdb.paragrafo_adubacao_3;
+  paragrafo_adub_cinco.innerText = SOJAdb.paragrafo_adubacao_4;
+  paragrafo_adub_seis.innerText = SOJAdb.paragrafo_adubacao_5;
+  paragrafo_adub_sete.innerText = SOJAdb.paragrafo_adubacao_6;
+  paragrafo_adub_oito.innerText = SOJAdb.paragrafo_adubacao_7;
+  ImgSoja_um.src="./images/tabela_fosforo_soja.svg"
+  ImgSoja_dois.src="./images/img_adub_um.svg"
+  ImgSoja_tres.src="./images/img_adub_dois.svg"
 
+  DivImgSoja_um.setAttribute("class", "divImgILUSTRA");
+  ImgSoja_um.setAttribute("class", "ImgILUSTRA");
+  DivImgSoja_dois.setAttribute("class", "divImgILUSTRA");
+  ImgSoja_dois.setAttribute("class", "ImgILUSTRA");
+  DivImgSoja_tres.setAttribute("class", "divImgILUSTRA");
+  ImgSoja_tres.setAttribute("class", "ImgILUSTRA");
+DivImgSoja_um.appendChild(ImgSoja_um)
+DivImgSoja_dois.appendChild(ImgSoja_dois)
+DivImgSoja_tres.appendChild(ImgSoja_tres)
   DIVAdubacao.appendChild(Adubacao);
-  DIVAdubacao.appendChild(textAdubacao);
+
+  DIVAdubacao.appendChild(paragrafo_adub_um)
+  DIVAdubacao.appendChild(paragrafo_adub_dois)
+  DIVAdubacao.appendChild(paragrafo_adub_tres)
+  DIVAdubacao.appendChild(DivImgSoja_um)
+  DIVAdubacao.appendChild(paragrafo_adub_quatro)
+  DIVAdubacao.appendChild(paragrafo_adub_cinco)
+  DIVAdubacao.appendChild(DivImgSoja_dois)
+  DIVAdubacao.appendChild(paragrafo_adub_seis)
+  DIVAdubacao.appendChild(paragrafo_adub_sete)
+  DIVAdubacao.appendChild(DivImgSoja_tres)
+  DIVAdubacao.appendChild(paragrafo_adub_oito)
+
+  
   //------------------------------------------------------------
   //
   //
-  //CRIANDO DENSIDADE DO PLANTIO
+  //CRIANDO PRAGAS
   //
   //
   //------------------------------------------------------------
   let DIVPragas = document.createElement("div");
   let Pragas = document.createElement("h2");
-  let textPragas = document.createElement("p");
+  let NomePraga_soja_0 = document.createElement("h4");
+  let NomePraga_soja_1 = document.createElement("h4");
+  let NomePraga_soja_2 = document.createElement("h4");
+  let NomePraga_soja_3 = document.createElement("h4");
+  let NomePraga_soja_4 = document.createElement("h4");
+  let DivImgPragas_soja_0 = document.createElement("div")
+  let DivImgPragas_soja_1 = document.createElement("div")
+  let DivImgPragas_soja_2 = document.createElement("div")
+  let DivImgPragas_soja_3 = document.createElement("div")
+  let DivImgPragas_soja_4 = document.createElement("div")
+DivImgPragas_soja_0.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_soja_1.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_soja_2.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_soja_3.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_soja_4.setAttribute("class", "divImgILUSTRA")
+  let ImgPragas_soja_0 = document.createElement("img")
+  let ImgPragas_soja_1 = document.createElement("img")
+  let ImgPragas_soja_2 = document.createElement("img")
+  let ImgPragas_soja_3 = document.createElement("img")
+  let ImgPragas_soja_4 = document.createElement("img")
+  ImgPragas_soja_0.setAttribute("class","ImgILUSTRA")
+  ImgPragas_soja_1.setAttribute("class","ImgILUSTRA")
+  ImgPragas_soja_2.setAttribute("class","ImgILUSTRA")
+  ImgPragas_soja_3.setAttribute("class","ImgILUSTRA")
+  ImgPragas_soja_4.setAttribute("class","ImgILUSTRA")
+  let Paragrafo_praga_um = document.createElement("p");
+  let Paragrafo_praga_dois = document.createElement("p");
+  let Paragrafo_praga_tres = document.createElement("p");
+  let Paragrafo_praga_quatro = document.createElement("p");
+  let Paragrafo_praga_cinco = document.createElement("p");
+  let Paragrafo_praga_seis = document.createElement("p");
+  let Paragrafo_praga_sete = document.createElement("p");
+  let Paragrafo_praga_oito = document.createElement("p");
+  let Paragrafo_praga_nove = document.createElement("p");
+  let Paragrafo_praga_dez = document.createElement("p");
   DIVPragas.setAttribute("class", "Pragas sectionStyle");
   Pragas.innerText = SOJAdb.Pragas;
-  textPragas.innerText = SOJAdb.infoPragas;
+  Paragrafo_praga_um.innerText = SOJAdb.paragrafo_praga_soja_0;
+  Paragrafo_praga_dois.innerText = SOJAdb.paragrafo_praga_soja_1;
+  Paragrafo_praga_tres.innerText = SOJAdb.paragrafo_praga_soja_2;
+  Paragrafo_praga_quatro.innerText = SOJAdb.paragrafo_praga_soja_3;
+  Paragrafo_praga_cinco.innerText = SOJAdb.paragrafo_praga_soja_4;
+  Paragrafo_praga_seis.innerText = SOJAdb.paragrafo_praga_soja_5;
+  Paragrafo_praga_sete.innerText = SOJAdb.paragrafo_praga_soja_6;
+  Paragrafo_praga_oito.innerText = SOJAdb.paragrafo_praga_soja_7;
+  Paragrafo_praga_nove.innerText = SOJAdb.paragrafo_praga_soja_8;
+  Paragrafo_praga_dez.innerText = SOJAdb.paragrafo_praga_soja_9;
+ 
+
+
+
+
+
+NomePraga_soja_0.innerText=SOJAdb.Titulo_praga_soja_0
+NomePraga_soja_1.innerText=SOJAdb.Titulo_praga_soja_1
+NomePraga_soja_2.innerText=SOJAdb.Titulo_praga_soja_2
+NomePraga_soja_3.innerText=SOJAdb.Titulo_praga_soja_3
+NomePraga_soja_4.innerText=SOJAdb.Titulo_praga_soja_4
+
+  //Adicionando imagens
+
+  ImgPragas_soja_0.src="./images/antracnose.svg"
+  ImgPragas_soja_1.src="./images/LAGARTA-SOJA.svg"
+  ImgPragas_soja_2.src="./images/elasmo.svg"
+  ImgPragas_soja_3.src="./images/marrom-percevejo.svg"
+  ImgPragas_soja_4.src="./images/verde-percevejo.svg"
+
+  DivImgPragas_soja_0.appendChild(ImgPragas_soja_0)
+  DivImgPragas_soja_1.appendChild(ImgPragas_soja_1)
+  DivImgPragas_soja_2.appendChild(ImgPragas_soja_2)
+  DivImgPragas_soja_3.appendChild(ImgPragas_soja_3)
+  DivImgPragas_soja_4.appendChild(ImgPragas_soja_4)
 
   DIVPragas.appendChild(Pragas);
-  DIVPragas.appendChild(textPragas);
+  DIVPragas.appendChild(NomePraga_soja_0);
+  DIVPragas.appendChild(Paragrafo_praga_um)
+  DIVPragas.appendChild(DivImgPragas_soja_0)
+  DIVPragas.appendChild(Paragrafo_praga_dois)
+  DIVPragas.appendChild(NomePraga_soja_1);
+  DIVPragas.appendChild(Paragrafo_praga_tres)
+  DIVPragas.appendChild(DivImgPragas_soja_1)
+  DIVPragas.appendChild(Paragrafo_praga_quatro)
+  DIVPragas.appendChild(NomePraga_soja_2);
+  DIVPragas.appendChild(Paragrafo_praga_cinco)
+  DIVPragas.appendChild(DivImgPragas_soja_2)
+  DIVPragas.appendChild(Paragrafo_praga_seis)
+  DIVPragas.appendChild(NomePraga_soja_3);
+  DIVPragas.appendChild(Paragrafo_praga_sete)
+  DIVPragas.appendChild(DivImgPragas_soja_3)
+  DIVPragas.appendChild(Paragrafo_praga_oito)
+  DIVPragas.appendChild(NomePraga_soja_4);
+  DIVPragas.appendChild(Paragrafo_praga_nove)
+  DIVPragas.appendChild(DivImgPragas_soja_4)
+  DIVPragas.appendChild(Paragrafo_praga_dez)
+
   //------------------------------------------------------------
   //
   //
