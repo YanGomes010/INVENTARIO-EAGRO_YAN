@@ -72,6 +72,16 @@ body {
 }
 
 #btnScroll{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
+bottom: 25px;
+right: 13px;
 }
+.divfonte span{
+    margin-bottom: 15px;
+}
+.divfonte{
+    font-size: 100%;
+    overflow: auto;
+}
+

@@ -64,3 +64,8 @@
 .ImgILUSTRA{
     width: 250px;
 }
+
+
+#btnScroll{
+    display: none;
+}

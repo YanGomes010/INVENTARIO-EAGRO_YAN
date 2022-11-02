@@ -1,7 +1,15 @@
+let btnScroll = document.createElement("img");
+btnScroll.setAttribute("id", "btnScroll");
+btnScroll.setAttribute("class", "position-fixed")
+btnScroll.src="./images/ScrollTop.svg"
+btnScroll.setAttribute("onclick","ScrollTop()")
+
 function criarSOJA() {
   let section = document.getElementById("section-cards");
   section.innerHTML = "";
   sectionSOJA.innerHTML = "";
+
+
 
   //------------------------------------------------------------
   //
@@ -268,7 +276,7 @@ NomePraga_soja_4.innerText=SOJAdb.Titulo_praga_soja_4
 
   //Adicionando imagens
 
-  ImgPragas_soja_0.src="./images/antracnose.svg"
+  ImgPragas_soja_0.src="./images/vaquinha.svg"
   ImgPragas_soja_1.src="./images/LAGARTA-SOJA.svg"
   ImgPragas_soja_2.src="./images/elasmo.svg"
   ImgPragas_soja_3.src="./images/marrom-percevejo.svg"
@@ -309,15 +317,102 @@ NomePraga_soja_4.innerText=SOJAdb.Titulo_praga_soja_4
   //
   //
   //------------------------------------------------------------
-  let DIVdoencas = document.createElement("div");
-  let doencas = document.createElement("h2");
-  let textdoencas = document.createElement("p");
-  DIVdoencas.setAttribute("class", "doencas sectionStyle");
-  doencas.innerText = SOJAdb.Doencas;
-  textdoencas.innerText = SOJAdb.infoDoencas;
+  let DIVDoencas = document.createElement("div");
+  let Doencas = document.createElement("h2");
+  let NomeDoenca_soja_0 = document.createElement("h4");
+  let NomeDoenca_soja_1 = document.createElement("h4");
+  let NomeDoenca_soja_2 = document.createElement("h4");
+  let NomeDoenca_soja_3 = document.createElement("h4");
+  let NomeDoenca_soja_4 = document.createElement("h4");
+  let DivImgDoencas_soja_0 = document.createElement("div")
+  let DivImgDoencas_soja_1 = document.createElement("div")
+  let DivImgDoencas_soja_2 = document.createElement("div")
+  let DivImgDoencas_soja_3 = document.createElement("div")
+  let DivImgDoencas_soja_4 = document.createElement("div")
+DivImgDoencas_soja_0.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_soja_1.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_soja_2.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_soja_3.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_soja_4.setAttribute("class", "divImgILUSTRA")
+  let ImgDoencas_soja_0 = document.createElement("img")
+  let ImgDoencas_soja_1 = document.createElement("img")
+  let ImgDoencas_soja_2 = document.createElement("img")
+  let ImgDoencas_soja_3 = document.createElement("img")
+  let ImgDoencas_soja_4 = document.createElement("img")
+  ImgDoencas_soja_0.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_soja_1.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_soja_2.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_soja_3.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_soja_4.setAttribute("class","ImgILUSTRA")
+  let Paragrafo_Doenca_um = document.createElement("p");
+  let Paragrafo_Doenca_dois = document.createElement("p");
+  let Paragrafo_Doenca_tres = document.createElement("p");
+  let Paragrafo_Doenca_quatro = document.createElement("p");
+  let Paragrafo_Doenca_cinco = document.createElement("p");
+  let Paragrafo_Doenca_seis = document.createElement("p");
+  let Paragrafo_Doenca_sete = document.createElement("p");
+  let Paragrafo_Doenca_oito = document.createElement("p");
+  let Paragrafo_Doenca_nove = document.createElement("p");
+  let Paragrafo_Doenca_dez = document.createElement("p");
+  DIVDoencas.setAttribute("class", "Doencas sectionStyle");
+  Doencas.innerText = SOJAdb.Doencas;
+  Paragrafo_Doenca_um.innerText = SOJAdb.paragrafo_Doenca_soja_0;
+  Paragrafo_Doenca_dois.innerText = SOJAdb.paragrafo_Doenca_soja_1;
+  Paragrafo_Doenca_tres.innerText = SOJAdb.paragrafo_Doenca_soja_2;
+  Paragrafo_Doenca_quatro.innerText = SOJAdb.paragrafo_Doenca_soja_3;
+  Paragrafo_Doenca_cinco.innerText = SOJAdb.paragrafo_Doenca_soja_4;
+  Paragrafo_Doenca_seis.innerText = SOJAdb.paragrafo_Doenca_soja_5;
+  Paragrafo_Doenca_sete.innerText = SOJAdb.paragrafo_Doenca_soja_6;
+  Paragrafo_Doenca_oito.innerText = SOJAdb.paragrafo_Doenca_soja_7;
+  Paragrafo_Doenca_nove.innerText = SOJAdb.paragrafo_Doenca_soja_8;
+  Paragrafo_Doenca_dez.innerText = SOJAdb.paragrafo_Doenca_soja_9;
+ 
 
-  DIVdoencas.appendChild(doencas);
-  DIVdoencas.appendChild(textdoencas);
+
+
+
+
+NomeDoenca_soja_0.innerText=SOJAdb.Titulo_Doenca_soja_0
+NomeDoenca_soja_1.innerText=SOJAdb.Titulo_Doenca_soja_1
+NomeDoenca_soja_2.innerText=SOJAdb.Titulo_Doenca_soja_2
+NomeDoenca_soja_3.innerText=SOJAdb.Titulo_Doenca_soja_3
+NomeDoenca_soja_4.innerText=SOJAdb.Titulo_Doenca_soja_4
+
+  //Adicionando imagens
+
+  ImgDoencas_soja_0.src="./images/antracnose-soja.svg"
+  ImgDoencas_soja_1.src="./images/oidio-soja.svg"
+  ImgDoencas_soja_2.src="./images/ferrugem-asiatica-soja.svg"
+  ImgDoencas_soja_3.src="./images/manchaAlvo-soja.svg"
+  ImgDoencas_soja_4.src="./images/crestamento-soja.svg"
+
+  DivImgDoencas_soja_0.appendChild(ImgDoencas_soja_0)
+  DivImgDoencas_soja_1.appendChild(ImgDoencas_soja_1)
+  DivImgDoencas_soja_2.appendChild(ImgDoencas_soja_2)
+  DivImgDoencas_soja_3.appendChild(ImgDoencas_soja_3)
+  DivImgDoencas_soja_4.appendChild(ImgDoencas_soja_4)
+
+  DIVDoencas.appendChild(Doencas);
+  DIVDoencas.appendChild(NomeDoenca_soja_0);
+  DIVDoencas.appendChild(Paragrafo_Doenca_um)
+  DIVDoencas.appendChild(DivImgDoencas_soja_0)
+  DIVDoencas.appendChild(Paragrafo_Doenca_dois)
+  DIVDoencas.appendChild(NomeDoenca_soja_1);
+  DIVDoencas.appendChild(Paragrafo_Doenca_tres)
+  DIVDoencas.appendChild(DivImgDoencas_soja_1)
+  DIVDoencas.appendChild(Paragrafo_Doenca_quatro)
+  DIVDoencas.appendChild(NomeDoenca_soja_2);
+  DIVDoencas.appendChild(Paragrafo_Doenca_cinco)
+  DIVDoencas.appendChild(DivImgDoencas_soja_2)
+  DIVDoencas.appendChild(Paragrafo_Doenca_seis)
+  DIVDoencas.appendChild(NomeDoenca_soja_3);
+  DIVDoencas.appendChild(Paragrafo_Doenca_sete)
+  DIVDoencas.appendChild(DivImgDoencas_soja_3)
+  DIVDoencas.appendChild(Paragrafo_Doenca_oito)
+  DIVDoencas.appendChild(NomeDoenca_soja_4);
+  DIVDoencas.appendChild(Paragrafo_Doenca_nove)
+  DIVDoencas.appendChild(DivImgDoencas_soja_4)
+  DIVDoencas.appendChild(Paragrafo_Doenca_dez)
   //------------------------------------------------------------
   //
   //
@@ -326,8 +421,63 @@ NomePraga_soja_4.innerText=SOJAdb.Titulo_praga_soja_4
   //
   //------------------------------------------------------------
 
+  let divFonte = document.createElement("div");
+  let referencias = document.createElement("h2")
+
   let spanFonte = document.createElement("span");
-  spanFonte.innerText = "FONTE: Embrapa";
+  let spanFonte1 = document.createElement("span");
+  let spanFonte2 = document.createElement("span");
+  let spanFonte3 = document.createElement("span");
+  let spanFonte4 = document.createElement("span");
+  let spanFonte5 = document.createElement("span");
+  let spanFonte6 = document.createElement("span");
+  let spanFonte7 = document.createElement("span");
+  let spanFonte8 = document.createElement("span");
+  let spanFonte9 = document.createElement("span");
+  let spanFonte10 = document.createElement("span");
+  let spanFonte11= document.createElement("span");
+  let spanFonte12= document.createElement("span");
+  let spanFonte13 = document.createElement("span");
+
+  divFonte.setAttribute("class", "divfonte");
+spanFonte.innerText="SOUSA, D.M.G de; LOBATO. E. Correção do solo e adubação da cultura da soja. Planaltina: EMBRAPACPAC, 1996. 30p. (EMBRAPA-CPAC. Circular Técnica, 33). "
+spanFonte1.innerText="Controle biológico de percevejo-marrom em soja. MaisSoja, 2020. Disponível em: https://maissoja.com.br/controle-biologico-de-percevejo-marrom-em-soja/. Acesso em: 08 de setembro 2022."
+spanFonte2.innerText="SALVADOR, murilo. Clima e Solo Ideais para o Cultivo de Soja. Portal Agriconline, 2021. Disponível em: https://portal.agriconline.com.br/artigo/clima-e-solo-ideais-para-o-cultivo-de-soja/. Acesso em: 18 de outubro de 2022."
+spanFonte3.innerText="Irrigação em Soja: Qual Sistema Usar?. MaisSoja, 2019. Disponivel em: https://maissoja.com.br/irrigacao-em-soja-qual-sistema-usar/. Acesso em: 23 de outubro de 2022. "
+spanFonte4.innerText="Soja em números (safra 2020/21). Embrapa Soja, 2021. Disponível em: https://www.embrapa.br/soja/cultivos/soja1/dados-economicos. Acesso em: 21 de setembro de 2022. "
+spanFonte5.innerText="O clima ideal para uma melhor rentabilidade da soja. Agro Urbano, 2019. Disponível em: https://www.agrourbano.com.br/release/153/o-clima-ideal-para-uma-melhor-rentabilidade-da-soja. Acesso em: 28 de setembro de 2022."
+spanFonte6.innerText="Broca do colo. Agrolink. Disponível em: https://www.agrolink.com.br/culturas/milho/broca-do-colo_353.html. Acesso em: 02 de novembro de 2022. "
+spanFonte7.innerText="BUENO, R. C. O. F.; BUENO, A. F.; XAVIER, M. F. C.. Características biológicas de Trissolcus basalis em ovos de Euschistus heros e Nezara viridula. Embrapa, 2011. Disponível em: https://www.embrapa.br/busca-de-publicacoes/-/publicacao/908157/caracteristicas-biologicas-de-trissolcus-basalis-em-ovos-de-euschistus-heros-e-nezara-viridula. Acesso em: 23 de setembro de 2022."
+spanFonte8.innerText="CONTROLE BIOLÓGICO DE INSETOS- PRAGA NA SOJA ORGÂNICA. Embrapa, 2002. Disponível em: https://www.embrapa.br/documents/ 1355163/1994197/2002_controleBiologico InsetosPragaSojaOrganica.pdf/. Acesso em 02 de novembro 2022."
+spanFonte9.innerText="Percevejo marrom. Agrolink. Disponível em https://www.agrolink.com.br/problemas/percevejo-marrom_1953.html. Acesso em: 02 de novembro de 2022. "
+spanFonte10.innerText="CHINELATO, gressa. Ferrugem asiática: 6 dicas para controlar a doença. aegro, 2018. Disponível em: https://blog.aegro.com.br/ferrugem-asiatica-da-soja/. Acesso em 23 de outubro de 2022. "
+spanFonte11.innerText="Ferrugem asiática. Agrolink. Disponível em https://www.agrolink.com.br/problemas/ferrugem-asiatica_2241.html. Acesso em: 02 de novembro de 2022. "
+spanFonte12.innerText="SOARES MOREIRA,  rafael. Crestamento foliar de cercospora e mancha púrpura. Embrapa, 2021. Disponível em: https://www.embrapa.br/agencia-de-informacao-tecnologica/ cultivos/soja/producao/doencas-da-soja/doencas-causadas-por-fungos/crestamento-foliar-de-cercospora-e-mancha-purpura. Acesso em: 02 de novembro de 2022."
+spanFonte13.innerText="BEZERRA ALVES, Ademar et al. Cultivo de Soja no Cerrado de Roraima. Embrapa, 2019. Disponível em: https://ainfo.cnptia.embrapa.br /digital/bitstream/item/210591/1/SIST-PROD-06-Soja.pdf. Acesso em 04 de setembro de 2022."
+  
+
+
+  
+
+
+
+  referencias.innerText="REFERÊNCIAS"
+  divFonte.appendChild(referencias)
+  divFonte.appendChild(spanFonte);
+  divFonte.appendChild(spanFonte1);
+  divFonte.appendChild(spanFonte2);
+  divFonte.appendChild(spanFonte3);
+  divFonte.appendChild(spanFonte4);
+  divFonte.appendChild(spanFonte5);
+  divFonte.appendChild(spanFonte6);
+  divFonte.appendChild(spanFonte7);
+  divFonte.appendChild(spanFonte8);
+  divFonte.appendChild(spanFonte9);
+  divFonte.appendChild(spanFonte10);
+  divFonte.appendChild(spanFonte11);
+  divFonte.appendChild(spanFonte12);
+  divFonte.appendChild(spanFonte13);
+  
   //------------------------------------------------------------
   //
   //
@@ -345,8 +495,9 @@ NomePraga_soja_4.innerText=SOJAdb.Titulo_praga_soja_4
   sectionSOJA.appendChild(DIVPS);
   sectionSOJA.appendChild(DIVAdubacao);
   sectionSOJA.appendChild(DIVPragas);
-  sectionSOJA.appendChild(DIVdoencas);
-  sectionSOJA.appendChild(spanFonte);
+  sectionSOJA.appendChild(DIVDoencas);
+  sectionSOJA.appendChild(divFonte);
+  sectionSOJA.appendChild(btnScroll)
   main.appendChild(sectionSOJA);
 }
 
@@ -904,6 +1055,7 @@ DivimgColheitaMilho.appendChild(imgColheitaMilho)
   sectionMilho.appendChild(DIVdoencas);
   sectionMilho.appendChild(DivColheita);
   sectionMilho.appendChild(divFonte);
+  sectionMilho.appendChild(btnScroll)
   main.appendChild(sectionMilho);
 }
 
@@ -1415,6 +1567,7 @@ let referencias = document.createElement("h2")
   sectionMELANCIA.appendChild(DivTratos);
   sectionMELANCIA.appendChild(DivColheita);
   sectionMELANCIA.appendChild(divReferencias);
+  sectionMELANCIA.appendChild(btnScroll)
   main.appendChild(sectionMELANCIA);
 }
 
@@ -1595,5 +1748,6 @@ function criarALFACE() {
   sectionALFACE.appendChild(DIVPragas);
   sectionALFACE.appendChild(DIVdoencas);
   sectionALFACE.appendChild(spanFonte);
+  sectionALFACE.appendChild(btnScroll)
   main.appendChild(sectionALFACE);
 }

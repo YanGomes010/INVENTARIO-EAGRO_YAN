@@ -5,9 +5,12 @@
     width: 95%;
 }
 
-.sectionStyle h2 {
+.sectionStyle h2, .divfonte h2 {
     text-align: center;
     font-weight: bold;
+}
+.divfonte h2{
+    margin: 45px 0px 45px 0px;
 }
 
 /* SEÇÕES */

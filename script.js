@@ -190,8 +190,10 @@ function menuMobile() {
 }
 
 function ScrollTop() {
-  let btnScroll = document.createElement("div");
-  btnScroll.setAttribute("id", "btnScroll");
+window.scrollTo({
+  top:0,
+  behavior:"smooth"
+})
 }
 
 

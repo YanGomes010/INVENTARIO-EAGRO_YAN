@@ -150,11 +150,11 @@ var SOJAdb = {
     "A deficiência em manganês (Mn) é constatada visualmente na folha, para correção indica-se a aplicação de 350 g/ha de Mn diluído em 200 L de água com 0,5% de ureia, com uso de espalhante adesivo.",
 
   Pragas: "PRAGAS",
-  Titulo_praga_soja_0: "Antracnose (Colletotrichum dematium)",
+  Titulo_praga_soja_0: "Vaquinha verde-amarela (Diabrotica speciosa)",
   paragrafo_praga_soja_0:
-    "Causada por fungo, a antracnose ataca principalmente na fase inicial do desenvolvimento da cultivar.  Os sintomas desta doença são: Manchas e queima das folhas, hastes e frutos, além de morte das plântulas, má formação e queda dos frutos e manchas nas sementes. O fungo causador da antracnose tem preferência por lugares quentes e com bastante chuva, logo a escolha do momento do plantio é crucial para o bom desenvolvimento da lavoura",
+    "A vaquinha verde-amarela reduz o número de raízes nas plantas, diminui a absorção de nutrientes , estimula o tombamento da cultivar, destrói as folhas e flores novas, assim prejudicando a produção de frutos. A praga pode gerar grandes danos econômicos porque ataca em qualquer momento do ciclo da cultura.",
   paragrafo_praga_soja_1:
-    "O controle pode ser realizado por meio de rotação de culturas,  uso de sementes livres do patógeno, fungicidas, maior espaçamento entre linhas e manejo adequado do solo com ênfase na adubação potássica",
+  "O controle pode ser realizado através de um bom preparo de solo, inseticidas aplicados diretamente nas folhas por meio de pulverização e tratamento das sementes.",
   Titulo_praga_soja_1: "Lagarta da soja (Anticarsia gemmatalis)",
   paragrafo_praga_soja_2:
     "Esta praga causa danos a cultura em duas fases: Larva e Mariposa, a qual coloca seus ovos na parte inferior das folhas e deles originam-se as larvas, que se alimentam das folhas da planta, assim causando sua morte. Esta desfolha deve ser controlada, pois a praga se prolifera pela lavoura, logo podendo levar o produtor a perca de toda produção.",
@@ -162,7 +162,7 @@ var SOJAdb = {
     "O controle pode ser realizado com inseticidas químicos e com manejo biológico por meio do Baculovírus.",
   Titulo_praga_soja_2: "Lagarta Elasmo (Elasmopalpus lignosellus)",
   paragrafo_praga_soja_4:
-    "A praga tem grande potêncial de atingir a rápida destruição da lavoura e aparecem com mais frequência em períodos secos. A lagarta não permite o crescimento da planta, causando murcha das folhas,  as quais logo morrem. Este processo é chamado de “coração morto”. ",
+    "A praga tem grande potêncial de atingir a rápida destruição da lavoura e aparecem com mais frequência em períodos secos. A lagarta não permite o crescimento da planta, causando murcha das folhas,  as quais logo morrem. Este processo é chamado de “coração morto”.",
   paragrafo_praga_soja_5:
     "O manejo contra doença pode ser realizado por meio do tratamento de sementes com inseticidas sistêmicos.",
   Titulo_praga_soja_3: "Percevejo-marrom-da-soja (Euschistus heros)",
@@ -177,9 +177,34 @@ var SOJAdb = {
     "O manejo de prevenção pode ser realizado através da rotação de culturas, controle químico e eliminação de plantas invasoras. Também pode ser realizado o controle por meio de inimigos naturais como a vespa Telenomus podisi.",
 
   Doencas: "DOENÇAS",
-  infoDoencas:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-};
+  
+  Titulo_Doenca_soja_0: "Antracnose (Colletotrichum dematium)",
+  paragrafo_Doenca_soja_0:
+    "Causada por fungo, a antracnose ataca principalmente na fase inicial do desenvolvimento da cultivar.  Os sintomas desta doença são: Manchas e queima das folhas, hastes e frutos, além de morte das plântulas, má formação e queda dos frutos e manchas nas sementes. O fungo causador da antracnose tem preferência por lugares quentes e com bastante chuva, logo a escolha do momento do plantio é crucial para o bom desenvolvimento da lavoura.",
+  paragrafo_Doenca_soja_1:
+  "O controle pode ser realizado por meio de rotação de culturas,  uso de sementes livres do patógeno, fungicidas, maior espaçamento entre linhas e manejo adequado do solo com ênfase na adubação potássica.",
+  Titulo_Doenca_soja_1: "Oídio (Microsphaera diffusa)",
+  paragrafo_Doenca_soja_2:
+    "Causado por fungo, o Oídio causa danos a toda parte aérea da planta e ao longo da infecção assemelha-se a mofo, o qual é semelhante a pó de giz. Esta doença cobre a folha infectada e assim a doença é facilmente detectada.  Clima seco e baixa temperatura estimulam o desenvolvimento da enfermidade, a qual pode prejudicar diretamente a produção e o vigor da cultivar, mas não leva seu hospedeiro (soja) a morte.",
+  paragrafo_Doenca_soja_3:
+    "O controle pode ser realizado por meio de pulverização de fungicidas na parte aérea da planta e irrigação, já que a doença prefere lugares secos.",
+  Titulo_Doenca_soja_2: "Ferrugem-asiática da soja (Phakopsora  pachyrhizi)",
+  paragrafo_Doenca_soja_4:
+    "Causada por um microparasita Phakopsora pachyrhizi, a ferrugem asiática chama bastante atenção dos produtores de soja, por ser tratar de uma doença que desfolha a planta, bloqueia a formação completa dos grãos, assim diminuindo a produtividade. A doença gera “verrugas” na parte inferior da folha para que possa produzir esporos, os quais variam a coloração entre castanho-claro e castanho escuro.",
+  paragrafo_Doenca_soja_5:
+  "O controle é um pouco complicado pela dificuldade em encontrar cultivares resistentes, mas pode ser realizado com a retirada de plantas invasoras da lavoura, uso de fungicidas pulverizados, como a morfolina, intervalo de plantio de 90 dias pós colheita e não utilização de cultivares precoces",
+  Titulo_Doenca_soja_3: "Mancha Alvo (Corynespora cassiicola)",
+  paragrafo_Doenca_soja_6:
+    "Transmitida por fungos, a doença a qual pode acarretar perda de 25% da lavoura, é bastante comum e perigosa, seus sintomas são pequenas manchas marrons com bordas amareladas, queda precoce das folhas e lesões foliares. Sua transmissão se dá pelas gotículas de água e sementes. Caso haja infecção das cultivares, deve-se tomar cuidado com a rotação de culturas, já que a mancha alvo permanence no solo e pode infectar todo plantio futuro.",
+  paragrafo_Doenca_soja_7:
+    "O controle é realizado com o tratamento de sementes por fungicidas sintêmicos, eliminação dos restos culturais e pulverização de fungicidas ma parte aérea.",
+  Titulo_Doenca_soja_4: "Crestamento foliar",
+  paragrafo_Doenca_soja_8:
+    "Causado por fungos do gênero Cercospora, o crestamento ataca todas as partes da planta, principalmente a folha. Os sintomas são identificados por manchas amareladas e escuras, que quando se juntam dão aspecto de queimação foliar, queda precoce das folhas e manchas avermelhadas nas vargens. O fungo causador é transmitido pelas sementes, as quais apresentam mancha púrpura.",
+  paragrafo_Doenca_soja_9:
+    "O controle é realizado com o tratamento de sementes por fungicidas sintêmicos, eliminação dos restos culturais e pulverização na parte aérea de fungicidas dos grupos benzimidazóis, triazóis e estrobilurinas.",
+
+ };
 
 var ALFACEdb = {
   titulo: "CULTURA DA ALFACE",
@@ -279,7 +304,7 @@ var MELANCIAdb = {
     "O controle pode ser realizado por meio de rotação de culturas,  uso de sementes livres do patógeno, fungicidas, maior espaçamento entre linhas e manejo adequado do solo com ênfase na adubação potássica",
   TituloDoencas_melancia_2: "Oídio (Sphaerotheca fuliginea)",
   ParagrafoDoencas_melancia_4:
-    "Causada por fungo, o Oídio causa danos a toda parte aérea da planta e ao longo da infecção um mofo, que é semelhante a pó de giz, cobre a folha infectada e assim a doença é facilmente detectada.  Clima seco e baixa temperatura estimulam o desenvolvimento da enfermidade, a qual pode prejudicar diretamente a produção e o vigor da cultivar, mas não leva seu hospedeiro (melancia) a morte.",
+    "Causado por fungo, o Oídio causa danos a toda parte aérea da planta e ao longo da infecção assemelha-se a mofo, o qual é semelhante a pó de giz. Esta doença cobre a folha infectada e assim a doença é facilmente detectada.  Clima seco e baixa temperatura estimulam o desenvolvimento da enfermidade, a qual pode prejudicar diretamente a produção e o vigor da cultivar, mas não leva seu hospedeiro (melancia) a morte.",
   ParagrafoDoencas_melancia_5:
     "O controle pode ser realizado por meio de fungicidas e irrigação, já que a doença prefere lugares secos.",
   TituloDoencas_melancia_3: "Crestamento-gomoso-do-caule (Didymella bryoniae)",
