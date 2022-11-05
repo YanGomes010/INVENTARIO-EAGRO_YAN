@@ -1,7 +1,7 @@
 var MILHOdb = {
   titulo: "CULTURA DO MILHO",
   subtitulo:
-    "Como plantar milho: Clima, temperatura, solo, adubação, principais principais pragas e doenças.",
+    "Informações de plantio: Clima, temperatura, solo, adubação, principais principais pragas e doenças.",
   introducao:
     "O milho é uma das “commodities” agricolas mais importantes do mercado atualmente. No Brasil, este tipo de gramínea é cultivada em pequenas propriedades familiares e também em latifúndios com produção em grande escala. Com ótima adaptabilidade, o milho se tornou uma potência no mercado mundial e tem grande influência em plantios com rotação de culturas, como em conjunto com a soja.",
   Clima: "CLIMA",
@@ -112,7 +112,7 @@ var MILHOdb = {
 var SOJAdb = {
   titulo: "CULTURA DA SOJA",
   subtitulo:
-    "Como plantar milho: Clima e irrigação, rotação de culturas, temperatura, solo, adubação, pragas, doenças e colheita.",
+    "Informações de plantio: Clima e irrigação, rotação de culturas, temperatura, solo, adubação, pragas, doenças e colheita.",
   introducao:
     "A soja é uma leguminosa originada da Ásia, bastante utilizada na alimentação de humanos, animais e fabricação de óleos. O Brasil é o maior produtor do grão, tendo uma área plantada de aproximadamente 39 milhões de hectares e produção anual próxima a 140 milhões de toneladas (EMBRAPA. 2021).",
   Clima: "CLIMA E IRRIGAÇÃO",
@@ -206,12 +206,12 @@ var SOJAdb = {
 
  };
 
-var ALFACEdb = {
-  titulo: "CULTURA DA ALFACE",
+var MANDIOCAdb = {
+  titulo: "CULTURA DA MANDIOCA",
   subtitulo:
-    "Como plantar Alface: Clima, temperatura, solo, adubação, principais pragas e doenças.",
+    "Informações de plantio: Clima, temperatura, solo, adubação, principais pragas e doenças.",
   introducao:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "A mandioca é uma planta presente em todo território nacional brasileiro, assim tornando-a uma das culturas mais importantes para o desenvolvimento socioeconômico do país. A maior parte do cultivo é realizado por pequenos produtores e sua maior produção está situada no estado do Pará.  A mandioca é utilizada como matéria prima de vários pratos culinários, como pão-de-queijo, bolos, biscoitos, massa de salgados, confeitaria, tapioca, entre outros. Logo, é de suma importância o conhecimento de seu plantio.",
   Clima: "CLIMA",
   infoClima:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",

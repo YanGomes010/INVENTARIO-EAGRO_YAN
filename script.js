@@ -23,9 +23,9 @@ let main = document.querySelector("main");
 let sectionMilho = document.createElement("section");
 let sectionSOJA = document.createElement("section");
 let sectionMELANCIA = document.createElement("section");
-let sectionALFACE = document.createElement("section");
+let sectionMANDIOCA = document.createElement("section");
 //Array de plantas agricolas
-var agricolas = ["MILHO", "SOJA", "MELANCIA", "ALFACE"];
+var agricolas = ["MILHO", "SOJA", "MELANCIA", "MANDIOCA"];
 
  //PROXIMA VERSÃO, ADIÇÃO JARDIM
 
@@ -208,7 +208,7 @@ window.scrollTo({
  // sec1.innerHTML = "";
   //sectionMilho.style.display = "none";
  // sectionMELANCIA.style.display = "none";
- // sectionALFACE.style.display = "none";
+ // sectionMANDIOCA.style.display = "none";
  // sectionSOJA.style.display = "none";
  // let section = document.getElementById("section-cards");
   //section.innerHTML = "";
@@ -223,7 +223,7 @@ function exibirAgricolas() {
   sec1.innerHTML = "";
   sectionMilho.style.display = "none";
   sectionMELANCIA.style.display = "none";
-  sectionALFACE.style.display = "none";
+  sectionMANDIOCA.style.display = "none";
   sectionSOJA.style.display = "none";
   let section = document.getElementById("section-cards");
   section.innerHTML = "";

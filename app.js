@@ -1571,10 +1571,10 @@ let referencias = document.createElement("h2")
   main.appendChild(sectionMELANCIA);
 }
 
-function criarALFACE() {
+function criarMANDIOCA() {
   let section = document.getElementById("section-cards");
   section.innerHTML = "";
-  sectionALFACE.innerHTML = "";
+  sectionMANDIOCA.innerHTML = "";
 
   //------------------------------------------------------------
   //
@@ -1585,9 +1585,9 @@ function criarALFACE() {
 
   let divIMG = document.createElement("div");
   let IMG = document.createElement("img");
-  IMG.src = "./images/ALFACE-INTERFACE.svg";
+  IMG.src = "./images/MANDIOCA-INTERFACE.svg";
   divIMG.setAttribute("id", "sectionBoxIMG");
-  sectionALFACE.setAttribute("id", "sec-1");
+  sectionMANDIOCA.setAttribute("id", "sec-1");
 
   divIMG.appendChild(IMG);
 
@@ -1602,8 +1602,8 @@ function criarALFACE() {
   divTITULO.setAttribute("id", "divTitle");
   let titulo = document.createElement("h1");
   let subtitulo = document.createElement("p");
-  titulo.innerText = ALFACEdb.titulo;
-  subtitulo.innerText = ALFACEdb.subtitulo;
+  titulo.innerText = MANDIOCAdb.titulo;
+  subtitulo.innerText = MANDIOCAdb.subtitulo;
 
   divTITULO.appendChild(titulo);
   divTITULO.appendChild(subtitulo);
@@ -1619,7 +1619,7 @@ function criarALFACE() {
   let DIVintroducao = document.createElement("div");
   let introducao = document.createElement("p");
   DIVintroducao.setAttribute("class", "introducao sectionStyle");
-  introducao.innerText = ALFACEdb.introducao;
+  introducao.innerText = MANDIOCAdb.introducao;
 
   DIVintroducao.appendChild(introducao);
   //------------------------------------------------------------
@@ -1633,8 +1633,8 @@ function criarALFACE() {
   let condicoes = document.createElement("h2");
   let textCONDICOES = document.createElement("p");
   DIVcondicoes.setAttribute("class", "Clima sectionStyle");
-  condicoes.innerText = ALFACEdb.Clima;
-  textCONDICOES.innerText = ALFACEdb.infoClima;
+  condicoes.innerText = MANDIOCAdb.Clima;
+  textCONDICOES.innerText = MANDIOCAdb.infoClima;
 
   DIVcondicoes.appendChild(condicoes);
   DIVcondicoes.appendChild(textCONDICOES);
@@ -1650,8 +1650,8 @@ function criarALFACE() {
   let temperatura = document.createElement("h2");
   let textTemperatura = document.createElement("p");
   DIVtemperatura.setAttribute("class", "temperatura sectionStyle");
-  temperatura.innerText = ALFACEdb.temperatura;
-  textTemperatura.innerText = ALFACEdb.infoTemperatura;
+  temperatura.innerText = MANDIOCAdb.temperatura;
+  textTemperatura.innerText = MANDIOCAdb.infoTemperatura;
 
   DIVtemperatura.appendChild(temperatura);
   DIVtemperatura.appendChild(textTemperatura);
@@ -1666,8 +1666,8 @@ function criarALFACE() {
   let Solo = document.createElement("h2");
   let textSolo = document.createElement("p");
   DIVSolo.setAttribute("class", "Solo sectionStyle");
-  Solo.innerText = ALFACEdb.Solo;
-  textSolo.innerText = ALFACEdb.infoSolo;
+  Solo.innerText = MANDIOCAdb.Solo;
+  textSolo.innerText = MANDIOCAdb.infoSolo;
 
   DIVSolo.appendChild(Solo);
   DIVSolo.appendChild(textSolo);
@@ -1682,8 +1682,8 @@ function criarALFACE() {
   let Adubacao = document.createElement("h2");
   let textAdubacao = document.createElement("p");
   DIVAdubacao.setAttribute("class", "Adubacao sectionStyle");
-  Adubacao.innerText = ALFACEdb.Adubacao;
-  textAdubacao.innerText = ALFACEdb.infoAdubacao;
+  Adubacao.innerText = MANDIOCAdb.Adubacao;
+  textAdubacao.innerText = MANDIOCAdb.infoAdubacao;
 
   DIVAdubacao.appendChild(Adubacao);
   DIVAdubacao.appendChild(textAdubacao);
@@ -1698,8 +1698,8 @@ function criarALFACE() {
   let Pragas = document.createElement("h2");
   let textPragas = document.createElement("p");
   DIVPragas.setAttribute("class", "Pragas sectionStyle");
-  Pragas.innerText = ALFACEdb.Pragas;
-  textPragas.innerText = ALFACEdb.infoPragas;
+  Pragas.innerText = MANDIOCAdb.Pragas;
+  textPragas.innerText = MANDIOCAdb.infoPragas;
 
   DIVPragas.appendChild(Pragas);
   DIVPragas.appendChild(textPragas);
@@ -1714,8 +1714,8 @@ function criarALFACE() {
   let doencas = document.createElement("h2");
   let textdoencas = document.createElement("p");
   DIVdoencas.setAttribute("class", "doencas sectionStyle");
-  doencas.innerText = ALFACEdb.Doencas;
-  textdoencas.innerText = ALFACEdb.infoDoencas;
+  doencas.innerText = MANDIOCAdb.Doencas;
+  textdoencas.innerText = MANDIOCAdb.infoDoencas;
 
   DIVdoencas.appendChild(doencas);
   DIVdoencas.appendChild(textdoencas);
@@ -1737,17 +1737,17 @@ function criarALFACE() {
   //
   //------------------------------------------------------------
 
-  sectionALFACE.style.display = "block";
-  sectionALFACE.appendChild(divIMG);
-  sectionALFACE.appendChild(divTITULO);
-  sectionALFACE.appendChild(DIVintroducao);
-  sectionALFACE.appendChild(DIVcondicoes);
-  sectionALFACE.appendChild(DIVtemperatura);
-  sectionALFACE.appendChild(DIVSolo);
-  sectionALFACE.appendChild(DIVAdubacao);
-  sectionALFACE.appendChild(DIVPragas);
-  sectionALFACE.appendChild(DIVdoencas);
-  sectionALFACE.appendChild(spanFonte);
-  sectionALFACE.appendChild(btnScroll)
-  main.appendChild(sectionALFACE);
+  sectionMANDIOCA.style.display = "block";
+  sectionMANDIOCA.appendChild(divIMG);
+  sectionMANDIOCA.appendChild(divTITULO);
+  sectionMANDIOCA.appendChild(DIVintroducao);
+  sectionMANDIOCA.appendChild(DIVcondicoes);
+  sectionMANDIOCA.appendChild(DIVtemperatura);
+  sectionMANDIOCA.appendChild(DIVSolo);
+  sectionMANDIOCA.appendChild(DIVAdubacao);
+  sectionMANDIOCA.appendChild(DIVPragas);
+  sectionMANDIOCA.appendChild(DIVdoencas);
+  sectionMANDIOCA.appendChild(spanFonte);
+  sectionMANDIOCA.appendChild(btnScroll)
+  main.appendChild(sectionMANDIOCA);
 }
