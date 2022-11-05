@@ -1629,15 +1629,18 @@ function criarMANDIOCA() {
   //
   //
   //------------------------------------------------------------
-  let DIVcondicoes = document.createElement("div");
-  let condicoes = document.createElement("h2");
-  let textCONDICOES = document.createElement("p");
-  DIVcondicoes.setAttribute("class", "Clima sectionStyle");
-  condicoes.innerText = MANDIOCAdb.Clima;
-  textCONDICOES.innerText = MANDIOCAdb.infoClima;
+  let DivClimaEIrrigação = document.createElement("div");
+  let Clima = document.createElement("h2");
+  let paragrafo_Clima_e_irrigacao_um = document.createElement("p");
+  let paragrafo_Clima_e_irrigacao_dois = document.createElement("p");
+  DivClimaEIrrigação.setAttribute("class", "Clima sectionStyle");
+  Clima.innerText = MANDIOCAdb.Clima;
+  paragrafo_Clima_e_irrigacao_um.innerText = MANDIOCAdb.ParagrafoClima_Irrigação_0;
+  paragrafo_Clima_e_irrigacao_dois.innerText = MANDIOCAdb.ParagrafoClima_Irrigação_1;
 
-  DIVcondicoes.appendChild(condicoes);
-  DIVcondicoes.appendChild(textCONDICOES);
+  DivClimaEIrrigação.appendChild(Clima)
+  DivClimaEIrrigação.appendChild(paragrafo_Clima_e_irrigacao_um);
+  DivClimaEIrrigação.appendChild(paragrafo_Clima_e_irrigacao_dois);
 
   //------------------------------------------------------------
   //
@@ -1646,15 +1649,15 @@ function criarMANDIOCA() {
   //
   //
   //------------------------------------------------------------
-  let DIVtemperatura = document.createElement("div");
-  let temperatura = document.createElement("h2");
-  let textTemperatura = document.createElement("p");
-  DIVtemperatura.setAttribute("class", "temperatura sectionStyle");
-  temperatura.innerText = MANDIOCAdb.temperatura;
-  textTemperatura.innerText = MANDIOCAdb.infoTemperatura;
+ // let DIVtemperatura = document.createElement("div");
+  //let temperatura = document.createElement("h2");
+ // let textTemperatura = document.createElement("p");
+  //DIVtemperatura.setAttribute("class", "temperatura sectionStyle");
+  //temperatura.innerText = MANDIOCAdb.temperatura;
+ // textTemperatura.innerText = MANDIOCAdb.infoTemperatura;
 
-  DIVtemperatura.appendChild(temperatura);
-  DIVtemperatura.appendChild(textTemperatura);
+ // DIVtemperatura.appendChild(temperatura);
+ // DIVtemperatura.appendChild(textTemperatura);
   //------------------------------------------------------------
   //
   //
@@ -1664,13 +1667,22 @@ function criarMANDIOCA() {
   //------------------------------------------------------------
   let DIVSolo = document.createElement("div");
   let Solo = document.createElement("h2");
-  let textSolo = document.createElement("p");
+  let paragrafo_solo_um = document.createElement("p");
+  let paragrafo_solo_dois = document.createElement("p");
+  let paragrafo_solo_tres = document.createElement("p");
+  let paragrafo_solo_quatro = document.createElement("p");
   DIVSolo.setAttribute("class", "Solo sectionStyle");
   Solo.innerText = MANDIOCAdb.Solo;
-  textSolo.innerText = MANDIOCAdb.infoSolo;
+  paragrafo_solo_um.innerText = MANDIOCAdb.paragrafoSolo_0;
+  paragrafo_solo_dois.innerText = MANDIOCAdb.paragrafoSolo_1;
+  paragrafo_solo_tres.innerText = MANDIOCAdb.paragrafoSolo_2;
+  paragrafo_solo_quatro.innerText = MANDIOCAdb.paragrafoSolo_3;
 
   DIVSolo.appendChild(Solo);
-  DIVSolo.appendChild(textSolo);
+  DIVSolo.appendChild(paragrafo_solo_um);
+  DIVSolo.appendChild(paragrafo_solo_dois);
+  DIVSolo.appendChild(paragrafo_solo_tres);
+  DIVSolo.appendChild(paragrafo_solo_quatro);
   //------------------------------------------------------------
   //
   //
@@ -1741,8 +1753,8 @@ function criarMANDIOCA() {
   sectionMANDIOCA.appendChild(divIMG);
   sectionMANDIOCA.appendChild(divTITULO);
   sectionMANDIOCA.appendChild(DIVintroducao);
-  sectionMANDIOCA.appendChild(DIVcondicoes);
-  sectionMANDIOCA.appendChild(DIVtemperatura);
+  sectionMANDIOCA.appendChild(DivClimaEIrrigação);
+  //sectionMANDIOCA.appendChild(DIVtemperatura);
   sectionMANDIOCA.appendChild(DIVSolo);
   sectionMANDIOCA.appendChild(DIVAdubacao);
   sectionMANDIOCA.appendChild(DIVPragas);

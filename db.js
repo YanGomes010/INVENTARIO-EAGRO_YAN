@@ -209,19 +209,24 @@ var SOJAdb = {
 var MANDIOCAdb = {
   titulo: "CULTURA DA MANDIOCA",
   subtitulo:
-    "Informações de plantio: Clima, temperatura, solo, adubação, principais pragas e doenças.",
+    "Informações de plantio: Clima e irrigação, solo, adubação, tratos culturrais, principais pragas e doenças.",
   introducao:
-    "A mandioca é uma planta presente em todo território nacional brasileiro, assim tornando-a uma das culturas mais importantes para o desenvolvimento socioeconômico do país. A maior parte do cultivo é realizado por pequenos produtores e sua maior produção está situada no estado do Pará.  A mandioca é utilizada como matéria prima de vários pratos culinários, como pão-de-queijo, bolos, biscoitos, massa de salgados, confeitaria, tapioca, entre outros. Logo, é de suma importância o conhecimento de seu plantio.",
-  Clima: "CLIMA",
-  infoClima:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  temperatura: "TEMPERATURA",
-  infoTemperatura:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+"A mandioca, também chamada de aipim ou macaxeira, é uma planta presente em todo território nacional brasileiro, assim tornando-a uma das culturas mais importantes para o desenvolvimento socioeconômico do país. A maior parte do cultivo é realizado por pequenos produtores e sua maior produção está situada no estado do Pará.  A mandioca é utilizada como matéria prima de vários pratos culinários, como pão-de-queijo, bolos, biscoitos, massa de salgados, confeitaria, tapioca, entre outros. Logo, é de suma importância o conhecimento de seu plantio.",
+ Clima:"CLIMA E IRRIGAÇÃO",
+ParagrafoClima_Irrigação_0:
+"Para assegurar a sobrevivência e a produtividade da cultura, a temperatura durante seu ciclo deve estar aproximadamente entre 18° e 35° C, temperaturas abaixo desta faixa retardam o crescimento, chegando até a paralisação da atividade vegetativa. Além disto, é recomendada a exposição diária de 12 horas e que seu cultivo seja realizado em áreas com precipitações que atinjam de 900 a 1.600 mm/ano. Entretanto, dependendo da variedade a quantidade de água pode ser de até 700 mm/ano ou 4.000 mm/ano. Logo é necessário ter conhecimento da variedade e implementar seu cultivo em época correta para que não haja déficit hídrico e de produção.",    
+ParagrafoClima_Irrigação_1:
+    "A irrigação é uma prática recomendada na maioria das culturas, porque gera aumento produtivo da lavoura até três vezes maior do que um plantio não irrigado. Para mandioca, a qual na maioria das vezes é plantada em conjunto com outra cultivar, como o milho, é recomendada a irrigação por aspersão, que possui baixo custo de implantação para o produtor. A cultura irrigada, pode chegar a produção de 30t/ha, também minimiza os riscos de mudanças climáticas, colheita precoce e outros benefícios.",
   Solo: "SOLO",
-  infoSolo:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  Adubacao: "ADUBAÇÃO",
+ paragrafoSolo_0:
+    "Por ser uma planta que se visa o crescimento radicular, o preparo do solo é de suma importância. Para que haja cultivo da melhor forma, deve-se procurar áreas pouco inclinadas ou planas, não sujeitas a encharcamento, terras arenosas de textura média, profundas e pH entre 5 e 6.",
+    paragrafoSolo_1:
+    "O produtor deve evitar morros, ladeiras, solo mal drenado e com baixa disponibilidade de nutrientes e terrenos argilosos ou muito depressivos, pois favorecem enchacamentos e apodrecimento da raíz.",
+    paragrafoSolo_2:
+    "A etapa pós escolha da área, é a de preparo de solo, que tem como foco oferecer boas condições para o crescimento radicular da mandioca. Para iniciar os prepativos, é importante sabe que esta cultura é esgotante de solo, favorece erosões, logo é considerável que combine o plantio com alguma leguminosa para incorporar o solo. ",
+    paragrafoSolo_3:
+    "O preparo deve ser o minimo possível, é recomendado realizar duas gradagens em sentidos cruzado para deixar o solo bem destorroado. O uso da aração é recomendada apenas para solos com algum tipo de impedimento.",
+    Adubacao: "ADUBAÇÃO",
   infoAdubacao:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
   Pragas: "PRAGAS",
