@@ -254,9 +254,26 @@ ParagrafoClima_Irrigação_1:
     paragrafo_praga_8:"A mosca-branca se alimentar da seiva da planta e injeta toxinas e vírus, causando o enfraquecimento da planta e queda da produção. As fezes da praga estimulam o aparecimento de fungos, que prejudicam a respiração e fotossíntese (EMBRAPA, 2007).",
     paragrafo_praga_9:"O controle pode ser realizado por meio da aplicação de inseticidas carbamatos sistêmicos nas sementes ou inseticida granudo aplicado no sulco da planta (AGROLINK). Porém, o uso deve ser cuidadoso, pois a mosca adquiri resistência muito rápido aos inseticidas.",
     Doencas: "DOENÇAS",
-  infoDoencas:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-};
+    TituloDoencas_0:
+    "Bacteriose",
+    paragrafo_doenca_0:"Bacteriose é uma doença causada por Xanthomonas campestris pv. Manihotis, ela está presente em todo país  e seus sintomas caracterizam-se por manchas de aparência aquosa nos folíolos, murcha das folhas, exsudação de goma nas hastes, necrose dos feixes vasculares e morte da planta.",
+    paragrafo_doenca_1:"O controle é por meio de cultivares resistentes, como Aipim Gigante, Taquari e IAC 352-7, plantio em época adequada, eliminação de restos culturais e limpeza de ferramentes utiizadas.",
+    TituloDoencas_1:
+    "Podridão radicular",
+    paragrafo_doenca_2:"A podridão radicular, que é causada por Phytophthora spp, Pythium scleroteichum e Fusarium solani, é uma das principais causas da limitação de produção da mandioca, com aparecimento mais comum em áreas constituídas de solos adensados e sujeitos a constantes encharcamentos. Seus danos são, percas de produção, podridões com presença de odores na raíz, esporos de fungos nos tecidos afetados.",
+    paragrafo_doenca_3:"Como prevenção, é recomendada aração profunda, tratamento de sementes com fungicidas e plantio em clima períodos quentes. O controle é realizado por meio de rotação de culturas, adubação correta, cultivo consorciado, escolha correta do sistema de plantio para região e variedades tolerantes, como Osso Duro, Cedinha, Bibiana e clone 148/02.",
+    TituloDoencas_2:"Virose Mosaico comum",   
+     paragrafo_doenca_4:"O ataque da virose mosaico comum pode reduzir ate 30% da produtividade da lavoura e seus sintomas são caracterizados principalmente por clorose da lâmina foliar, retorcimento do limbo foliar, deformação da folha e nanismo foliar.",
+    paragrafo_doenca_5:"O manejo quimico ainda não é conhecido, logo, o controle baseia-se na utilização de cultivares resistentes e retirada plantas afetadas de dentro da lavoura.",
+    TituloDoencas_3:"Antracnose (Colletotrichum dematium)",
+    paragrafo_doenca_6:"Causada por fungo, a antracnose ataca principalmente na fase inicial do desenvolvimento da cultivar.  Os sintomas desta doença são: Manchas escuras e pequenas que podem levar a necrose foliar e que da folha e lesões profundas nas manivas. O fungo causador da antracnose tem preferência por lugares quentes e com bastante chuva, logo a escolha do momento do plantio é crucial para o bom desenvolvimento da lavoura.",
+    paragrafo_doenca_7:"O controle pode ser realizado por meio da queima de plantas afetdas, rotação de culturas,  uso de sementes tratadas, fungicidas , maior espaçamento entre linhas e manejo adequado do solo com ênfase na adubação de maneira correta.",
+    TituloDoencas_4:"Superalongamento",
+    paragrafo_doenca_8:"Causado pelo fungo Sphaceloma manihoticola, o superalongamento se dá pelo alongamento excessivo das hastes, ramas finas com longos entrenós, lesões parecidas com verrugoses, retorcimento foliar, defolhamento, planta envassourada, clorose e brotação de quase todas as gemas. Os danos podem causar perda de até 70%  da produtividade da lavoura, mas como o uso de cultivares resistentes, esse indice cai para 30%.",
+    paragrafo_doenca_9:"O controle é implementada com a seleção de manivas sadias para o plantio, queima de plantas infectadas, uso de cultivares resistentes e rotação de culturas.",
+
+  
+  };
 
 var MELANCIAdb = {
   titulo: "CULTURA DA MELANCIA",

@@ -1866,15 +1866,102 @@ NomePraga_Mandioca_4.innerText=Mandiocadb.TituloPragas_4
   //
   //
   //------------------------------------------------------------
-  let DIVdoencas = document.createElement("div");
+  let DIVDoencas = document.createElement("div");
   let doencas = document.createElement("h2");
-  let textdoencas = document.createElement("p");
-  DIVdoencas.setAttribute("class", "doencas sectionStyle");
+  let NomeDoenca_Mandioca_0 = document.createElement("h4");
+  let NomeDoenca_Mandioca_1 = document.createElement("h4");
+  let NomeDoenca_Mandioca_2 = document.createElement("h4");
+  let NomeDoenca_Mandioca_3 = document.createElement("h4");
+  let NomeDoenca_Mandioca_4 = document.createElement("h4");
+  let DivImgDoencas_Mandioca_0 = document.createElement("div")
+  let DivImgDoencas_Mandioca_1 = document.createElement("div")
+  let DivImgDoencas_Mandioca_2 = document.createElement("div")
+  let DivImgDoencas_Mandioca_3 = document.createElement("div")
+  let DivImgDoencas_Mandioca_4 = document.createElement("div")
+DivImgDoencas_Mandioca_0.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_Mandioca_1.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_Mandioca_2.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_Mandioca_3.setAttribute("class", "divImgILUSTRA")
+DivImgDoencas_Mandioca_4.setAttribute("class", "divImgILUSTRA")
+  let ImgDoencas_Mandioca_0 = document.createElement("img")
+  let ImgDoencas_Mandioca_1 = document.createElement("img")
+  let ImgDoencas_Mandioca_2 = document.createElement("img")
+  let ImgDoencas_Mandioca_3 = document.createElement("img")
+  let ImgDoencas_Mandioca_4 = document.createElement("img")
+  ImgDoencas_Mandioca_0.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_Mandioca_1.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_Mandioca_2.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_Mandioca_3.setAttribute("class","ImgILUSTRA")
+  ImgDoencas_Mandioca_4.setAttribute("class","ImgILUSTRA")
+  let paragrafo_doenca_um = document.createElement("p");
+  let paragrafo_doenca_dois = document.createElement("p");
+  let paragrafo_doenca_tres = document.createElement("p");
+  let paragrafo_doenca_quatro = document.createElement("p");
+  let paragrafo_doenca_cinco = document.createElement("p");
+  let paragrafo_doenca_seis = document.createElement("p");
+  let paragrafo_doenca_sete = document.createElement("p");
+  let paragrafo_doenca_oito = document.createElement("p");
+  let paragrafo_doenca_nove = document.createElement("p");
+  let paragrafo_doenca_dez = document.createElement("p");
+  DIVDoencas.setAttribute("class", "Doencas sectionStyle");
   doencas.innerText = Mandiocadb.Doencas;
-  textdoencas.innerText = Mandiocadb.infoDoencas;
+  paragrafo_doenca_um.innerText = Mandiocadb.paragrafo_doenca_0;
+  paragrafo_doenca_dois.innerText = Mandiocadb.paragrafo_doenca_1;
+  paragrafo_doenca_tres.innerText = Mandiocadb.paragrafo_doenca_2;
+  paragrafo_doenca_quatro.innerText = Mandiocadb.paragrafo_doenca_3;
+  paragrafo_doenca_cinco.innerText = Mandiocadb.paragrafo_doenca_4;
+  paragrafo_doenca_seis.innerText = Mandiocadb.paragrafo_doenca_5;
+  paragrafo_doenca_sete.innerText = Mandiocadb.paragrafo_doenca_6;
+  paragrafo_doenca_oito.innerText = Mandiocadb.paragrafo_doenca_7;
+  paragrafo_doenca_nove.innerText = Mandiocadb.paragrafo_doenca_8;
+  paragrafo_doenca_dez.innerText = Mandiocadb.paragrafo_doenca_9;
+ 
 
-  DIVdoencas.appendChild(doencas);
-  DIVdoencas.appendChild(textdoencas);
+
+
+
+
+NomeDoenca_Mandioca_0.innerText=Mandiocadb.TituloDoencas_0
+NomeDoenca_Mandioca_1.innerText=Mandiocadb.TituloDoencas_1
+NomeDoenca_Mandioca_2.innerText=Mandiocadb.TituloDoencas_2
+NomeDoenca_Mandioca_3.innerText=Mandiocadb.TituloDoencas_3
+NomeDoenca_Mandioca_4.innerText=Mandiocadb.TituloDoencas_4
+
+  //Adicionando imagens
+
+  ImgDoencas_Mandioca_0.src="./images/bacteriose.svg"
+  ImgDoencas_Mandioca_1.src="./images/podridao-radicular.svg"
+  ImgDoencas_Mandioca_2.src="./images/virose-mosaico-comum.svg"
+  ImgDoencas_Mandioca_3.src="./images/antracnose-mandioca.svg"
+  ImgDoencas_Mandioca_4.src="./images/superalongamento.svg"
+
+  DivImgDoencas_Mandioca_0.appendChild(ImgDoencas_Mandioca_0)
+  DivImgDoencas_Mandioca_1.appendChild(ImgDoencas_Mandioca_1)
+  DivImgDoencas_Mandioca_2.appendChild(ImgDoencas_Mandioca_2)
+  DivImgDoencas_Mandioca_3.appendChild(ImgDoencas_Mandioca_3)
+  DivImgDoencas_Mandioca_4.appendChild(ImgDoencas_Mandioca_4)
+
+  DIVDoencas.appendChild(doencas);
+  DIVDoencas.appendChild(NomeDoenca_Mandioca_0);
+  DIVDoencas.appendChild(paragrafo_doenca_um)
+  DIVDoencas.appendChild(DivImgDoencas_Mandioca_0)
+  DIVDoencas.appendChild(paragrafo_doenca_dois)
+  DIVDoencas.appendChild(NomeDoenca_Mandioca_1);
+  DIVDoencas.appendChild(paragrafo_doenca_tres)
+  DIVDoencas.appendChild(DivImgDoencas_Mandioca_1)
+  DIVDoencas.appendChild(paragrafo_doenca_quatro)
+  DIVDoencas.appendChild(NomeDoenca_Mandioca_2);
+  DIVDoencas.appendChild(paragrafo_doenca_cinco)
+  DIVDoencas.appendChild(DivImgDoencas_Mandioca_2)
+  DIVDoencas.appendChild(paragrafo_doenca_seis)
+  DIVDoencas.appendChild(NomeDoenca_Mandioca_3);
+  DIVDoencas.appendChild(paragrafo_doenca_sete)
+  DIVDoencas.appendChild(DivImgDoencas_Mandioca_3)
+  DIVDoencas.appendChild(paragrafo_doenca_oito)
+  DIVDoencas.appendChild(NomeDoenca_Mandioca_4);
+  DIVDoencas.appendChild(paragrafo_doenca_nove)
+  DIVDoencas.appendChild(DivImgDoencas_Mandioca_4)
+  DIVDoencas.appendChild(paragrafo_doenca_dez)
   //------------------------------------------------------------
   //
   //
@@ -1902,7 +1989,7 @@ NomePraga_Mandioca_4.innerText=Mandiocadb.TituloPragas_4
   sectionMANDIOCA.appendChild(DIVSolo);
   sectionMANDIOCA.appendChild(DIVAdubacao);
   sectionMANDIOCA.appendChild(DIVPragas);
-  sectionMANDIOCA.appendChild(DIVdoencas);
+  sectionMANDIOCA.appendChild(DIVDoencas);
   sectionMANDIOCA.appendChild(spanFonte);
   sectionMANDIOCA.appendChild(btnScroll)
   main.appendChild(sectionMANDIOCA);
