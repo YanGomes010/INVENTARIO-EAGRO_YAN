@@ -1602,8 +1602,8 @@ function criarMANDIOCA() {
   divTITULO.setAttribute("id", "divTitle");
   let titulo = document.createElement("h1");
   let subtitulo = document.createElement("p");
-  titulo.innerText = MANDIOCAdb.titulo;
-  subtitulo.innerText = MANDIOCAdb.subtitulo;
+  titulo.innerText = Mandiocadb.titulo;
+  subtitulo.innerText = Mandiocadb.subtitulo;
 
   divTITULO.appendChild(titulo);
   divTITULO.appendChild(subtitulo);
@@ -1619,7 +1619,7 @@ function criarMANDIOCA() {
   let DIVintroducao = document.createElement("div");
   let introducao = document.createElement("p");
   DIVintroducao.setAttribute("class", "introducao sectionStyle");
-  introducao.innerText = MANDIOCAdb.introducao;
+  introducao.innerText = Mandiocadb.introducao;
 
   DIVintroducao.appendChild(introducao);
   //------------------------------------------------------------
@@ -1631,16 +1631,31 @@ function criarMANDIOCA() {
   //------------------------------------------------------------
   let DivClimaEIrrigação = document.createElement("div");
   let Clima = document.createElement("h2");
+  let img_clima_0 = document.createElement("img")
+  let divImg_clima_0 = document.createElement("div")
+  let img_clima_1= document.createElement("img")
+  let divImg_clima_1 = document.createElement("div")
   let paragrafo_Clima_e_irrigacao_um = document.createElement("p");
   let paragrafo_Clima_e_irrigacao_dois = document.createElement("p");
   DivClimaEIrrigação.setAttribute("class", "Clima sectionStyle");
-  Clima.innerText = MANDIOCAdb.Clima;
-  paragrafo_Clima_e_irrigacao_um.innerText = MANDIOCAdb.ParagrafoClima_Irrigação_0;
-  paragrafo_Clima_e_irrigacao_dois.innerText = MANDIOCAdb.ParagrafoClima_Irrigação_1;
+  Clima.innerText = Mandiocadb.Clima;
+  paragrafo_Clima_e_irrigacao_um.innerText = Mandiocadb.ParagrafoClima_Irrigação_0;
+  paragrafo_Clima_e_irrigacao_dois.innerText = Mandiocadb.ParagrafoClima_Irrigação_1;
+  img_clima_0.setAttribute("class","ImgILUSTRA")
+divImg_clima_0.setAttribute("class","divImgILUSTRA")
+divImg_clima_0.appendChild(img_clima_0)
+img_clima_0.src="./images/clima.svg"
+img_clima_1.setAttribute("class","ImgILUSTRA")
+divImg_clima_1.setAttribute("class","divImgILUSTRA")
+divImg_clima_1.appendChild(img_clima_1)
+img_clima_1.src="./images/irrigacao-mandioca.svg"
 
   DivClimaEIrrigação.appendChild(Clima)
   DivClimaEIrrigação.appendChild(paragrafo_Clima_e_irrigacao_um);
+  DivClimaEIrrigação.appendChild(divImg_clima_0)
   DivClimaEIrrigação.appendChild(paragrafo_Clima_e_irrigacao_dois);
+  DivClimaEIrrigação.appendChild(divImg_clima_1)
+
 
   //------------------------------------------------------------
   //
@@ -1653,8 +1668,8 @@ function criarMANDIOCA() {
   //let temperatura = document.createElement("h2");
  // let textTemperatura = document.createElement("p");
   //DIVtemperatura.setAttribute("class", "temperatura sectionStyle");
-  //temperatura.innerText = MANDIOCAdb.temperatura;
- // textTemperatura.innerText = MANDIOCAdb.infoTemperatura;
+  //temperatura.innerText = Mandiocadb.temperatura;
+ // textTemperatura.innerText = Mandiocadb.infoTemperatura;
 
  // DIVtemperatura.appendChild(temperatura);
  // DIVtemperatura.appendChild(textTemperatura);
@@ -1671,17 +1686,35 @@ function criarMANDIOCA() {
   let paragrafo_solo_dois = document.createElement("p");
   let paragrafo_solo_tres = document.createElement("p");
   let paragrafo_solo_quatro = document.createElement("p");
+  let img_solo_0 = document.createElement("img")
+  let divImg_solo_0 = document.createElement("div")
+  let img_solo_1= document.createElement("img")
+  let divImg_solo_1 = document.createElement("div")
   DIVSolo.setAttribute("class", "Solo sectionStyle");
-  Solo.innerText = MANDIOCAdb.Solo;
-  paragrafo_solo_um.innerText = MANDIOCAdb.paragrafoSolo_0;
-  paragrafo_solo_dois.innerText = MANDIOCAdb.paragrafoSolo_1;
-  paragrafo_solo_tres.innerText = MANDIOCAdb.paragrafoSolo_2;
-  paragrafo_solo_quatro.innerText = MANDIOCAdb.paragrafoSolo_3;
+  Solo.innerText = Mandiocadb.Solo;
+  paragrafo_solo_um.innerText = Mandiocadb.paragrafoSolo_0;
+  paragrafo_solo_dois.innerText = Mandiocadb.paragrafoSolo_1;
+  paragrafo_solo_tres.innerText = Mandiocadb.paragrafoSolo_2;
+  paragrafo_solo_quatro.innerText = Mandiocadb.paragrafoSolo_3;
+
+  img_solo_0.setAttribute("class","ImgILUSTRA")
+divImg_solo_0.setAttribute("class","divImgILUSTRA")
+divImg_solo_0.appendChild(img_solo_0)
+img_solo_0.src="./images/solo-mandioca-2.svg"
+img_solo_1.setAttribute("class","ImgILUSTRA")
+divImg_solo_1.setAttribute("class","divImgILUSTRA")
+divImg_solo_1.appendChild(img_solo_1)
+img_solo_1.src="./images/solo-mandioca.svg"
+
+divImg_solo_0.appendChild(img_solo_0)
+divImg_solo_1.appendChild(img_solo_1)
 
   DIVSolo.appendChild(Solo);
   DIVSolo.appendChild(paragrafo_solo_um);
+  DIVSolo.appendChild(divImg_solo_0)
   DIVSolo.appendChild(paragrafo_solo_dois);
   DIVSolo.appendChild(paragrafo_solo_tres);
+  DIVSolo.appendChild(divImg_solo_1)
   DIVSolo.appendChild(paragrafo_solo_quatro);
   //------------------------------------------------------------
   //
@@ -1692,13 +1725,37 @@ function criarMANDIOCA() {
   //------------------------------------------------------------
   let DIVAdubacao = document.createElement("div");
   let Adubacao = document.createElement("h2");
-  let textAdubacao = document.createElement("p");
+  let paragrafo_adub_0 = document.createElement("p");
+  let paragrafo_adub_1 = document.createElement("p");
+  let paragrafo_adub_2 = document.createElement("p");
+  let paragrafo_adub_3 = document.createElement("p");
+  let img_adub_0 = document.createElement("img")
+  let divImg_adub_0 = document.createElement("div")
+  let img_adub_1 = document.createElement("img")
+  let divImg_adub_1 = document.createElement("div")
   DIVAdubacao.setAttribute("class", "Adubacao sectionStyle");
-  Adubacao.innerText = MANDIOCAdb.Adubacao;
-  textAdubacao.innerText = MANDIOCAdb.infoAdubacao;
+  Adubacao.innerText = Mandiocadb.Adubacao;
+  paragrafo_adub_0.innerText = Mandiocadb.paragrafo_adubacao_0;
+  paragrafo_adub_1.innerText = Mandiocadb.paragrafo_adubacao_1;
+  paragrafo_adub_2.innerText = Mandiocadb.paragrafo_adubacao_2;
+  paragrafo_adub_3.innerText = Mandiocadb.paragrafo_adubacao_3;
+  img_adub_0.setAttribute("class","ImgILUSTRA")
+  divImg_adub_0.setAttribute("class","divImgILUSTRA")
+  img_adub_0.src="./images/adub-mandioca-0.svg"
+  img_adub_1.setAttribute("class","ImgILUSTRA")
+  divImg_adub_1.setAttribute("class","divImgILUSTRA")
+  img_adub_1.src="./images/img-mandioca.svg"
 
+
+divImg_adub_0.appendChild(img_adub_0)
+divImg_adub_1.appendChild(img_adub_1)
   DIVAdubacao.appendChild(Adubacao);
-  DIVAdubacao.appendChild(textAdubacao);
+  DIVAdubacao.appendChild(paragrafo_adub_0);
+  DIVAdubacao.appendChild(divImg_adub_0)
+  DIVAdubacao.appendChild(paragrafo_adub_1);
+  DIVAdubacao.appendChild(paragrafo_adub_2);
+  DIVAdubacao.appendChild(divImg_adub_1)
+  DIVAdubacao.appendChild(paragrafo_adub_3);
   //------------------------------------------------------------
   //
   //
@@ -1708,13 +1765,100 @@ function criarMANDIOCA() {
   //------------------------------------------------------------
   let DIVPragas = document.createElement("div");
   let Pragas = document.createElement("h2");
-  let textPragas = document.createElement("p");
+  let NomePraga_Mandioca_0 = document.createElement("h4");
+  let NomePraga_Mandioca_1 = document.createElement("h4");
+  let NomePraga_Mandioca_2 = document.createElement("h4");
+  let NomePraga_Mandioca_3 = document.createElement("h4");
+  let NomePraga_Mandioca_4 = document.createElement("h4");
+  let DivImgPragas_Mandioca_0 = document.createElement("div")
+  let DivImgPragas_Mandioca_1 = document.createElement("div")
+  let DivImgPragas_Mandioca_2 = document.createElement("div")
+  let DivImgPragas_Mandioca_3 = document.createElement("div")
+  let DivImgPragas_Mandioca_4 = document.createElement("div")
+DivImgPragas_Mandioca_0.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_Mandioca_1.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_Mandioca_2.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_Mandioca_3.setAttribute("class", "divImgILUSTRA")
+DivImgPragas_Mandioca_4.setAttribute("class", "divImgILUSTRA")
+  let ImgPragas_Mandioca_0 = document.createElement("img")
+  let ImgPragas_Mandioca_1 = document.createElement("img")
+  let ImgPragas_Mandioca_2 = document.createElement("img")
+  let ImgPragas_Mandioca_3 = document.createElement("img")
+  let ImgPragas_Mandioca_4 = document.createElement("img")
+  ImgPragas_Mandioca_0.setAttribute("class","ImgILUSTRA")
+  ImgPragas_Mandioca_1.setAttribute("class","ImgILUSTRA")
+  ImgPragas_Mandioca_2.setAttribute("class","ImgILUSTRA")
+  ImgPragas_Mandioca_3.setAttribute("class","ImgILUSTRA")
+  ImgPragas_Mandioca_4.setAttribute("class","ImgILUSTRA")
+  let Paragrafo_praga_um = document.createElement("p");
+  let Paragrafo_praga_dois = document.createElement("p");
+  let Paragrafo_praga_tres = document.createElement("p");
+  let Paragrafo_praga_quatro = document.createElement("p");
+  let Paragrafo_praga_cinco = document.createElement("p");
+  let Paragrafo_praga_seis = document.createElement("p");
+  let Paragrafo_praga_sete = document.createElement("p");
+  let Paragrafo_praga_oito = document.createElement("p");
+  let Paragrafo_praga_nove = document.createElement("p");
+  let Paragrafo_praga_dez = document.createElement("p");
   DIVPragas.setAttribute("class", "Pragas sectionStyle");
-  Pragas.innerText = MANDIOCAdb.Pragas;
-  textPragas.innerText = MANDIOCAdb.infoPragas;
+  Pragas.innerText = Mandiocadb.Pragas;
+  Paragrafo_praga_um.innerText = Mandiocadb.paragrafo_praga_0;
+  Paragrafo_praga_dois.innerText = Mandiocadb.paragrafo_praga_1;
+  Paragrafo_praga_tres.innerText = Mandiocadb.paragrafo_praga_2;
+  Paragrafo_praga_quatro.innerText = Mandiocadb.paragrafo_praga_3;
+  Paragrafo_praga_cinco.innerText = Mandiocadb.paragrafo_praga_4;
+  Paragrafo_praga_seis.innerText = Mandiocadb.paragrafo_praga_5;
+  Paragrafo_praga_sete.innerText = Mandiocadb.paragrafo_praga_6;
+  Paragrafo_praga_oito.innerText = Mandiocadb.paragrafo_praga_7;
+  Paragrafo_praga_nove.innerText = Mandiocadb.paragrafo_praga_8;
+  Paragrafo_praga_dez.innerText = Mandiocadb.paragrafo_praga_9;
+ 
+
+
+
+
+
+NomePraga_Mandioca_0.innerText=Mandiocadb.TituloPragas_0
+NomePraga_Mandioca_1.innerText=Mandiocadb.TituloPragas_1
+NomePraga_Mandioca_2.innerText=Mandiocadb.TituloPragas_2
+NomePraga_Mandioca_3.innerText=Mandiocadb.TituloPragas_3
+NomePraga_Mandioca_4.innerText=Mandiocadb.TituloPragas_4
+
+  //Adicionando imagens
+
+  ImgPragas_Mandioca_0.src="./images/mandarova-lagarta.jpg"
+  ImgPragas_Mandioca_1.src="./images/acaroVerde.jpg"
+  ImgPragas_Mandioca_2.src="./images/Percevejo-de-renda.jpg"
+  ImgPragas_Mandioca_3.src="./images/Broca-mandioca.jpg"
+  ImgPragas_Mandioca_4.src="./images/mosca-branca.svg"
+
+  DivImgPragas_Mandioca_0.appendChild(ImgPragas_Mandioca_0)
+  DivImgPragas_Mandioca_1.appendChild(ImgPragas_Mandioca_1)
+  DivImgPragas_Mandioca_2.appendChild(ImgPragas_Mandioca_2)
+  DivImgPragas_Mandioca_3.appendChild(ImgPragas_Mandioca_3)
+  DivImgPragas_Mandioca_4.appendChild(ImgPragas_Mandioca_4)
 
   DIVPragas.appendChild(Pragas);
-  DIVPragas.appendChild(textPragas);
+  DIVPragas.appendChild(NomePraga_Mandioca_0);
+  DIVPragas.appendChild(Paragrafo_praga_um)
+  DIVPragas.appendChild(DivImgPragas_Mandioca_0)
+  DIVPragas.appendChild(Paragrafo_praga_dois)
+  DIVPragas.appendChild(NomePraga_Mandioca_1);
+  DIVPragas.appendChild(Paragrafo_praga_tres)
+  DIVPragas.appendChild(DivImgPragas_Mandioca_1)
+  DIVPragas.appendChild(Paragrafo_praga_quatro)
+  DIVPragas.appendChild(NomePraga_Mandioca_2);
+  DIVPragas.appendChild(Paragrafo_praga_cinco)
+  DIVPragas.appendChild(DivImgPragas_Mandioca_2)
+  DIVPragas.appendChild(Paragrafo_praga_seis)
+  DIVPragas.appendChild(NomePraga_Mandioca_3);
+  DIVPragas.appendChild(Paragrafo_praga_sete)
+  DIVPragas.appendChild(DivImgPragas_Mandioca_3)
+  DIVPragas.appendChild(Paragrafo_praga_oito)
+  DIVPragas.appendChild(NomePraga_Mandioca_4);
+  DIVPragas.appendChild(Paragrafo_praga_nove)
+  DIVPragas.appendChild(DivImgPragas_Mandioca_4)
+  DIVPragas.appendChild(Paragrafo_praga_dez)
   //------------------------------------------------------------
   //
   //
@@ -1726,8 +1870,8 @@ function criarMANDIOCA() {
   let doencas = document.createElement("h2");
   let textdoencas = document.createElement("p");
   DIVdoencas.setAttribute("class", "doencas sectionStyle");
-  doencas.innerText = MANDIOCAdb.Doencas;
-  textdoencas.innerText = MANDIOCAdb.infoDoencas;
+  doencas.innerText = Mandiocadb.Doencas;
+  textdoencas.innerText = Mandiocadb.infoDoencas;
 
   DIVdoencas.appendChild(doencas);
   DIVdoencas.appendChild(textdoencas);

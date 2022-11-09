@@ -206,7 +206,7 @@ var SOJAdb = {
 
  };
 
-var MANDIOCAdb = {
+var Mandiocadb = {
   titulo: "CULTURA DA MANDIOCA",
   subtitulo:
     "Informações de plantio: Clima e irrigação, solo, adubação, tratos culturrais, principais pragas e doenças.",
@@ -225,14 +225,35 @@ ParagrafoClima_Irrigação_1:
     paragrafoSolo_2:
     "A etapa pós escolha da área, é a de preparo de solo, que tem como foco oferecer boas condições para o crescimento radicular da mandioca. Para iniciar os prepativos, é importante sabe que esta cultura é esgotante de solo, favorece erosões, logo é considerável que combine o plantio com alguma leguminosa para incorporar o solo. ",
     paragrafoSolo_3:
-    "O preparo deve ser o minimo possível, é recomendado realizar duas gradagens em sentidos cruzado para deixar o solo bem destorroado. O uso da aração é recomendada apenas para solos com algum tipo de impedimento.",
+    "O preparo deve ser o minimo possível, é recomendado realizar duas gradagens em sentidos cruzado para deixar o solo bem destorroado. O uso da aração é recomendada apenas para solos com algum tipo de impedimento na terra.",
     Adubacao: "ADUBAÇÃO",
-  infoAdubacao:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  Pragas: "PRAGAS",
-  infoPragas:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  Doencas: "DOENÇAS",
+  paragrafo_adubacao_0:
+    "A mandioca é uma cultura que é 100% aproveitada, já que exporta suas raízes, manivas e folhas, logo é bastante exigente em nutrientes. Para cada 25 toneladas de raízes, são retirados do solo 123 kg de nitrogênio, 27 kg de fósforo, 146 de potássio, 46 kg de cálcio e 20 kg de magnésio. A adubação da cultura pode ser realizada a lanço ou por fertirrigação.",
+    paragrafo_adubacao_1:
+    "O primeiro passo para começar adubação, é realizar a análise de solo, que vai medir as quantidades de nutrientes e composição do solo. Depois de realizada análise, inicia-se a calagem, a qual tem função de redução da acidez do solo (pH <5 para mandioca) e não podendo ultrapassar 1t/ha , ela deve ser implementada pelo menos 60 dias antes do plantio para que haja reação no solo.",
+    paragrafo_adubacao_2:
+    "A adubação pode ser orgância ou mineral, sendo que para matéria orgânica (estercos, tortas, compostos orgânicos, leguminosas e restos de culturas), são recomendadas 8t/ha para elevar a produção de raízes e aprimorar as caracteristicas da planta. Já para mineral, são recomendados 300 kg de superfosfato simples por hectare, que deve ser aplicado na cova de plantio.",
+    paragrafo_adubacao_3:
+    "Como a matéria orgânica garante adubação nitrogenada e 300 kg/ha de superfosfato foram adicionados, basta realizar aplicação de potássio por meio de cloreto de potássio ou sulfato de potássio, já que foram obtidas as quantidades pela análise de solo.",
+    Pragas: "PRAGAS",
+ TituloPragas_0:
+    "Mandarová (Erinnyis ello)",
+    paragrafo_praga_0:"Mandarová é uma lagarta, que antes de virar mariposa, causa desfolha total da planta.",
+    paragrafo_praga_1:"O manejo pode ser realizado através de eliminação de plantas daninhas, rotação de culturas, plantio consorciado. Já o controle é realizado com pulverizações de inseticidas específicos e seletivos aos inimigos naturais.",
+    TituloPragas_1:
+    "Ácaro verde (Mononychellus tanajoa)",
+    paragrafo_praga_2:" Esta praga da mandioca alimenta-se da seiva das plantas, logo causa morte das brotações, amarelecimento e queda de folhas novas, perda de produtividade e morte da gema, assim impedindo crescimento. O Ácaro passa pelo ciclo de ovo, larva, protocrisálida, protoninfa, deutocrisálida, deutoninfa, teliocrisálida e adulto.",
+    paragrafo_praga_3:"O manejo da praga, baseia-se na eliminação de plantas hospedeiras, retirada de restos culturais, densidade correta de plantas. Ainda não existem defensivos agrícolas que façam o controle dos Ácaros e para controle biológico, são é utilizada por pequenos produtores, a manipueira fresca.",
+    TituloPragas_2:"Percevejo de renda",   
+     paragrafo_praga_4:"O Percevejo de renda adulto é de cor cinza e na fase ninfa ele é branco. A praga acomoda-se na parte inferior da planta e suga sua seiva, assim provocando pontos pretos na parte foliar, desfolhamento severo, redução de produtividade, pontuações amareladas nas folhas e que logo ficam avermelelhas.",
+    paragrafo_praga_5:"O controle pode ser realizado quimicamente com inseticidas seletivos, registrados para as culturas. Entretando, deve-se tomar cuidado com o uso, pois leva a morte de insetos benéficos.",
+    TituloPragas_3:"Broca do caule (Coelosternus granicollis)",
+    paragrafo_praga_6:"A Broca do caule, é uma larva que aloja-se no interior das artes. Para detecção desta praga na planta, é necessária visualização de excrementos e serragens que se acumulam no “pé” da planta. A broca provoca a perda de folhas da mandioca, secamento de ramos e reduz a qualidade da raíz.",
+    paragrafo_praga_7:"Para seu controle não é recomendado o uso de inseticidas, porque as larvas ficam protegidas contra pulverizações. O manejo de convívio com esta praga, é utilização de cultivares não preferidas pela broca, plantio de manivas saudáveis, queima de plantas infectadas.",
+    TituloPragas_4:"Mosca-branca (Bemisia tabaci)",
+    paragrafo_praga_8:"A mosca-branca se alimentar da seiva da planta e injeta toxinas e vírus, causando o enfraquecimento da planta e queda da produção. As fezes da praga estimulam o aparecimento de fungos, que prejudicam a respiração e fotossíntese (EMBRAPA, 2007).",
+    paragrafo_praga_9:"O controle pode ser realizado por meio da aplicação de inseticidas carbamatos sistêmicos nas sementes ou inseticida granudo aplicado no sulco da planta (AGROLINK). Porém, o uso deve ser cuidadoso, pois a mosca adquiri resistência muito rápido aos inseticidas.",
+    Doencas: "DOENÇAS",
   infoDoencas:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
 };
